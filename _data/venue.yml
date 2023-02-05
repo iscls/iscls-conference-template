@@ -1,0 +1,13 @@
+address: >
+  Sanskrit Research Institute,
+  Auroville, Puducherry,
+  India
+directions: >
+  TBA
+accommodation:
+  instructions: >
+    TBA
+  hotels:
+    - name: TBA
+      address: TBA
+direction: ./assets/images/direction.png

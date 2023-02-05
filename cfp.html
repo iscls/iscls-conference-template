@@ -1,0 +1,54 @@
+---
+title: Call for Papers
+layout: page
+slide_id: 2
+---
+
+<div class="row mt-2">
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 text-justify">
+        <div class="conference-text">
+            <p class="lead">Call For Papers</p>
+            <p>{{site.data.cfp.description}}.</p>
+
+            <p>
+                You are requested to submit your research paper using the {{site.data.submission.name}}:
+                <a href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
+            </p>
+            <p>
+                The submissions should not exceed {{site.data.submission.pagelimit}} pages,
+                and should include the title, abstract, and names and affiliations of all authors.
+            </p>
+
+            <p>
+                To prepare your submission, please use the LaTeX source files listed on the website,
+                and follow the instructions provided there.
+            </p>
+        </div>
+
+        {% include card-important-dates.html %}
+
+        <div class="conference-text">
+            {% include contact-us.html %}
+        </div>
+    </div>
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
+        {% if site.data.cfp %}
+        <p>
+            The areas of interest include, but are not limited to:
+        </p>
+        <ul>
+            {% for area in site.data.cfp.areas %}
+            <li><b>{{area.category}}</b></li>
+            {% if area.topics %}
+            <ul>
+                {% for topic in area.topics %}
+                <li>{{topic}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+</div>

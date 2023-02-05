@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://iscls.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+css: ./assets/main.css
+
+show_last_updated: True
+last_updated_format: '%B %d, %Y, %T.'
+
+# Plugin settings
+
+## Plugin: jekyll-minifier
+## https://github.com/digitalsparky/jekyll-minifier
+## NOTE: requires environment variable JEKYLL_ENV to be set to "production"
+jekyll-minifier:
+  remove_comments: true             # Default: true
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_intertag_spaces: true      # Default: false
+  preserve_line_breaks: true        # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  compress_js_templates: true       # Default: false
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.local
+  - Gemfile.github
+  - Makefile
+  - README.md
+  - INSTALL.md
+  - TODO.md
+  - CREDITS.md
+  - LICENSE
+  - preview/
+  - workflows/
+  - .github/
+  - .gitignore
+
+timezone: India/Kolkata
+google_analytics: ""
+
+plugins:
+  - jekyll-minifier

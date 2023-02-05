@@ -1,0 +1,69 @@
+---
+title: Organization
+layout: page
+slide_id: 1
+---
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        {% for committee in site.data.organization %}
+        {% if committee.title and committee.column == 1 %}
+        <div class="card">
+            <div class="card-header text-white bg-dark"><strong>{{committee.title}}</strong></div>
+            {% if committee.members %}
+            {% for member in committee.members %}
+            <div class="card-block bg-light committee">
+                <p>
+                    <a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                </p>
+                {% if member.post %}
+                <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.post }}</p>
+                {% endif %}
+                <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.org }}</p>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="card-block bg-light committee">
+                <p class="card-title">TBA</p>
+                <p><strong>TBA</strong>
+                </p>
+                <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        {% for committee in site.data.organization %}
+        {% if committee.title and committee.column == 2 %}
+        <div class="card">
+            <div class="card-header text-white bg-dark"><strong>{{committee.title}}</strong></div>
+            {% if committee.members %}
+            {% for member in committee.members %}
+            <div class="card-block bg-light committee">
+                <p>
+                    <a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                </p>
+                {% if member.post %}
+                <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.post }}</p>
+                {% endif %}
+                <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.org }}</p>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="card-block bg-light committee">
+                <p class="card-title">TBA</p>
+                <p><strong>TBA</strong>
+                </p>
+                <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+</div>

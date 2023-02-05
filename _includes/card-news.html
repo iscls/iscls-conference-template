@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-header text-white bg-dark">
+        <i class="fa fa-newspaper-o mr-3" aria-hidden="true"></i><strong>News</strong>
+    </div>
+    <div class="card-block bg-light">
+        <ul class="list-group list-group-flush">
+            {% if site.data.news %}
+                {% for news_entry in site.data.news %}
+                <li class="list-group-item bg-light text-muted">{{ news_entry.date | date: "%B %-d, %Y" }} - {{ news_entry.text }}</li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item bg-light text-muted">TBA</li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

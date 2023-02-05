@@ -1,0 +1,31 @@
+---
+title: Registration
+layout: page
+slide_id: 6
+---
+
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+    <div class="col text-justify conference-text">
+        <div>
+            <h5>Registration</h5>
+            {% if site.data.registration.about %}
+            <p>
+                {{site.data.registration.about}}
+            </p>
+            {% endif %}
+            {% if site.data.registration.url %}
+            <p>
+                <a href="{{site.data.registration.url}}">
+                    {{site.data.registration.url}}
+                </a>
+            </p>
+            {% endif %}
+            <h5>Visa</h5>
+            <p>
+                If you are an international traveller and need a visa to enter
+                {{site.data.conference.country}}, please contact us after your paper is accepted.
+            </p>
+            {% include contact-us.html %}
+        </div>
+    </div>
+</div>

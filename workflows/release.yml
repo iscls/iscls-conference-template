@@ -1,0 +1,47 @@
+name: Deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - master
+
+# Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+permissions:
+  contents: read
+  pages: write      # to deploy to Pages
+  id-token: write   # to verify the deployment originates from an appropriate source
+
+env:
+  JEKYLL_ENV: production
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Jekyll for GitHub Pages
+      uses: actions/jekyll-build-pages@v1.0.7
+      with:
+          source: ./
+          destination: ./_site
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy GitHub Pages site
+      id: deployment
+      uses: actions/deploy-pages@v1.2.4
+

@@ -1,0 +1,123 @@
+<header class="site-header">
+    <div class="row">
+
+        <!--conference info-->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+
+            <div class="jumbotron">
+                <img class="img-fluid mt-0 mb-4" src="{{ site.data.conference.logo_path }}">
+                <h5 class="text-center mt-sm-1 mb-sm-1 mt-md-4 mb-md-4">{{ site.data.conference.full_title }}</h5>
+                <h6 class="text-center mt-0">{{ site.data.conference.date }}</h6>
+                <p class="text-center mb-0">
+                    {{ site.data.conference.location }},<br>
+                    {{ site.data.conference.country }}
+                </p>
+            </div>
+
+        </div>
+
+        <!--slide show-->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    {% for slide in site.data.conference.slideshow %}
+                    {% if page.slide_id and page.slide_id  == slide.id %}
+                    {% assign active = "active" %}
+                    {% else %}
+                    {% assign active = "" %}
+                    {% endif %}
+                    <div class="carousel-item {{active}}">
+                        <img class="img-fluid" src="{{ slide.image_path }}" alt="{{ slide.description }}">
+                        <div class="carousel-caption">
+                            <p class="align-bottom text-white">
+                                <span class="px-3 py-1 rounded">
+                                {{slide.description}}
+                                {% if slide.photographer.name %}
+                                by <a href="{{slide.photographer_link}}">{{slide.photographer_name}}</a>
+                                {% endif %}
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!--navbar-->
+        <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
+            <nav class="nav navbar-dark bg-dark navbar-expand-lg">
+                {% if site.data.conference.previous_iterations %}
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
+                    title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    {{site.data.conference.short_name}}
+                </a>
+                <div class="dropdown-menu">
+                    <span class="dropdown-item"></span>
+                    {% for previous in site.data.conference.previous_iterations %}
+                    <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
+                        {{previous.name}}, {{previous.year}}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
+                {% endif %}
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
+                    aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-with-toggle">
+                    <ul class="navbar-nav ml-3 my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
+                        {% for nav in site.data.conference.navbar %}
+                        {% if nav.visible %}
+                        {% if page.url == nav.path %}
+                        <li class="nav-item active">
+                            <a class="nav-link m-1" href=".{{ nav.path }}">
+                                <strong>{{ nav.label | escape }}</strong>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link m-1" href=".{{ nav.path }}">
+                                <strong>{{ nav.label | escape }}</strong>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        {% if site.data.conference.social_media.facebook_link != nil %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.data.conference.social_media.facebook_link }}">
+                                <span class="fa-stack">
+                                    <i class="fa fa-facebook-square fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.data.conference.social_media.twitter_link != nil %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.data.conference.social_media.twitter_link }}">
+                                <span class="fa-stack">
+                                    <i class="fa fa-twitter-square fa-stack-1x"></i>
+                                </span>
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

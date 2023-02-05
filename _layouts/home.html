@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
+
+        <h5>Welcome to the {{site.data.conference.short_title}}!</h5>
+
+        <p class="lead">
+            The {{site.data.conference.full_title}} is scheduled on {{site.data.conference.date}} and will be held at
+            {{site.data.conference.location}}, {{site.data.conference.country}}.
+        </p>
+
+        <p>
+            {{site.data.conference.description}}
+        </p>
+
+        {{content}}
+
+        {% include contact-us.html %}
+
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <!--######### important dates ##########-->
+        {% include card-important-dates.html %}
+        <!--####################################-->
+        <!--######### news #####################-->
+        {% include card-news.html %}
+        <!--####################################-->
+    </div>
+</div>
+
+{% include sponsors.html %}

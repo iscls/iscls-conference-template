@@ -1,0 +1,93 @@
+- title: Program Committee Chair
+  column: 1
+  members:
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur
+    post: ""
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+- title: Organising Chair
+  column: 1
+  members:
+  - name: Martin Gluckman
+    org: Sanskrit Research Institute
+    post: ""
+    homepage: ""
+- title: Steering Committee
+  column: 1
+  members:
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Brendan Gillon
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Gérard Huet
+    # org: Institut de France (Académie des Sciences), France
+    org: INRIA, Paris, France
+    homepage: http://pauillac.inria.fr/~huet/
+  # - name: Girish Nath Jha
+  #   org: JNU, Delhi, India
+  #   homepage: https://jnu.ac.in/content/girishjha
+  - name: Malhar Kulkarni
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
+  - name: Pawan Goyal
+    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://cse.iitkgp.ac.in/~pawang/
+  - name: Peter Scharf
+    org: Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profile.html
+- title: Technical Program Committe
+  column: 2
+  members:
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  # - name: Andrew Ollett
+  #   org: Harvard University, Cambridge, MA
+  #   homepage: ""
+  - name: Arjuna S R
+    org: Manipal Academy of Higher Education, Bengaluru, India
+    homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Brendan Gillon
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Ganesh Ramakrishnan
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.cse.iitb.ac.in/~ganesh/
+  - name: Gérard Huet
+    org: INRIA, Paris, France
+    homepage: http://pauillac.inria.fr/~huet/
+  # - name: Olivier Hellwig
+  #   org: University of Zurich
+  #   homepage: ""
+  - name: Pavan Kumar Satuluri
+    org: Chinmaya Vishwavidyapeeth, Veliyanad, India
+    homepage: https://www.cvv.ac.in/faculties/dr-pavankumar-satuluri
+  - name: Pawan Goyal
+    homepage: https://cse.iitkgp.ac.in/~pawang/
+    org: IIT Kharagpur, Kharagpur, India
+  - name: Peter Scharf
+    org: Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Shivani V
+    org: Karnataka Sanskrit University, Karnataka, India
+    homepage: ""
+  - name: Tanuja P Ajotikar
+    org: The Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
+  # - name: K Varalakshmi
+  #   org: Osmania University, Hyderabad
+  #   homepage: ""
+- title: Webmaster
+  column: 1
+  members:
+  - name: Hrishikesh Terdalkar
+    org: IIT Kanpur, Kanpur, India
+    homepage: "https://hrishikeshrt.github.io"

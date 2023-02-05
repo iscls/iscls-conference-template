@@ -1,0 +1,105 @@
+---
+title: Submission
+layout: page
+slide_id: 3
+---
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
+
+
+        <h6 class="text-info">Instructions</h6>
+
+        <p>
+            Submitted papers must be neither previously published nor under
+            review by another workshop, conference or journal.
+        </p>
+
+        <p>
+            Only electronic submissions in {{site.data.submission.file_formats | join:" or "}}
+            will be accepted. Submitted papers must be written in
+            {{site.data.submission.languages | join:" or "}}, must be no longer than
+            <b>{{site.data.submission.pagelimit}} pages</b> in
+            {{site.data.submission.fontsize}}-point font and must render without
+            error using standard PDF viewing tools.
+        </p>
+
+        <p>
+            Papers should use the <strong class="text-danger">{{site.data.submission.template.description}}</strong>, available at
+            <a href="{{site.data.submission.template.url}}" target="_blank">
+                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> {{site.data.submission.template.name}}
+            </a>.
+            {% if site.data.submission.template.overleaf %}The template is also available at
+            <a href="{{site.data.submission.template.overleaf}}" target="_blank">
+                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> Overleaf
+            </a>
+            {% endif %}
+        </p>
+
+        {% if site.data.submission.sources %}
+        <p>
+            <h6 class="text-info">Source Files</h6>
+            <ul>
+                {% for source in site.data.submission.sources %}
+                <li>{{source.name}}: <a href="{{source.url}}">{{source.text}}</a></li>
+                {% endfor %}
+            </ul>
+        </p>
+        {% endif %}
+
+        {% if site.data.submission.extra %}
+        <p>
+            {{site.data.submission.extra}}
+        </p>
+        {% endif %}
+
+        <p>
+            <h6 class="text-info">Submission</h6>
+            To submit your paper, please follow below link to the submission
+            site:
+        </p>
+
+        <p class="text-center">
+            <a href="{{site.data.submission.url}}">
+                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i>
+                <strong> {{site.data.submission.portal}} </strong>
+            </a>
+        </p>
+
+        <p>
+            Note that at least one of the authors of each paper accepted for
+            presentation in {{site.data.conference.short_title}} must be
+            registered. All papers presented at the workshop will be included in
+            the {{site.data.submission.publisher}}.
+        </p>
+
+        <h6 class="text-info">Camera-Ready Instructions</h6>
+        <p>
+            You will receive the information via your email for camera-ready
+            instructions.
+
+            <!--
+                    The Author's Final Paper Formatting and Submission Instructions can be found at:</p>
+
+                <p style="padding-top: 6px;padding-bottom: 6px;">
+                </p>
+
+                <p>If you encounter any problem, please contact our editor, ____, for assistance.</p>
+
+                    <p>Please note your final camera-ready is due by
+                    <b>September 25, 2015.</b>
+                -->
+
+        </p>
+
+
+        {% include contact-us.html %}
+
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <!--######### important dates ##########-->
+        {% include card-important-dates.html %}
+        <!--####################################-->
+    </div>
+</div>

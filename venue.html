@@ -1,0 +1,46 @@
+---
+title: Venue
+layout: page
+slide_id: 5
+---
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+
+        <p>
+            The {{site.data.conference.full_title}} is scheduled on
+            {{site.data.conference.date}} and will be held at
+            {{site.data.conference.location}},
+            {{site.data.conference.country}}
+        </p>
+
+        <h6 class="text-info">Conference Location</h6>
+
+        <p>
+            {{site.data.venue.address}}
+        </p>
+
+        <h6 class="text-info">Accommodations</h6>
+
+        <p>
+            {{site.data.venue.accommodation.instructions}}
+        </p>
+
+        {% if site.data.venue.accommodation.hotels %}
+        <ul>
+            {% for hotel in site.data.venue.accommodation.hotels %}
+            <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <h6 class="text-info">Directions</h6>
+
+        <p>
+            {{site.data.venue.directions}}
+        </p>
+
+        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
+
+    </div>
+</div>

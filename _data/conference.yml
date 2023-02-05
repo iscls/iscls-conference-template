@@ -1,0 +1,124 @@
+full_name: International Sanskrit Computational Linguistics Symposium
+short_name: ISCLS
+description: > # this means to ignore newlines until "baseurl:"
+  ISCLS is a forum for original and unpublished research on various
+  aspects of Computational Linguistics and Digital Humanities related to
+  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+
+email: iscls@outlook.com
+
+iteration: 7th
+full_title: 7th International Sanskrit Computational Linguistics Symposium
+short_title: 7th ISCLS 2024
+
+year: 2024
+date: February 22-24, 2024
+
+location: Auroville, Puducherry
+country: India
+
+logo_path: "" # ./assets/images/logo.jpg
+slideshow:
+  - id: 0
+    image_path: ./assets/images/slideshow/0-auroville-beach.jpg
+    description: Auroville Beach
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 1
+    image_path: ./assets/images/slideshow/1-matrimandir.jpeg
+    description: Matrimandir
+    photographer_name: ""
+    photographer_link: ""
+  - id: 2
+    image_path: ./assets/images/slideshow/2-promenade-beach.webp
+    description: Promenade Beach
+    photographer_name: ""
+    photographer_link: ""
+  - id: 3
+    image_path: ./assets/images/slideshow/3-whitetown.jpg
+    description: White Town
+    photographer_name: ""
+    photographer_link: ""
+  - id: 4
+    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
+    description: Manakula Vinayagar Temple
+    photographer_name: ""
+    photographer_link: ""
+  - id: 5
+    image_path: ./assets/images/slideshow/5-auroville.png
+    description: Auroville
+    photographer_name: ""
+    photographer_link: ""
+  - id: 6
+    image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
+    description: Temple, Mahabalipuram
+    photographer_name: ""
+    photographer_link: ""
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+  - id: 2
+    label: Call for Papers
+    path: /cfp.html
+    visible: True
+  - id: 3
+    label: Submission
+    path: /submission.html
+    visible: True
+  - id: 4
+    label: Programs
+    path: /program.html
+    visible: True
+  - id: 5
+    label: Venue
+    path: /venue.html
+    visible: True
+  - id: 6
+    label: Registration
+    path: /registration.html
+    visible: True
+deadlines:
+  - date: 2023-09-18
+    # timezone: AOE
+    text: Submission deadline
+    pass_due: False
+  - date: 2023-11-20
+    text: Notification of acceptance
+    pass_due: False
+  - date: 2024-01-08
+    text: Camera-ready due
+    pass_due: False
+# sponsors:
+#   - name: ACM
+#     logo_path: ./assets/images/sponsors/acm-logo.png
+#   - name: IEEE
+#     logo_path: ./assets/images/sponsors/ieee-logo.gif
+social_media:
+  facebook_link:
+  twitter_link:
+previous_iterations:
+  - name: 6th ISCLS
+    year: 2019
+    url: https://iscls.github.io/iscls2019/
+  - name: 5th ISCLS
+    year: 2013
+    url: https://sites.google.com/site/5isclc2013/Home
+  - name: 4th ISCLS
+    year: 2010
+    url: http://sanskrit.jnu.ac.in/conf/4iscls/index.jsp
+  - name: 3rd ISCLS
+    year: 2009
+    url: https://sanskrit.inria.fr/Symposium/Symposium3.html
+  - name: 2nd ISCLS
+    year: 2008
+    url: https://sanskritlibrary.org/symposium2/home.html
+  - name: 1st ISCLS
+    year: 2007
+    url: https://sanskrit.inria.fr/Symposium/
