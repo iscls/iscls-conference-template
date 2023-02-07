@@ -38,7 +38,7 @@
     org: IIT Kharagpur, Kharagpur, India
     homepage: https://cse.iitkgp.ac.in/~pawang/
   - name: Peter Scharf
-    org: Sanskrit Library, USA
+    org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
 - title: Technical Program Committe
   column: 2
@@ -64,6 +64,9 @@
   - name: Gérard Huet
     org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
+  - name: Malhar Kulkarni
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
   # - name: Olivier Hellwig
   #   org: University of Zurich
   #   homepage: ""
@@ -77,7 +80,7 @@
     homepage: https://cse.iitkgp.ac.in/~pawang/
     org: IIT Kharagpur, Kharagpur, India
   - name: Peter Scharf
-    org: Sanskrit Library, USA
+    org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
   - name: Shivani V
     org: Karnataka Sanskrit University, Karnataka, India
@@ -93,4 +96,4 @@
   members:
   - name: Hrishikesh Terdalkar
     org: IIT Kanpur, Kanpur, India
-    homepage: "https://hrishikeshrt.github.io"
+    homepage: https://hrishikeshrt.github.io
