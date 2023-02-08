@@ -46,6 +46,9 @@
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Amrith Krishna
+    org: Uniphone
+    homepage: ""
   # - name: Andrew Ollett
   #   org: Harvard University, Cambridge, MA
   #   homepage: ""
@@ -67,9 +70,9 @@
   - name: Malhar Kulkarni
     org: IIT Bombay, Mumbai, India
     homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
-  # - name: Olivier Hellwig
-  #   org: University of Zurich
-  #   homepage: ""
+  - name: Oliver Hellwig
+    org: University of Zurich, Zurich, Switzerland
+    homepage: https://www.comparativelinguistics.uzh.ch/en/staff/hellwig.html
   - name: Patrick McAllister
     org: Austrian Academy of Sciences, Austria
     homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
@@ -82,6 +85,9 @@
   - name: Peter Scharf
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Sebastian	Nehrdich
+    org: University of Hamburg, Hamburg, Germany
+    homepage: https://www.kc-tbts.uni-hamburg.de/people/nehrdich.html
   - name: Shivani V
     org: Karnataka Sanskrit University, Karnataka, India
     homepage: ""
