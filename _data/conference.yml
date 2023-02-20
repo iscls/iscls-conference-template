@@ -84,9 +84,10 @@ navbar:
     label: Registration
     path: /registration.html
     visible: True
+deadline_timezone: AoE
 deadlines:
   - date: 2023-09-18
-    # timezone: AOE
+    # timezone: AoE
     text: Submission deadline
     pass_due: False
   - date: 2023-11-20

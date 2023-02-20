@@ -1,6 +1,9 @@
 <div class="card">
     <div class="card-header text-white bg-dark">
         <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
+        {% if site.data.conference.deadline_timezone %}
+        <span class="float-right"><i class="fa fa-globe"></i><i class="fa fa-clock-o"></i> {{site.data.conference.deadline_timezone}}</span>
+        {% endif %}
     </div>
     <div class="card-block bg-light">
         <ul class="list-group list-group-flush">
