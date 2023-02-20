@@ -2,6 +2,7 @@ description: >
   Full papers are invited on original and unpublished research on various
   aspects of Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+submission: ./submission.html
 areas:
 - category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
   topics:
