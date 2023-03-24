@@ -4,9 +4,35 @@ layout: page
 slide_id: 4
 ---
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-        {% if site.data.schedule == nil %}
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col conference-text">
+        {% if site.data.program.online.live %}
+        <h6 class="text-info">Online</h6>
+        <p>
+            The conference will be streamed live{% if site.data.program.online.record %} and recorded for each day{% endif %}.
+            <br>
+            The event can be accessed online at: <a href="{{site.data.program.online.url}}">{{site.data.program.online.url}}</a>
+        </p>
+        <p>
+            {% if site.data.program.online.streams %}
+            <table class="table">
+                <tr>
+                    <th>Stream</th>
+                    <th>Link</th>
+                </tr>
+                {% for stream in site.data.program.online.streams %}
+                <tr>
+                    <td>{{stream.title}}</td>
+                    <td><a href="{{stream.url}}">{{stream.url}}</a></td>
+                </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+        </p>
+        {% endif %}
+        <h6 class="text-info">Schedule</h6>
+        {% if site.data.program.schedule != nil %}
         {% for day in site.data.schedule %}
         <div>
             <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4>

@@ -1,3 +1,16 @@
+online:
+  live: true
+  record: true
+  url: https://www.youtube.com/@SanskritResearchInstitute/streams
+  streams:
+  - title: Day 1
+    url: https://www.youtube.com/watch?v=W-SOlU26M58&ab_channel=SanskritResearchInstitute
+  - title: Day 2
+    url: https://www.youtube.com/watch?v=8IpQ1tCPDmw&ab_channel=SanskritResearchInstitute
+  - title: Day 3
+    url: https://www.youtube.com/watch?v=n1SPshTzcbg&ab_channel=SanskritResearchInstitute
+
+schedule:
 # - date: "2017-10-14"
 #   dateReadable: "October 14"
 #   timeslots:
@@ -64,4 +77,3 @@
 #         speakers: "Mustafa Canim:IBM Research; Cristina Cornelio:IBM Research; Robert Farrell:IBM Research; Achille Fokoue:IBM Research; Kyle Gao:IBM Research; John Gunnels:IBM Research; Arun Iyengar:IBM Research; Ryan Musa:IBM Research; Mariano Rodriguez-Muro:IBM Research"
 #       - title: "Enabling Distributed Revision Control Systems in Delay-Tolerant"
 #         speakers: "Philipp Hagemeister:Heinrich-Heine Universität Düsseldorf; Martin Mauve:Heinrich-Heine Universität Düsseldorf"
-
