@@ -73,7 +73,7 @@ navbar:
     path: /submission.html
     visible: True
   - id: 4
-    label: Programs
+    label: Program
     path: /program.html
     visible: True
   - id: 5

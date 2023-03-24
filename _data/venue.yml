@@ -1,13 +1,18 @@
-address: >
-  Sanskrit Research Institute,
+address: |
+  <a href="https://www.unitypavilion.in/">Unity Pavilion</a>,
   Auroville, Puducherry,
   India
 directions: >
-  TBA
+  Google Maps Location: <a href="https://goo.gl/maps/D9obMuDHke8EZHtNA">https://goo.gl/maps/D9obMuDHke8EZHtNA</a>
 accommodation:
   instructions: >
-    TBA
+    <p>
+      You may find information about guesthouses at <a href="https://guesthouses.auroville.org/">https://guesthouses.auroville.org/</a>.
+    </p>
+    <p>
+      Travel desk at Sanskrit Research Institute is reachable at: <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a>
+    </p>
   hotels:
-    - name: TBA
-      address: TBA
+    # - name: TBA
+    #   address: TBA
 direction: ./assets/images/direction.png
