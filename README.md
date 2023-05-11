@@ -39,13 +39,13 @@ Data Files under `_data` to configure all conference related information.
 * Setup Ruby, RVM, Jeykyll, Bundler.
   - Check installation instructions at [INSTALL.md](INSTALL.md).
 * Remove `.github/workflows/`
-* Change target of the symbolic `Gemfile` to `Gemfile.github` 
+* Change target of the symbolic `Gemfile` to `Gemfile.local`
   ```
-  rm Gemfile 
-  ln -s Gemfile.github Gemfile
+  rm Gemfile
+  ln -s Gemfile.local Gemfile
   ```
 * Adjust release path in `Makefile`
-* Test locally, `make serve` 
+* Test locally, `make serve`
 * Build and copy to publish location, `make publish`
 * Commit changes to the publish location
 
@@ -53,9 +53,9 @@ Data Files under `_data` to configure all conference related information.
 
 * Ensure that the repository is public and GitHub Pages are enabled and set to use GitHub Actions.
 * Create `.github/workflows`
-* Copy `workflows/release.yml` to `.github/workflows/release.yml` 
-* Change target of the symbolic `Gemfile` to `Gemfile.github` 
+* Copy `workflows/release.yml` to `.github/workflows/release.yml`
+* Change target of the symbolic `Gemfile` to `Gemfile.github`
   ```
-  rm Gemfile 
+  rm Gemfile
   ln -s Gemfile.github Gemfile
   ```
