@@ -47,7 +47,7 @@
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Amrith Krishna
-    org: Uniphone
+    org: ""
     homepage: ""
   # - name: Andrew Ollett
   #   org: Harvard University, Cambridge, MA
@@ -79,9 +79,9 @@
   - name: Patrick McAllister
     org: Austrian Academy of Sciences, Austria
     homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
-  - name: Pavan Kumar Satuluri
-    org: Chinmaya Vishwavidyapeeth, Veliyanad, India
-    homepage: https://www.cvv.ac.in/faculties/dr-pavankumar-satuluri
+  - name: Pavankumar Satuluri
+    org: Indian Institute of Technology Roorkee, Roorkee, India
+    homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
   - name: Pawan Goyal
     homepage: https://cse.iitkgp.ac.in/~pawang/
     org: IIT Kharagpur, Kharagpur, India
