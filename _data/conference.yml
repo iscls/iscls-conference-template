@@ -67,6 +67,10 @@ navbar:
   - id: 2
     label: Call for Papers
     path: /cfp.html
+    visible: False
+  - id: 2
+    label: Call for Demos
+    path: /cfd.html
     visible: True
   - id: 3
     label: Submission
@@ -101,6 +105,15 @@ deadlines:
     pass_due: True
   - date: 2024-01-08
     text: Camera-ready due
+    pass_due: False
+  - date: 2024-01-05
+    text: Demo Submission deadline
+    pass_due: False
+  - date: 2024-01-15
+    text: Notification of demo acceptance
+    pass_due: False
+  - date: 2024-01-20
+    text: Demo camera-ready due
     pass_due: False
 # sponsors:
 #   - name: ACM

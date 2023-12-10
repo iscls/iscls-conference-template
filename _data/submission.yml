@@ -10,7 +10,8 @@ review_mode: 1
 # 0: double blind
 # 1: single blind
 
-pagelimit: 20
+# pagelimit: 20  # paper
+pagelimit: 2  # demo
 fontsize: 10
 
 extra: |

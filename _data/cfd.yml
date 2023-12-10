@@ -1,0 +1,43 @@
+description: >
+  Short write-ups are invited on demonstrations of original and unpublished
+  research on various aspects of Computational Linguistics and Digital
+  Humanities related to Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist
+  Hybrid Sanskrit, etc.
+
+submission: ./submission.html
+areas:
+- category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
+  topics:
+    - Digital lexicons, thesauri and wordnets
+    - Computational phonology and morphology
+    - Syntactic analysis
+    - Prose order normalisation
+    - Parsing
+    - Discourse analysis
+    - Structural semantics
+    - Machine translation
+    - Automatic analysis of Sanskrit corpus
+    - Navya-Nyāya and other technical language processing
+    - Information extraction
+    - Named entity recognition
+- category: "Shāstric Sanskrit Texts and Computation"
+  topics:
+    - Computer modeling and simulation of Paninian and other traditional grammars
+    - Theories of Śābdabodha and Sanskrit computational processing
+- category: "Sanskrit Digital Libraries Management"
+  topics:
+    - Tools for acquisition and maintenance of Sanskrit digital corpus
+    - Library crawlers or search tools in Sanskrit corpus
+    - Incorporation of grammatical information in Sanskrit corpus
+    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
+    - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
+    - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
+    - Digital cataloguing of manuscripts
+    - Annotation and editing
+    - Alignment of text with images (including manuscripts)
+    - User interface design
+- category: "Miscellaneous Computer Applications Relevant to Sanskrit"
+  topics:
+    - Software tools for teaching Sanskrit
+    - Sanskrit speech recognition and synthesis
+    - Tools and applications for Sanskrit dissemination
