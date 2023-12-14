@@ -18,11 +18,21 @@ slide_id: 3
 
         <p>
             Only electronic submissions in {{site.data.submission.file_formats | join:" or "}} format
-            will be accepted. Submitted papers must be written in
-            {{site.data.submission.languages | join:" or "}}, must be no longer than
-            <b>{{site.data.submission.pagelimit}} pages</b> in
+            will be accepted. Submitted articles must be written in
+            {{site.data.submission.languages | join:" or "}}, conforming to the page limit, in
             {{site.data.submission.fontsize}}-point font and must render without
             error using standard PDF viewing tools.
+        </p>
+        <p>
+            <b>Page Limit</b>
+            <table class="table border">
+                {% for track in site.data.submission.pagelimits %}
+                <tr>
+                    <td><b>{{track.name}}</b></td>
+                    <td>{{track.limit}} pages</td>
+                </tr>
+                {% endfor %}
+            </table>
         </p>
 
         <p>
