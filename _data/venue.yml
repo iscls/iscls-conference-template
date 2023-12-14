@@ -15,6 +15,17 @@ accommodation:
     <p>
       Travel desk at Sanskrit Research Institute is reachable at: <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a>
     </p>
+    <p>
+      <h6 class="text-info">Accommodation Registration</h6>
+      <div id="donorboxEmbed"></div>
+      <script type='text/javascript' src='https://donorbox.org/embed_event_widget.js'></script>
+      <script type='text/javascript'>
+        DonorboxEventWidget.embed({
+          container: 'donorboxEmbed',
+          embedFormSlug: 'https://donorbox.org/embed_event/536396'
+        });
+      </script>
+    </p>
   hotels:
     # - name: TBA
     #   address: TBA
