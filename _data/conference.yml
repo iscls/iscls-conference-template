@@ -65,17 +65,29 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
-    label: Call for Papers
-    path: /cfp.html
-    visible: False
-  - id: 2
-    label: Call for Demos
-    path: /cfd.html
+    label: Calls for Papers
     visible: True
+    children:
+    - id: 1
+      label: Call for Demos
+      path: /cfd.html
+      visible: True
+    - id: 2
+      label: Call for Papers
+      path: /cfp.html
+      visible: True
   - id: 3
     label: Submission
-    path: /submission.html
     visible: True
+    children:
+    - id: 1
+      label: Submission
+      path: /submission.html
+      visible: True
+    - id: 2
+      label: Accepted Papers
+      path: /accepted.html
+      visible: True
   - id: 4
     label: Program
     path: /program.html

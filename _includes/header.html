@@ -2,7 +2,7 @@
     <div class="row">
 
         <!--conference info-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 
             <div class="jumbotron">
                 <img class="img-fluid mt-0 mb-4" src="{{ site.data.conference.logo_path }}">
@@ -17,9 +17,9 @@
         </div>
 
         <!--slide show-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="conference-carousel" class="carousel slide" data-ride="carousel">
 
                 <div class="carousel-inner" role="listbox">
                     {% for slide in site.data.conference.slideshow %}
@@ -49,7 +49,7 @@
 
     <div class="row">
         <!--navbar-->
-        <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
+        <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
                 {% if site.data.conference.previous_iterations %}
                 <a class="navbar-brand ml-4 dropdown-toggle" href="#"
@@ -77,19 +77,41 @@
                     <ul class="navbar-nav ml-3 my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
                         {% for nav in site.data.conference.navbar %}
                         {% if nav.visible %}
-                        {% if page.url == nav.path %}
-                        <li class="nav-item active">
-                            <a class="nav-link m-1" href=".{{ nav.path }}">
-                                <strong>{{ nav.label | escape }}</strong>
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
+                        {% if nav.children %}
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link m-1 dropdown-toggle" role="button" data-toggle="dropdown">
+                                    <strong>{{nav.label}}</strong>
+                                </a>
+                                <div class="dropdown-menu">
+                                    {% for child in nav.children %}
+                                    {% if child.visible %}
+                                        {% if page.url == child.path %}
+                                        <a class="dropdown-item text-white bg-secondary" href=".{{ child.path }}">
+                                            {{ child.label | escape }}
+                                        </a>
+                                        {% else %}
+                                        <a class="dropdown-item text-secondary" href=".{{ child.path }}">
+                                            {{ child.label | escape }}
+                                        </a>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </li>
                         {% else %}
-                        <li class="nav-item">
-                            <a class="nav-link m-1" href=".{{ nav.path }}">
-                                <strong>{{ nav.label | escape }}</strong>
-                            </a>
-                        </li>
+                            {% if page.url == nav.path %}
+                            <li class="nav-item active">
+                                <a class="nav-link m-1" href=".{{ nav.path }}">
+                                    <strong>{{ nav.label | escape }}</strong>
+                                </a>
+                            </li>
+                            {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link m-1" href=".{{ nav.path }}">
+                                    <strong>{{ nav.label | escape }}</strong>
+                                </a>
+                            </li>
+                            {% endif %}
                         {% endif %}
                         {% endif %}
                         {% endfor %}
