@@ -1,0 +1,23 @@
+---
+title: Accepted Papers
+layout: page
+slide_id: 5
+---
+
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted conference-text text-justify">
+        <h5 class="text-info">Accepted Papers</h5>
+        <ul>
+            {% for paper in site.data.accepted %}
+            <li>
+                <strong>{{paper.title}}</strong>
+                <br>
+                {% for author in paper.authors %}
+                <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

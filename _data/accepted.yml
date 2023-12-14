@@ -1,0 +1,84 @@
+- id: 4
+  title: "Using TEI for digital Sanskrit editions containing commentaries A study of Kālidāsa's Raghuvaṁśa with Mallinātha's Sañjīvanī"
+  authors:
+  - name: Tanuja P Ajotikar
+    email: tanuja@sanskritlibrary.org
+    affiliation: The Sanskrit Library
+  - name: Ketaki Kaduskar
+    email: ketaki.kaduskar@gmail.com
+    affiliation: The Sanskrit Library
+  - name: Peter M Scharf
+    email: scharf@sanskritlibrary.org
+    affiliation: The Sanskrit Library
+- id: 5
+  title: "Linguistically Mapping Aśoka: A Dialectometric Approach to the Major Rock and Major Pillar Edicts"
+  authors:
+  - name: Patrick Zeitlhuber
+    email: patrick.zeitlhuber@gmail.com
+    affiliation: Austrian Academy of Sciences
+- id: 7
+  title: "Anuprāsa identifier and classifier: A computational tool to analyze Sanskrit figure of sound"
+  authors:
+  - name: Amruta Vilas Barbadikar
+    email: amruta.barbadikar@gmail.com
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Amba Kulkarni
+    email: ambakulkarni@uohyd.ac.in
+    affiliation: University of Hyderabad
+- id: 9
+  title: "START: Sanskrit Teaching, Annotation, and Research Tool - Bridging Tradition and Technology in Scholarly Exploration"
+  authors:
+  - name: Anil Kumar
+    email: anil.lalit22@gmail.com
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Amba Kulkarni
+    email: ambakulakrni@uohyd.ac.in
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Nakka Shailaja
+    email: shailajanakkawar@gmail.com
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+- id: 11
+  title: "Word Sense Alignment of Sanskrit Lexica"
+  authors:
+  - name: Dhaval K Patel
+    email: drdhaval2785@gmail.com
+    affiliation: University of Hyderabad
+  - name: Amba Kulkarni
+    email: ambakulkarni@uohyd.ac.in
+    affiliation: University of Hyderabad
+- id: 12
+  title: "Inter Sentential Discourse Relations"
+  authors:
+  - name: Saee Vaze
+    email: 20hsph03@uohyd.ac.in
+    affiliation: University of Hyderabad
+  - name: Amba Kulkarni
+    email: ambakulkarni@uohyd.ac.in
+    affiliation: University of Hyderabad
+- id: 14
+  title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
+  authors:
+  - name: Anagha Pradeep
+    email: anagha.pradeep@research.iiit.ac.in
+    affiliation: International Institute of Information Technology Hyderabad
+- id: 15
+  title: "Hoisting the colors of Sanskrit"
+  authors:
+  - name: Gérard Huet
+    email: Gerard.Huet@inria.fr
+    affiliation: INRIA
+- id: 16
+  title: "A fast prakriyā generator"
+  authors:
+  - name: Arun K Prasad
+    email: akprasad.public@gmail.com
+    affiliation: Ambuda
+- id: 19
+  title: "The Śabdabrahman exercise platform"
+  authors:
+  - name: Peter M Scharf
+    email: scharf@sanskritlibrary.org
+    affiliation: The Sanskrit Library
+  - name: Harsha Pamidipalli
+    email: harsha@sanskritlibrary.org
+    affiliation: The Sanskrit Library
