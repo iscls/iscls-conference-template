@@ -7,16 +7,141 @@ directions: >
 accommodation:
   instructions: >
     <p>
-      You may find information about guesthouses at <a href="https://guesthouses.auroville.org/">https://guesthouses.auroville.org/</a>.
+      We have partnered with <a href="https://www.ostel.co.in/">Ostel</a> on
+      Auroville Repos beach for accommodation. Rates have been substantially
+      discounted for the event.
     </p>
-    <p class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRquRLAgpyS3q0E6pZvaIHtm20IsI6c8wft6rYdsyGJUGdf7f7EyoqEyjNSRsXvzZSSFUBnAXzF5_Vv/pubhtml?gid=161853848&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    </p>
+
     <p>
-      Travel desk at Sanskrit Research Institute is reachable at: <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a>
+      A bus service will be provided to the conference venue (Unity Pavilion)
+      each morning and afternoon 15-17th February.
     </p>
+
+    <p>
+      <b>Note</b>:
+
+      All accommodation is for 4 nights from 14-18th February giving you time to
+      arrive 1 day before the symposium and depart 1 day after. If you wish to
+      arrive earlier or extend longer please put it in your "special requests"
+      section.
+    </p>
+
+    <p class="font-weight-bold">
+      If paying with an Indian debit or credit card please note
+      <a href="https://en.wikipedia.org/wiki/3-D_Secure">3-D Secure</a> (3DS)
+      is mandatory for payments online in India and please ensure your card is
+      enabled for international payments, kindly request your bank to enable it
+      if it is not. In case you face difficulty with payments please write to
+      <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a> for
+      alternatives.
+    </p>
+
+    <div id="accommodation-carousel" class="carousel slide" data-ride="carousel" style="width: 50%;">
+      <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_1.png" alt="Private Room #1">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room #1
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_2.png" alt="Private Room #2">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room #2
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_3.png" alt="Private Room #3">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room #3
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_4.png" alt="Private Room #4">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room #4
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_courtyard.png" alt="Private Room Courtyard">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room Courtyard
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/private_room_sea_facing.png" alt="Private Room Sea-facing">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Private Room Sea-facing
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/dormitory_6.png" alt="Dormitory (6 beds)">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Dormitory (6 beds)
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/dormitory_8.png" alt="Dormitory (8 beds)">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Dormitory (8 beds)
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 360px !important;">
+              <img class="img-fluid" src="./assets/images/accommodation/dormitory_9.png" alt="Dormitory (9 beds)">
+              <div class="carousel-caption">
+                  <p class="align-bottom text-white">
+                      <span class="px-3 py-1 rounded">
+                      Dormitory (9 beds)
+                      </span>
+                  </p>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#accommodation-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#accommodation-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    </div>
     <p>
       <h6 class="text-info">Accommodation Registration</h6>
+      Accommodation: <a href="https://donorbox.org/events/536396">https://donorbox.org/events/536396</a>
+      <br>
       <div id="donorboxEmbed"></div>
       <script type='text/javascript' src='https://donorbox.org/embed_event_widget.js'></script>
       <script type='text/javascript'>
@@ -25,6 +150,16 @@ accommodation:
           embedFormSlug: 'https://donorbox.org/embed_event/536396'
         });
       </script>
+    </p>
+    <p class="mt-3">
+      <h6 class="text-info">Guest Houses</h6>
+      You may find information about guesthouses at <a href="https://guesthouses.auroville.org/">https://guesthouses.auroville.org/</a>.
+    </p>
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRquRLAgpyS3q0E6pZvaIHtm20IsI6c8wft6rYdsyGJUGdf7f7EyoqEyjNSRsXvzZSSFUBnAXzF5_Vv/pubhtml?gid=161853848&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </p>
+    <p>
+      Travel desk at Sanskrit Research Institute is reachable at: <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a>
     </p>
   hotels:
     # - name: TBA
