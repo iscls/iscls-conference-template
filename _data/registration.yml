@@ -2,6 +2,22 @@ about: "Registrations for 7th ISCLS are now open. You may register using the fol
 url: "https://donorbox.org/events/535583"
 description: |
   <h5 class="text-info">Registration</h5>
+
+  <p>
+    Please note the fees will increase after 10/01/2024. Please register before
+    that to avail the EARLY BIRD registration rates.
+  </p>
+
+  <p class="font-weight-bold">
+    If paying with an Indian debit or credit card please note
+    <a href="https://en.wikipedia.org/wiki/3-D_Secure">3-D Secure</a> (3DS)
+    is mandatory for payments online in India and please ensure your card is
+    enabled for international payments, kindly request your bank to enable it
+    if it is not. In case you face difficulty with payments please write to
+    <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a> for
+    alternatives.
+  </p>
+
   <div id="donorboxEmbed"></div>
   <script type='text/javascript' src='https://donorbox.org/embed_event_widget.js'></script>
   <script type='text/javascript'>
@@ -12,4 +28,4 @@ description: |
   </script>
 
   <br>
-  Check the <strong>Venue</strong> tab for details about accommodation.
+  Check the <a class="font-weight-bold" href="./venue.html">Venue</a> tab for details about accommodation.
