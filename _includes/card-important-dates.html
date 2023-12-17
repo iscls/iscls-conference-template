@@ -10,8 +10,8 @@
             {% if site.data.conference.deadlines %}
                 {% for deadline in site.data.conference.deadlines %}
 
-                        <li class="list-group-item bg-light text-muted">
-                            {% if deadline.pass_due %}
+                        <li class="list-group-item {% if deadline.pass_due %}past{% else %}bg-light text-muted{% endif %}">
+                            {% if deadline.strike_through %}
                             <del>
                             {% endif %}
                                 <p><strong>{{ deadline.text }}:</strong>
@@ -20,7 +20,7 @@
                                 {% else %}
                                 {{ deadline.date | date: "%B %e, %Y." }}
                                 {% endif %}</p>
-                            {% if deadline.pass_due %}
+                            {% if deadline.strike_through %}
                             </del>
                             {% endif %}
                         </li>
