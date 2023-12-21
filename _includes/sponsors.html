@@ -8,7 +8,17 @@
         {% else %}
         <div class="row mx-1 my-1">
             {% for sponsor in site.data.conference.sponsors %}
-                <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+                <div class="card mx-1">
+                    <div class="card-body text-center">
+                        <a href="{{sponsor.url}}" target="_blank" rel="noopener noreferrer">
+                            <img class="img-fluid d-inline-block my-1" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+                        </a>
+                        <br>
+                        <a href="{{sponsor.url}}" target="_blank" rel="noopener noreferrer">
+                            <small>{{sponsor.name}}</small>
+                        </a>
+                    </div>
+                </div>
             {% endfor %}
         </div>
         {% endif %}
