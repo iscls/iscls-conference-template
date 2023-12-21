@@ -135,9 +135,10 @@ deadlines:
     text: Demo camera-ready due
     pass_due: False
     strike_through: False
-# sponsors:
-#   - name: ACM
-#     logo_path: ./assets/images/sponsors/acm-logo.png
+sponsors:
+  - name: International Association of Sanskrit Studies
+    logo_path: ./assets/images/sponsors/iass-logo.png
+    url: https://www.sanskritassociation.org/
 #   - name: IEEE
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:
