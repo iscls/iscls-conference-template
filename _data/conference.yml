@@ -145,6 +145,9 @@ sponsors:
   - name: Stichting de Zaaier
     logo_path: ./assets/images/sponsors/stichting-logo.jpg
     url: https://www.stichtingdezaaier.nl/
+  - name: Sangrah
+    logo_path: ./assets/images/sponsors/sangrah-logo.jpg
+    url: https://sangrah.org/
 #   - name: IEEE
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:
