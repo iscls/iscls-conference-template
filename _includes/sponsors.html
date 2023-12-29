@@ -11,7 +11,7 @@
                 <div class="card mx-1">
                     <div class="card-body text-center">
                         <a href="{{sponsor.url}}" target="_blank" rel="noopener noreferrer">
-                            <img class="img-fluid d-inline-block my-1" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+                            <img class="img-fluid d-inline-block my-1" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}" {% if sponsor.style %}style="{{sponsor.style}}"{% endif %}>
                         </a>
                         <br>
                         <a href="{{sponsor.url}}" target="_blank" rel="noopener noreferrer">
