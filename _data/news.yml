@@ -1,11 +1,13 @@
 # - date: 2017-10-14
 #   text: Workshop has been successfully held
+- date: 2023-09-16
+  text: <span class="text-info">Demo submission deadline is extended</span>
 - date: 2023-12-14
-  text: <span class="text-info"><strong><a href="./registration.html">Registration</a></strong> is open</span>
+  text: <strong><a href="./registration.html">Registration</a></strong> is open
 - date: 2023-12-14
-  text: <span class="text-info"><strong><a href="./accepted.html">Accepted papers</a></strong> announced</span>
+  text: <strong><a href="./accepted.html">Accepted papers</a></strong> announced
 - date: 2023-12-10
-  text: <span class="text-danger"><strong><a href="./cfd.html">Call for demos</a></strong> is out</span>
+  text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
 - date: 2023-09-16
   text: Submission deadline is extended
 - date: 2023-01-23

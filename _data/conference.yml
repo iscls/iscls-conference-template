@@ -120,9 +120,9 @@ deadlines:
     pass_due: True
     strike_through: True
   - date: 2024-01-05
-    text: Demo Submission deadline
+    text: Demo submission deadline
     pass_due: False
-    strike_through: False
+    strike_through: True
   - date: 2024-01-08
     text: Camera-ready due
     pass_due: False
@@ -130,11 +130,16 @@ deadlines:
   - date: 2024-01-15
     text: Notification of demo acceptance
     pass_due: False
-    strike_through: False
-  - date: 2024-01-20
-    text: Demo camera-ready due
+    strike_through: True
+  - date: 2024-01-10
+    text: Demo submission deadline
     pass_due: False
     strike_through: False
+  - date: 2024-01-20
+    text: Notification of demo acceptance
+    pass_due: False
+    strike_through: False
+
 sponsors:
   - name: International Association of Sanskrit Studies
     logo_path: ./assets/images/sponsors/iass-logo.png
