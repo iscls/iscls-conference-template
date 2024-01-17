@@ -121,20 +121,20 @@ deadlines:
     strike_through: True
   - date: 2024-01-05
     text: Demo submission deadline
-    pass_due: False
+    pass_due: True
     strike_through: True
   - date: 2024-01-08
     text: Camera-ready due
-    pass_due: False
+    pass_due: True
+    strike_through: False
+  - date: 2024-01-10
+    text: Demo submission deadline
+    pass_due: True
     strike_through: False
   - date: 2024-01-15
     text: Notification of demo acceptance
-    pass_due: False
+    pass_due: True
     strike_through: True
-  - date: 2024-01-10
-    text: Demo submission deadline
-    pass_due: False
-    strike_through: False
   - date: 2024-01-20
     text: Notification of demo acceptance
     pass_due: False
