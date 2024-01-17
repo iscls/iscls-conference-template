@@ -17,7 +17,12 @@ date: February 15-17, 2024
 location: Auroville, Puducherry
 country: India
 
-logo_path: ./assets/images/7iscls_logo.png
+logo_path: ./assets/images/7th_iscls_logo_name.png
+
+# if show_logo is false, show_title: false has no effect
+show_logo: true
+show_title: false
+
 slideshow:
   - id: 0
     image_path: ./assets/images/slideshow/0-auroville-beach.jpg
