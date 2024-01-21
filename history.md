@@ -25,7 +25,7 @@ The [Sixth International Sanskrit Computational Linguistics Symposium](https://i
 
 In 2021 (postponed to 2023) at the 18th World Sanskrit Conference, at Canberra (held Online), the third session on Computational Sanskrit and Digital Humanities was held.
 
-The Seventh International Sanskrit Computational Linguistics Symposium would take place from 22-24 Feb 2024 at Auroville, Puducherry.
+The Seventh International Sanskrit Computational Linguistics Symposium would take place from 15-17 Feb 2024 at Auroville, Puducherry.
 
 {: .text-info}
 ###### Publications of ISCLS
