@@ -142,8 +142,8 @@ deadlines:
     strike_through: True
   - date: 2024-01-20
     text: Notification of demo acceptance
-    pass_due: False
-    strike_through: False
+    pass_due: True
+    strike_through: True
 
 sponsors:
   - name: International Association of Sanskrit Studies
@@ -158,6 +158,9 @@ sponsors:
   - name: Sangrah
     logo_path: ./assets/images/sponsors/sangrah-logo.jpg
     url: https://sangrah.org/
+  - name: INDICA
+    logo_path: ./assets/images/sponsors/indica-logo.jpeg
+    url: https://indica.in/
 #   - name: IEEE
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:

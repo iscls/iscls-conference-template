@@ -6,6 +6,10 @@ directions: >
   Google Maps Location: <a href="https://goo.gl/maps/D9obMuDHke8EZHtNA">https://goo.gl/maps/D9obMuDHke8EZHtNA</a>
 accommodation:
   instructions: >
+    <div class="alert alert-info">
+        Online accommodation bookings have ended. <br>
+        For last minute bookings or any other enquiries please write to <a href="mailto:iscls@sri.auroville.org">iscls@sri.auroville.org</a>
+    </div>
     <p>
       We have partnered with <a href="https://www.ostel.co.in/">Ostel</a> on
       Auroville Repos beach for accommodation. Rates have been substantially
