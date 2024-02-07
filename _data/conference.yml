@@ -143,7 +143,7 @@ deadlines:
   - date: 2024-01-20
     text: Notification of demo acceptance
     pass_due: True
-    strike_through: True
+    strike_through: False
 
 sponsors:
   - name: International Association of Sanskrit Studies
