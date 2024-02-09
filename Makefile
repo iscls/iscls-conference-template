@@ -1,4 +1,4 @@
-INSTALL_PATH = "/home/hrishirt/git/iscls/iscls.github.io/docs/"
+INSTALL_PATH = "$${HOME}/git/iscls/iscls.github.io/docs/"
 
 setup:
 	bundle install

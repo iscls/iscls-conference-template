@@ -6,7 +6,7 @@ For local deployment, use `Gemfile.local`
 
 ## Requirements
 
-* Ruby (`v2.6.6`)
+* Ruby (`v3.2.1`)
 * Gems:
   - Bundler
   - Jekyll
@@ -14,10 +14,10 @@ For local deployment, use `Gemfile.local`
 ## Instructions
 
 * Install **rvm** (Ruby Version Manager) by following the instructions from https://rvm.io/
-  - `rvm use 2.6.6`
+  - `rvm use 3.2.1`
 * Install Jekyll
   - `gem update --system`
-  - `gem install sass-embedded -v 1.57.1`
+  - `gem install sass-embedded`
   - `gem install bundler jekyll`
 * Repository setup
   - Clone the repository
