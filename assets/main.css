@@ -146,3 +146,12 @@ body {
 .navbar-dark .navbar-nav>.active {
     color: #5393c5 !important;
 }
+
+.inner-nav {
+    font-size: 100% !important;
+    box-shadow: none !important;
+}
+
+.inner-nav .nav-link {
+    color: var(--dark);
+}
