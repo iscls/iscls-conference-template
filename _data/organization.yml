@@ -12,6 +12,12 @@
     org: Sanskrit Research Institute
     post: ""
     homepage: ""
+- title: Web Chair
+  column: 1
+  members:
+  - name: Hrishikesh Terdalkar
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://hrishikeshrt.github.io
 - title: Steering Committee
   column: 1
   members:
@@ -100,9 +106,4 @@
   # - name: K Varalakshmi
   #   org: Osmania University, Hyderabad
   #   homepage: ""
-- title: Webmaster
-  column: 1
-  members:
-  - name: Hrishikesh Terdalkar
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://hrishikeshrt.github.io
+
