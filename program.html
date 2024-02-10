@@ -88,7 +88,6 @@ slide_id: 4
                         <td width="20%">
                         </td>
                         <td>
-                            <p class="my-0"><b>{{event.title}}</b></p>
                             {% if event.type %}
                             {% if site.data.program.event_style contains event.type %}
                             <span {% if site.data.program.event_style[event.type].style %}style="{{site.data.program.event_style[event.type].style}}"{% endif %} class="badge {{site.data.program.event_style[event.type].classes}} float-right">
@@ -98,6 +97,7 @@ slide_id: 4
                                 {{event.type}}
                             </span>
                             {% endif %}
+                            <p class="my-0"><b>{{event.title}}</b></p>
                             <p class="my-0"><i>{{event.speakers}}</i></p>
                         </td>
                     </tr>
