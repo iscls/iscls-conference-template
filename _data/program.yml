@@ -77,10 +77,16 @@ schedule:
         speakers: "Dhaval K Patel, Amba Kulkarni"
         type: "paper"
         id: "11"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.1.pdf"
       - title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
         speakers: "Anagha Pradeep"
         type: "paper"
         id: "14"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.2.pdf"
       - title: "Contextual Spellchecking for Sanskrit"
         speakers: "Prasanna Venkatesh T S"
         type: "demo"
@@ -102,6 +108,9 @@ schedule:
         speakers: "Patrick Zeitlhuber"
         type: "paper"
         id: "5"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.3.pdf"
       - title: "Yoga Sutra Trees"
         speakers: "Giacomo De Luca"
         type: "demo"
@@ -131,10 +140,16 @@ schedule:
         speakers: "Gérard Huet"
         type: "paper"
         id: "15"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.4.pdf"
       - title: "Using TEI for Digital Sanskrit Editions Containing Commentaries: A study of Kālidāsa's Raghuvaṁśa with Mallinātha's Sañjīvanī"
         speakers: "Tanuja P Ajotikar, Ketaki Kaduskar, Peter M Scharf"
         type: "paper"
         id: "4"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.5.pdf"
   - startTime: "17:00"
     endTime: "17:30"
     title: "Sponsors' Session: INDICA, Wikimedia"
@@ -171,10 +186,16 @@ schedule:
         speakers: "Saee Vaze, Amba Kulkarni"
         type: "paper"
         id: "12"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.6.pdf"
       - title: "A Fast Prakriyā Generator"
         speakers: "Arun K Prasad"
         type: "paper"
         id: "16"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.7.pdf"
       - title: "Discourse Relation Marking Tool"
         speakers: "Soma Paul, Sukhada, Kumari Riya, Adepu Varshith Kumar, Sanyam Jha, Isma Anwar"
         type: "demo"
@@ -204,6 +225,9 @@ schedule:
         speakers: "Amruta Vilas Barbadikar, Amba Kulkarni"
         type: "paper"
         id: "7"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.8.pdf"
       - title: "A Platform to Study Sanskrit Literature"
         speakers: "Ronit Kumar"
         type: "demo"
@@ -233,10 +257,16 @@ schedule:
         speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
         type: "paper"
         id: "9"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.9.pdf"
       - title: "The Śabdabrahman Exercise Platform"
         speakers: "Peter M Scharf, Harsha Pamidipalli"
         type: "paper"
         id: "19"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.10.pdf"
       - title: "Sanskrit Teaching, Annotation and Research Tool"
         speakers: "Anil Kumar, N Shailaja, Amba Kulkarni"
         type: "demo"

@@ -23,6 +23,8 @@ logo_path: ./assets/images/7th_iscls_logo_name.png
 show_logo: true
 show_title: false
 
+proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf
+
 slideshow:
   - id: 0
     image_path: ./assets/images/slideshow/0-auroville-beach.jpg
