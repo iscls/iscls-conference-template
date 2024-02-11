@@ -56,7 +56,7 @@ exclude:
   - .gitignore
 
 timezone: India/Kolkata
-google_analytics: ""
+google_analytics: "G-Z1RZYPB894"
 
 plugins:
   - jekyll-minifier
