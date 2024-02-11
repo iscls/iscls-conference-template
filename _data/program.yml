@@ -62,7 +62,7 @@ schedule:
     title: "Invited Talk 1"
     type: "talk"
     events:
-      - title: TBA
+      - title: "Semantic Analysis and Knowledge Representations in Sanskrit"
         speakers: "Sampadananda Mishra"
   - startTime: "11:00"
     endTime: "11:30"
@@ -81,7 +81,7 @@ schedule:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.1.pdf"
       - title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
-        speakers: "Anagha Pradeep"
+        speakers: "Anagha Pradeep, Radhika Mamidi, Pavankumar Satuluri"
         type: "paper"
         id: "14"
         link:
@@ -285,7 +285,7 @@ schedule:
         id: "33"
   - startTime: "18:00"
     endTime: "19:00"
-    title: "Panel: Generative AI and Sanskrit"
+    title: "Panel: AI and Sanskrit"
     type: "panel"
     events:
       - speakers:  "TBD"

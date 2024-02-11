@@ -61,6 +61,12 @@
   - name: Anagha Pradeep
     email: anagha.pradeep@research.iiit.ac.in
     affiliation: International Institute of Information Technology Hyderabad
+  - name: Radhika Mamidi
+    email: radhika.mamidi@iiit.ac.in
+    affiliation: International Institute of Information Technology Hyderabad
+  - name: Pavankumar Satuluri
+    email: pavankumar.satuluri@hs.iitr.ac.in
+    affiliation: Indian Institute of Technology Roorkee
 - id: 15
   title: "Hoisting the colors of Sanskrit"
   authors:
