@@ -31,15 +31,15 @@ CONTENT.append(
     "\\bgroup\n"
     "\\def\\arraystretch{1.5}\n"
 )
-CONTENT.append("\\begin{longtable}{|p{0.2\\textwidth}|p{0.8\\textwidth}|}\n")
+CONTENT.append("\\begin{longtable}{|p{0.2\\textwidth}|p{0.75\\textwidth}p{0.05\\textwidth}|}\n")
 for idx, day in enumerate(PROGRAM["schedule"], start=1):
-    CONTENT.append("\\hline\n")
+    CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
     if idx > 1:
         CONTENT.append("& \\\\\n")
         CONTENT.append("\\hline\n")
         CONTENT.append("\\hline\n")
 
-    CONTENT.append(f"\\rowcolor{{Snow4!30!}} \\textbf{{Day {idx}}} & \\textbf{{{day['dateReadable']}}}\\\\\n")
+    CONTENT.append(f"\\rowcolor{{Snow4!30!}} \\textbf{{Day {idx}}} & \\textbf{{{day['dateReadable']}}} & \\\\\n")
     CONTENT.append("\\hline\n")
     for timeslot in day["timeslots"]:
         timeslot_type = timeslot["type"]
@@ -69,7 +69,7 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
 
         for _i, _text in enumerate(rightside):
             CONTENT.append(f"\\rowcolor{{{_rowcolor}!45!}} {_time} & " if _i == 0 else " & ")
-            CONTENT.append(f"{_text}\\\\*\n" if _i < len(rightside) - 1 or timeslot.get("events") else f"{_text}\\\\\n")
+            CONTENT.append(f"{_text} & \\\\*\n" if _i < len(rightside) - 1 or timeslot.get("events") else f"{_text} & \\\\\n")
 
         CONTENT.append("\\hline\n")
 
@@ -77,17 +77,38 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
             continue
 
         for _i, event in enumerate(timeslot["events"]):
+            if event.get("startTime") and event.get("endTime"):
+                event_time = f"{event['startTime']}  - {event['endTime']}"
+            else:
+                event_time = ""
+
+            event_type = []
+            if event.get("virtual"):
+                event_type.append(f"\\pill{{black!75!}}{{\\scriptsize\\bf virtual}}")
+
+            event_type_ = event.get("type", "")
+            if event_type_:
+                event_color = "Green4!75!" if event_type_ == "paper" else "RoyalBlue3!75!"
+                event_type.append(f"\\pill{{{event_color}}}{{\\scriptsize\\bf {event_type_}}}")
+
+            event_type_text = "".join(event_type)
+
             if event.get("title"):
                 CONTENT.append(
-                    f" & \\textbf{{{event['title']}}}\\\\*\n"
+                    f" {event_time} & \\textbf{{{event['title']}}} & {event_type_text}\\\\*\n"
                 )
+                event_type_text = ""
+                event_time = ""
+
             if event.get("speakers"):
                 CONTENT.append(
-                    f" & \\textit{{{event['speakers']}}}\\\\\n"
+                    f" {event_time} & \\textit{{{event['speakers']}}} & {event_type_text}\\\\\n"
                 )
+                event_type_text = ""
+                event_time = ""
 
             if _i == len(timeslot["events"]) - 1:
-                CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
+                CONTENT.append("\\hline\n")#\\noalign{\\penalty-5000}\n")
             else:
                 CONTENT.append("\\hline\n")
 

@@ -66,6 +66,7 @@ schedule:
     events:
       - title: "Semantic Analysis and Knowledge Representations in Sanskrit"
         speakers: "Sampadananda Mishra"
+        virtual: true
   - startTime: "11:00"
     endTime: "11:30"
     title: "Tea Break"
@@ -154,8 +155,13 @@ schedule:
           url: "./assets/files/proceedings/2024.iscls.5.pdf"
   - startTime: "17:00"
     endTime: "17:30"
-    title: "Sponsors' Session: INDICA, Wikimedia"
+    title: "Sponsors' Session"
     type: "sponsor"
+    events:
+      - title: INDICA Presentation
+        speakers: Shivakumar GV
+      - title: "Wikisource Loves Manuscripts"
+        speakers: Satdeep Gill
   # - startTime: "17:30"
   #   endTime: "22:00"
   #   title: "Visit to FIP"
@@ -299,6 +305,14 @@ schedule:
     endTime: "22:00"
     title: "Cultural Program and Dinner"
     type: "service"
+    events:
+      - title: "Concert"
+        speakers: "Kim Cunio and Heather Lee"
+        startTime: "19:30"
+        endTime: "20:15"
+      - title: "Gala Dinner"
+        startTime: "20:15"
+        endTime: "22:00"
 # Day 3 Schedule
 - date: "2024-02-17"
   dateReadable: "February 17"

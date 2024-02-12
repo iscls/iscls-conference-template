@@ -51,7 +51,7 @@ slide_id: 4
         {% endif %}
         {% if site.data.program.schedule_pdf and site.data.program.schedule_pdf != "" %}
         <a href="{{site.data.program.schedule_pdf}}" target="_blank" rel="noopener noreferrer">
-            <button class="btn float-right">
+            <button class="btn btn-lg float-right" title="PDF">
                 <i class="text-danger fa fa-file-pdf-o"></i>
             </button>
         </a>
@@ -82,7 +82,7 @@ slide_id: 4
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th {% if site.data.program.time_style.style %}style="{{site.data.program.time_style.style}}"{% endif %} class="{{site.data.program.time_style.classes}} text-center">
+                        <th {% if site.data.program.time_style.style %}style="{{site.data.program.time_style.style}}"{% endif %} class="{{site.data.program.time_style.classes}} align-middle text-center">
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </th>
                         {% if site.data.program.timeslot_style contains timeslot.type %}
@@ -104,9 +104,17 @@ slide_id: 4
                 <tbody>
                     {% for event in timeslot.events %}
                     <tr>
-                        <td width="20%">
+                        <td class="text-center align-middle" width="20%">
+                            {% if event.startTime and event.endTime %}
+                            {{event.startTime}} - {{event.endTime}}
+                            {% endif %}
                         </td>
                         <td>
+                            {% if event.virtual %}
+                            <span class="badge badge-dark float-right">
+                                virtual
+                            </span>
+                            {% endif %}
                             {% if event.type %}
                             {% if site.data.program.event_style contains event.type %}
                             <span {% if site.data.program.event_style[event.type].style %}style="{{site.data.program.event_style[event.type].style}}"{% endif %} class="badge {{site.data.program.event_style[event.type].classes}} float-right">

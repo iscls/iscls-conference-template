@@ -2,27 +2,37 @@
 
 \usepackage{boldline}
 \usepackage{longtable}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.25in,headheight=30pt]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[sfdefault]{FiraSans}
 \usepackage[table, x11names]{xcolor}
+\usepackage[skins]{tcolorbox}
+\newcommand{\pill}[2]{\makebox{
+    \tcbox[
+        enhanced,boxrule=0pt,boxsep=0mm,
+        left=1mm,right=1mm,top=1mm,bottom=1mm,
+        colframe=#1,colback=#1,coltext=white,
+        enlarge top by=1mm, grow to left by=1mm
+    ]{#2}}
+}
+\usepackage{graphicx}
 
-\title{\vspace*{-3cm}\textsc{Schedule}\\[3mm]\large 7th International Sanskrit Computational Linguistics Symposium}
-\date{\vspace*{-2cm}}
-\pagenumbering{gobble}
+% \pagenumbering{gobble}
 
 \usepackage{fancyhdr}
 \usepackage{datetime}
 
 \fancypagestyle{plain}{%
     \fancyhf{} % clear all header and footer fields
-    \fancyfoot[R]{\textcolor{gray}{\it Last updated: \today\ \currenttime}}
     \renewcommand{\headrulewidth}{0pt} % remove line between header and main text
+    \fancyhead[C]{\LARGE\sc Schedule}
+    \fancyhead[L]{\includegraphics[height=1.35cm]{../assets/images/7th_iscls_logo_name.png}}
+    \fancyfoot[R]{\textcolor{gray}{\it Last updated: \today\ \currenttime}}
 }
 \pagestyle{plain}
 \begin{document}
 
-\maketitle
+% \maketitle
 \input{table}
 
 \end{document}
