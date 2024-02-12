@@ -49,6 +49,13 @@ slide_id: 4
             Please note that the schedule is tentative and subject to change.
         </p>
         {% endif %}
+        {% if site.data.program.schedule_pdf and site.data.program.schedule_pdf != "" %}
+        <a href="{{site.data.program.schedule_pdf}}">
+            <button class="btn float-right" target="_blank" rel="noopener noreferrer">
+                <i class="text-danger fa fa-file-pdf-o"></i>
+            </button>
+        </a>
+        {% endif %}
         {% if site.data.program.schedule != nil %}
         <ul class="inner-nav nav nav-pills my-3" id="schedule-pills-tab" role="tablist">
         {% for day in site.data.program.schedule %}

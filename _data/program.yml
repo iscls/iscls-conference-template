@@ -41,6 +41,8 @@ timeslot_style:
     style: "background-color: royalblue;"
 
 tentative: true
+schedule_pdf: "./assets/files/schedule.pdf"
+
 schedule:
 # Day 1 Schedule
 - date: "2024-02-15"

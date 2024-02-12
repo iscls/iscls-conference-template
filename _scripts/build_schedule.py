@@ -39,7 +39,7 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
         CONTENT.append("\\hline\n")
         CONTENT.append("\\hline\n")
 
-    CONTENT.append(f"\\rowcolor{{Snow4!30!}} Day {idx} & \\textbf{{{day['dateReadable']}}}\\\\\n")
+    CONTENT.append(f"\\rowcolor{{Snow4!30!}} \\textbf{{Day {idx}}} & \\textbf{{{day['dateReadable']}}}\\\\\n")
     CONTENT.append("\\hline\n")
     for timeslot in day["timeslots"]:
         timeslot_type = timeslot["type"]
@@ -69,7 +69,7 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
 
         for _i, _text in enumerate(rightside):
             CONTENT.append(f"\\rowcolor{{{_rowcolor}!45!}} {_time} & " if _i == 0 else " & ")
-            CONTENT.append(f"{_text}\\\\*\n" if _i < len(rightside) or timeslot.get("events") else f"{_text}\\\\\n")
+            CONTENT.append(f"{_text}\\\\*\n" if _i < len(rightside) - 1 or timeslot.get("events") else f"{_text}\\\\\n")
 
         CONTENT.append("\\hline\n")
 
@@ -85,7 +85,11 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
                 CONTENT.append(
                     f" & \\textit{{{event['speakers']}}}\\\\\n"
                 )
-            CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
+
+            if _i == len(timeslot["events"]) - 1:
+                CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
+            else:
+                CONTENT.append("\\hline\n")
 
 CONTENT.append("\\end{longtable}\n")
 CONTENT.append("\\egroup")
