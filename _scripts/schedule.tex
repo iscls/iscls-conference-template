@@ -7,9 +7,19 @@
 \usepackage[sfdefault]{FiraSans}
 \usepackage[table, x11names]{xcolor}
 
-\title{\vspace*{-3cm}\textsc{Schedule}\\[3mm]\normalsize 7th International Sanskrit Computational Linguistics Symposium}
+\title{\vspace*{-3cm}\textsc{Schedule}\\[3mm]\large 7th International Sanskrit Computational Linguistics Symposium}
 \date{\vspace*{-2cm}}
 \pagenumbering{gobble}
+
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+\fancypagestyle{plain}{%
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[R]{\textcolor{gray}{\it Last updated: \today\ \currenttime}}
+    \renewcommand{\headrulewidth}{0pt} % remove line between header and main text
+}
+\pagestyle{plain}
 \begin{document}
 
 \maketitle
