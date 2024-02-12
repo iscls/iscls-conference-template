@@ -51,8 +51,9 @@ slide_id: 4
         {% endif %}
         {% if site.data.program.schedule_pdf and site.data.program.schedule_pdf != "" %}
         <a href="{{site.data.program.schedule_pdf}}" target="_blank" rel="noopener noreferrer">
-            <button class="btn btn-lg float-right" title="PDF">
-                <i class="text-danger fa fa-file-pdf-o"></i>
+            <button class="btn btn-sm btn-outline-danger float-right" title="PDF">
+                <i class="fa fa-download mr-1"></i>
+                {{site.data.conference.short_title}} Schedule
             </button>
         </a>
         {% endif %}
