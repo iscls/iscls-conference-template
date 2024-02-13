@@ -98,20 +98,19 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
                 event_color = "Green4!75!" if event_type_ == "paper" else "RoyalBlue3!75!"
                 event_type.append(f"\\pill{{{event_color}}}{{\\scriptsize\\bf {event_type_}}}")
 
-            event_type_text = "".join(event_type)
-
+            event_type_text = event_type.pop() if event_type else ""
             if event.get("title"):
                 CONTENT.append(
                     f" {event_time} & \\textbf{{{event['title']}}} & {event_type_text}\\\\*\n"
                 )
-                event_type_text = ""
+                event_type_text = event_type.pop() if event_type else ""
                 event_time = ""
 
             if event.get("speakers"):
                 CONTENT.append(
                     f" {event_time} & \\textit{{{event['speakers']}}} & {event_type_text}\\\\\n"
                 )
-                event_type_text = ""
+                event_type_text = event_type.pop() if event_type else ""
                 event_time = ""
 
             if _i == len(timeslot["events"]) - 1:

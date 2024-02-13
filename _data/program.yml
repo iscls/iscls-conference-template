@@ -119,6 +119,7 @@ schedule:
         speakers: "Giacomo De Luca"
         type: "demo"
         id: "28"
+        virtual: true
       - title: "Pāli Computational Tools"
         speakers: "Swati Basapur, Shivani V"
         type: "demo"

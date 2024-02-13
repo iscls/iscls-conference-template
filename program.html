@@ -116,23 +116,18 @@ slide_id: 4
                             {% endif %}
                         </td>
                         <td>
-                            {% if event.virtual %}
-                            <span class="badge badge-dark float-right">
-                                virtual
-                            </span>
-                            {% endif %}
                             {% if event.type %}
                             {% if site.data.program.event_style contains event.type %}
-                            <span {% if site.data.program.event_style[event.type].style %}style="{{site.data.program.event_style[event.type].style}}"{% endif %} class="badge {{site.data.program.event_style[event.type].classes}} float-right">
+                            <span {% if site.data.program.event_style[event.type].style %}style="{{site.data.program.event_style[event.type].style}}"{% endif %} class="badge {{site.data.program.event_style[event.type].classes}} float-right ml-1">
                             {% else %}
-                            <span class="badge badge-dark float-right">
+                            <span class="badge badge-dark float-right ml-1">
                             {% endif %}
                                 {{event.type}}
                             </span>
                             {% endif %}
                             {% if event.link %}
                             <a href="{{event.link.url}}" target="_blank" rel="noopener noreferrer">
-                            <span class="badge badge-danger float-right mx-1">
+                            <span class="badge badge-danger float-right ml-1">
                                 {% if event.link.type == "pdf" %}
                                 <i class="fa fa-download mr-1"></i>
                                 pdf
@@ -141,6 +136,11 @@ slide_id: 4
                                 {% endif %}
                             </span>
                             </a>
+                            {% endif %}
+                            {% if event.virtual %}
+                            <span class="badge badge-dark float-right ml-1">
+                                virtual
+                            </span>
                             {% endif %}
                             <p class="my-0"><b>{{event.title}}</b></p>
                             <p class="my-0"><i>{{event.speakers}}</i></p>
