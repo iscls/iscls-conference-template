@@ -153,6 +153,7 @@ schedule:
         speakers: "Tanuja P Ajotikar, Ketaki Kaduskar, Peter M Scharf"
         type: "paper"
         id: "4"
+        virtual: true
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.5.pdf"
@@ -204,6 +205,7 @@ schedule:
         speakers: "Arun K Prasad"
         type: "paper"
         id: "16"
+        virtual: true
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.7.pdf"
@@ -215,6 +217,7 @@ schedule:
         speakers: "Sebastian Nehrdich, David Allport, Jivnesh Sandhan, Kurt Keutzer"
         type: "demo"
         id: "39"
+        virtual: true
       - title: "Vedapāṭhapaddhati: A Tool to Generate Prakṛtipāṭha and Vikṛtipāṭha Forms of Sanskrit Text"
         speakers: "Hrishikesh Terdalkar, Arnab Bhattacharya"
         type: "demo"
@@ -268,6 +271,7 @@ schedule:
         speakers: "Peter M Scharf, Harsha Pamidipalli"
         type: "paper"
         id: "19"
+        virtual: true
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.10.pdf"
@@ -334,6 +338,7 @@ schedule:
     events:
       - title: "SCL Studies: Hanumadavalokanam, A Way Forward"
         speakers: "Srinivasa Varakhedi"
+        virtual: true
   - startTime: "11:00"
     endTime: "11:30"
     title: "Tea Break"
