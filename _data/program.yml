@@ -132,6 +132,7 @@ schedule:
         speakers: "Martin Gluckman, Karin Preisendanz, Philipp Maas"
         type: "demo"
         id: "42"
+        virtual: true
   - startTime: "15:30"
     endTime: "16:00"
     title: "Tea Break"
