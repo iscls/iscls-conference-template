@@ -65,11 +65,11 @@ slide_id: 4
                     id="nav-day-{{forloop.index}}-tab"
                     type="button"
                     role="tab"
-                    class="nav-link btn-dark {% if forloop.index == 1 %}active{% endif %}"
+                    class="nav-link btn-dark {% if forloop.index == site.data.program.active_day_index %}active{% endif %}"
                     data-toggle="pill"
                     data-target="#nav-schedule-day-{{forloop.index}}"
                     aria-controls="nav-schedule-day-{{forloop.index}}"
-                    aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">
+                    aria-selected="{% if forloop.index == site.data.program.active_day_index %}true{% else %}false{% endif %}">
                     Day {{forloop.index}}
                 </a>
             </li>
@@ -77,7 +77,7 @@ slide_id: 4
         </ul>
         <div class="tab-content">
         {% for day in site.data.program.schedule %}
-        <div id="nav-schedule-day-{{forloop.index}}" class="my-3 mx-1 tab-pane {% if forloop.index == 1 %}show active{% endif %}" role="tabpanel" aria-labelledby="nav-day-{{forloop.index}}-tab">
+        <div id="nav-schedule-day-{{forloop.index}}" class="my-3 mx-1 tab-pane {% if forloop.index == site.data.program.active_day_index %}show active{% endif %}" role="tabpanel" aria-labelledby="nav-day-{{forloop.index}}-tab">
             <h5 style="font-size: 125%;" class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h5>
             <table class="table table-bordered table-striped table-hover">
                 {% for timeslot in day.timeslots %}
@@ -93,10 +93,15 @@ slide_id: 4
                         {% endif %}
                             <h6>{{timeslot.title}}</h6>
                             {% if timeslot.speaker %}
-                            <h6>{{timeslot.speaker}}</h6>
+                            <span class="font-weight-normal my-0"><i>{{timeslot.speaker}}</i></span>
                             {% endif %}
                             {% if timeslot.chair %}
-                            <h6>Session chair:{{timeslot.chair}}</h6>
+                            <span class="font-weight-normal my-0">
+                                {% if timeslot.chair.description %}
+                                <strong>{{timeslot.chair.description}}</strong>:
+                                {% endif %}
+                                {{timeslot.chair.name}}
+                            </span>
                             {% endif %}
                         </th>
                     </tr>

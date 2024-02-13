@@ -42,6 +42,7 @@ timeslot_style:
 
 tentative: true
 schedule_pdf: "./assets/files/schedule.pdf"
+active_day_index: 1
 
 schedule:
 # Day 1 Schedule
@@ -261,13 +262,6 @@ schedule:
     title: "Research Session 6"
     type: "presentation"
     events:
-      - title: "START: Sanskrit Teaching, Annotation, and Research Tool -- Bridging Tradition and Technology in Scholarly Exploration"
-        speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
-        type: "paper"
-        id: "9"
-        link:
-          type: pdf
-          url: "./assets/files/proceedings/2024.iscls.9.pdf"
       - title: "The Śabdabrahman Exercise Platform"
         speakers: "Peter M Scharf, Harsha Pamidipalli"
         type: "paper"
@@ -275,6 +269,13 @@ schedule:
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.10.pdf"
+      - title: "START: Sanskrit Teaching, Annotation, and Research Tool -- Bridging Tradition and Technology in Scholarly Exploration"
+        speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
+        type: "paper"
+        id: "9"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.9.pdf"
       - title: "Sanskrit Teaching, Annotation and Research Tool"
         speakers: "Anil Kumar, N Shailaja, Amba Kulkarni"
         type: "demo"
@@ -295,8 +296,11 @@ schedule:
     endTime: "19:00"
     title: "Panel: AI and Sanskrit"
     type: "panel"
+    chair:
+      description: "Moderator"
+      name: "Amba Kulkarni"
     events:
-      - speakers:  "TBD"
+      - speakers:  "Kurt Keutzer, Oliver Hellwig, Pawan Goyal"
   # - startTime: "19:00"
   #   endTime: "19:30"
   #   title: "Steering Committee Meeting"
