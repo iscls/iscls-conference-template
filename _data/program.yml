@@ -332,7 +332,7 @@ schedule:
     title: "Invited Talk 3"
     type: "talk"
     events:
-      - title: "TBA"
+      - title: "SCL Studies: Hanumadavalokanam, A Way Forward"
         speakers: "Srinivasa Varakhedi"
   - startTime: "11:00"
     endTime: "11:30"
