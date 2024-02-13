@@ -31,7 +31,7 @@ CONTENT.append(
     "\\bgroup\n"
     "\\def\\arraystretch{1.5}\n"
 )
-CONTENT.append("\\begin{longtable}{|p{0.2\\textwidth}|p{0.75\\textwidth}p{0.05\\textwidth}|}\n")
+CONTENT.append("\\begin{longtable}{|p{0.15\\textwidth}|p{0.8\\textwidth}p{0.05\\textwidth}|}\n")
 for idx, day in enumerate(PROGRAM["schedule"], start=1):
     CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
     if idx > 1:
@@ -65,11 +65,18 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
         if timeslot.get("speaker"):
             rightside.append(f"{timeslot['speaker']}")
         if timeslot.get("chair"):
-            rightside.append(f"\\textbf{{Session chair:}} {timeslot['chair']}")
+            rightside.append(
+                (f"\\textit{{{timeslot['chair']['description']}}}: " if timeslot['chair']['description'] else "") +
+                f"\\textit{{{timeslot['chair']['name']}}}"
+            )
 
         for _i, _text in enumerate(rightside):
-            CONTENT.append(f"\\rowcolor{{{_rowcolor}!45!}} {_time} & " if _i == 0 else " & ")
-            CONTENT.append(f"{_text} & \\\\*\n" if _i < len(rightside) - 1 or timeslot.get("events") else f"{_text} & \\\\\n")
+            CONTENT.append(
+                f"\\rowcolor{{{_rowcolor}!45!}} {_time} & " +
+                (f"{_text} & \\\\*\n" if _i < len(rightside) - 1 or timeslot.get("events") else f"{_text} & \\\\\n")
+            )
+            _time = ""
+            _vspace = ""
 
         CONTENT.append("\\hline\n")
 
