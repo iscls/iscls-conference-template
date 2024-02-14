@@ -163,6 +163,10 @@ sponsors:
   - name: INDICA
     logo_path: ./assets/images/sponsors/indica-logo.png
     url: https://indica.in/
+
+sponsor_notes:
+  - <i>With thanks to <a href="https://rishihood.edu.in/chs/" target="_blank" rel="noopener noreferrer">Centre for Human Sciences Rishihood University Sonipat</a> for sponsorship of 70 bags.</i>
+
 #   - name: IEEE
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:

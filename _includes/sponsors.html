@@ -21,6 +21,17 @@
                 </div>
             {% endfor %}
         </div>
+        {% if site.data.conference.sponsor_notes != nil %}
+        <div class="row mx-1 my-1">
+            <ul class="conference-text font-weight-light">
+                {% for note in site.data.conference.sponsor_notes %}
+                <li>
+                    {{note}}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
         {% endif %}
     </div>
 </div>
