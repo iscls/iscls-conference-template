@@ -42,7 +42,7 @@ timeslot_style:
 
 tentative: true
 schedule_pdf: "./assets/files/schedule.pdf"
-active_day_index: 2
+active_day_index: 3
 
 schedule:
 # Day 1 Schedule
@@ -322,13 +322,13 @@ schedule:
     title: "Cultural Program and Dinner"
     type: "service"
     events:
+      - title: "Gala Dinner"
+        # startTime: "19:30"
+        # endTime: "21:00"
       - title: "Concert"
         speakers: "Kim Cunio and Heather Lee"
-        startTime: "19:30"
-        endTime: "20:15"
-      - title: "Gala Dinner"
-        startTime: "20:15"
-        endTime: "22:00"
+        # startTime: "21:00"
+        # endTime: "22:00"
 # Day 3 Schedule
 - date: "2024-02-17"
   dateReadable: "February 17"
@@ -349,15 +349,15 @@ schedule:
     endTime: "11:30"
     title: "Tea Break"
     type: "service"
+  # - startTime: "11:30"
+  #   endTime: "12:30"
+  #   title: "Invited Talk 4"
+  #   type: "talk"
+  #   events:
+  #     - title: "Vyapekṣā Competency in Compounds"
+  #       speakers: "K V Ramakrishnamacharya"
   - startTime: "11:30"
-    endTime: "12:30"
-    title: "Invited Talk 4"
-    type: "talk"
-    events:
-      - title: "Vyapekṣā Competency in Compounds"
-        speakers: "K V Ramakrishnamacharya"
-  - startTime: "12:30"
-    endTime: "13:00"
+    endTime: "12:00"
     title: "Closing Remarks"
     type: "formality"
   - startTime: "13:00"
