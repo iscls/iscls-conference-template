@@ -95,6 +95,10 @@ navbar:
       label: Accepted Papers
       path: /accepted.html
       visible: True
+    - id: 3
+      label: Presented Demos
+      path: /demos.html
+      visible: True
   - id: 4
     label: Program
     path: /program.html

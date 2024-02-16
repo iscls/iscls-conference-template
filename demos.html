@@ -1,0 +1,29 @@
+---
+title: Presented Demos
+layout: page
+slide_id: 5
+---
+
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted conference-text text-justify">
+        <h5 class="text-info mt-1 mb-3">Presented Demos</h5>
+        {% for demo in site.data.demos %}
+        <div class="card">
+            <div class="card-body pb-1">
+                <strong>{{demo.title}}</strong>
+                <br>
+                <ul>
+                    {% for author in demo.authors %}
+                    <li>
+                        <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>
+                        (<span class="text-info">{{author.email | replace: "@", " <span class='text-muted'>at</span> " | replace: ".", " <span class='text-muted'>dot</span> "}}</span>)
+                        <!-- {% unless forloop.last %}<br>{% endunless %} -->
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
