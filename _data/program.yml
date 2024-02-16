@@ -180,20 +180,24 @@ schedule:
     type: "service"
   - startTime: "9:30"
     endTime: "10:30"
-    title: "Invited Talk 2"
-    type: "talk"
-    events:
-      - title: "Tātparya: A Principle of Hermeneutics"
-        speakers: "Kutumba Sastry"
-  - startTime: "10:30"
-    endTime: "11:00"
-    title: "Tea Break"
-    type: "service"
-  - startTime: "11:00"
-    endTime: "13:00"
     title: "Research Session 4"
     type: "presentation"
     events:
+      - title: "START: Sanskrit Teaching, Annotation, and Research Tool -- Bridging Tradition and Technology in Scholarly Exploration"
+        speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
+        type: "paper"
+        id: "9"
+        link:
+          type: pdf
+          url: "./assets/files/proceedings/2024.iscls.9.pdf"
+      - title: "Sanskrit Teaching, Annotation and Research Tool"
+        speakers: "Anil Kumar, N Shailaja, Amba Kulkarni"
+        type: "demo"
+        id: "32"
+      - title: "A Platform to Study Sanskrit Literature"
+        speakers: "Ronit Kumar"
+        type: "demo"
+        id: "25"
       - title: "Inter Sentential Discourse Relations"
         speakers: "Saee Vaze, Amba Kulkarni"
         type: "paper"
@@ -201,6 +205,15 @@ schedule:
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.6.pdf"
+  - startTime: "11:00"
+    endTime: "11:30"
+    title: "Tea Break"
+    type: "service"
+  - startTime: "11:30"
+    endTime: "13:00"
+    title: "Research Session 5"
+    type: "presentation"
+    events:
       - title: "A Fast Prakriyā Generator"
         speakers: "Arun K Prasad"
         type: "paper"
@@ -232,7 +245,7 @@ schedule:
     type: "service"
   - startTime: "14:00"
     endTime: "15:30"
-    title: "Research Session 5"
+    title: "Research Session 6"
     type: "presentation"
     events:
       - title: "Anuprāsa Identifier and Classifier: A Computational Tool to Analyze Sanskrit Figure of Sound"
@@ -242,10 +255,7 @@ schedule:
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.8.pdf"
-      - title: "A Platform to Study Sanskrit Literature"
-        speakers: "Ronit Kumar"
-        type: "demo"
-        id: "25"
+
       - title: "Content Management Platform for Vedic Sanskrit Scriptures"
         speakers: "Ravi Panja, Ramana Arimilli"
         type: "demo"
@@ -254,6 +264,10 @@ schedule:
         speakers: "Dilip H R"
         type: "demo"
         id: "35"
+      - title: "Fostering Learner Engagement in Sanskrit E-Learning"
+        speakers: "Shankararama Sharma, Venkatasubramanian P"
+        type: "demo"
+        id: "29"
       - title: "Future of Cologne Digital Lexicons"
         speakers: "Mārcis Gasūns"
         type: "demo"
@@ -263,8 +277,15 @@ schedule:
     title: "Tea Break"
     type: "service"
   - startTime: "16:00"
+    endTime: "17:00"
+    title: "Invited Talk 2"
+    type: "talk"
+    events:
+      - title: "Tātparya: A Principle of Hermeneutics"
+        speakers: "Kutumba Sastry"
+  - startTime: "17:00"
     endTime: "18:00"
-    title: "Research Session 6"
+    title: "Research Session 7"
     type: "presentation"
     events:
       - title: "The Śabdabrahman Exercise Platform"
@@ -275,21 +296,6 @@ schedule:
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.10.pdf"
-      - title: "START: Sanskrit Teaching, Annotation, and Research Tool -- Bridging Tradition and Technology in Scholarly Exploration"
-        speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
-        type: "paper"
-        id: "9"
-        link:
-          type: pdf
-          url: "./assets/files/proceedings/2024.iscls.9.pdf"
-      - title: "Sanskrit Teaching, Annotation and Research Tool"
-        speakers: "Anil Kumar, N Shailaja, Amba Kulkarni"
-        type: "demo"
-        id: "32"
-      - title: "Fostering Learner Engagement in Sanskrit E-Learning"
-        speakers: "Shankararama Sharma, Venkatasubramanian P"
-        type: "demo"
-        id: "29"
       - title: "Making Descriptive Catalogue of Sanskrit Manuscripts"
         speakers: "Sanjaya Singhal, Rahul Jain, Vijay Chandari, Rajshree Godawat"
         type: "demo"
