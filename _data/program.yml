@@ -312,7 +312,7 @@ schedule:
       description: "Moderator"
       name: "Amba Kulkarni"
     events:
-      - speakers:  "Kurt Keutzer, Oliver Hellwig, Pawan Goyal"
+      - speakers:  "Kurt Keutzer, Partha Talukdar, Pawan Goyal"
   # - startTime: "19:00"
   #   endTime: "19:30"
   #   title: "Steering Committee Meeting"
