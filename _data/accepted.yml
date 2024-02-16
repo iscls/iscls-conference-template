@@ -10,12 +10,14 @@
   - name: Peter M Scharf
     email: scharf@sanskritlibrary.org
     affiliation: The Sanskrit Library
+  url: "./assets/files/proceedings/2024.iscls.5.pdf"
 - id: 5
   title: "Linguistically Mapping Aśoka: A Dialectometric Approach to the Major Rock and Major Pillar Edicts"
   authors:
   - name: Patrick Zeitlhuber
     email: patrick.zeitlhuber@gmail.com
     affiliation: Austrian Academy of Sciences
+  url: "./assets/files/proceedings/2024.iscls.3.pdf"
 - id: 7
   title: "Anuprāsa identifier and classifier: A computational tool to analyze Sanskrit figure of sound"
   authors:
@@ -25,6 +27,7 @@
   - name: Amba Kulkarni
     email: ambakulkarni@uohyd.ac.in
     affiliation: University of Hyderabad
+  url: "./assets/files/proceedings/2024.iscls.8.pdf"
 - id: 9
   title: "START: Sanskrit Teaching, Annotation, and Research Tool - Bridging Tradition and Technology in Scholarly Exploration"
   authors:
@@ -37,6 +40,7 @@
   - name: Nakka Shailaja
     email: shailajanakkawar@gmail.com
     affiliation: Department of Sanskrit Studies, University of Hyderabad
+  url: "./assets/files/proceedings/2024.iscls.9.pdf"
 - id: 11
   title: "Word Sense Alignment of Sanskrit Lexica"
   authors:
@@ -46,6 +50,7 @@
   - name: Amba Kulkarni
     email: ambakulkarni@uohyd.ac.in
     affiliation: University of Hyderabad
+  url: "./assets/files/proceedings/2024.iscls.1.pdf"
 - id: 12
   title: "Inter Sentential Discourse Relations"
   authors:
@@ -55,6 +60,7 @@
   - name: Amba Kulkarni
     email: ambakulkarni@uohyd.ac.in
     affiliation: University of Hyderabad
+  url: "./assets/files/proceedings/2024.iscls.6.pdf"
 - id: 14
   title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
   authors:
@@ -67,18 +73,21 @@
   - name: Pavankumar Satuluri
     email: pavankumar.satuluri@hs.iitr.ac.in
     affiliation: Indian Institute of Technology Roorkee
+  url: "./assets/files/proceedings/2024.iscls.2.pdf"
 - id: 15
   title: "Hoisting the colors of Sanskrit"
   authors:
   - name: Gérard Huet
     email: Gerard.Huet@inria.fr
     affiliation: INRIA
+  url: "./assets/files/proceedings/2024.iscls.4.pdf"
 - id: 16
   title: "A fast prakriyā generator"
   authors:
   - name: Arun K Prasad
     email: akprasad.public@gmail.com
     affiliation: Ambuda
+  url: "./assets/files/proceedings/2024.iscls.7.pdf"
 - id: 19
   title: "The Śabdabrahman exercise platform"
   authors:
@@ -88,3 +97,4 @@
   - name: Harsha Pamidipalli
     email: harsha@sanskritlibrary.org
     affiliation: The Sanskrit Library
+  url: "./assets/files/proceedings/2024.iscls.10.pdf"

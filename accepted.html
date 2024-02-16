@@ -7,17 +7,29 @@ slide_id: 5
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-muted conference-text text-justify">
-        <h5 class="text-info">Accepted Papers</h5>
-        <ul>
-            {% for paper in site.data.accepted %}
-            <li>
+        <h5 class="text-info mt-1 mb-3">Accepted Papers</h5>
+        {% for paper in site.data.accepted %}
+        <div class="card">
+            <div class="card-body pb-1">
                 <strong>{{paper.title}}</strong>
+                <a href="{{paper.url}}" target="_blank" rel="noopener noreferrer">
+                    <span class="badge badge-danger float-right ml-1">
+                        <i class="fa fa-download mr-1"></i>
+                        pdf
+                    </span>
+                </a>
                 <br>
-                {% for author in paper.authors %}
-                <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>{% unless forloop.last %}, {% endunless %}
-                {% endfor %}
-            </li>
-            {% endfor %}
-        </ul>
+                <ul>
+                    {% for author in paper.authors %}
+                    <li>
+                        <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>
+                        (<span class="text-info">{{author.email | replace: "@", " <span class='text-muted'>at</span> " | replace: ".", " <span class='text-muted'>dot</span> "}}</span>)
+                        <!-- {% unless forloop.last %}<br>{% endunless %} -->
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
