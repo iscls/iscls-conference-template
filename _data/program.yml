@@ -42,7 +42,7 @@ timeslot_style:
 
 tentative: true
 schedule_pdf: "./assets/files/schedule.pdf"
-active_day_index: 3
+active_day_index: 1
 
 schedule:
 # Day 1 Schedule

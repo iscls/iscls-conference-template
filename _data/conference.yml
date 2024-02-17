@@ -110,7 +110,7 @@ navbar:
   - id: 6
     label: Registration
     path: /registration.html
-    visible: True
+    visible: False
 deadline_timezone: AoE
 deadlines:
   - date: 2023-10-03
