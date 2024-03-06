@@ -125,6 +125,11 @@ slide_id: 4
                                 {{event.type}}
                             </span>
                             {% endif %}
+                            {% if event.virtual %}
+                            <span class="badge badge-dark float-right ml-1">
+                                virtual
+                            </span>
+                            {% endif %}
                             {% if event.link %}
                             <a href="{{event.link.url}}" target="_blank" rel="noopener noreferrer">
                             <span class="badge badge-danger float-right ml-1">
@@ -137,10 +142,17 @@ slide_id: 4
                             </span>
                             </a>
                             {% endif %}
-                            {% if event.virtual %}
-                            <span class="badge badge-dark float-right ml-1">
-                                virtual
-                            </span>
+                            {% if event.video %}
+                            <a href="{{event.video}}" target="_blank" rel="noopener noreferrer">
+                                <span class="badge badge-danger float-right ml-1">
+                                    <i class="fa fa-video-camera mr-1"></i>
+                                    video
+                                </span>
+                            </a>
+                            <a class="badge badge-warning float-right ml-1 launch-video-modal" data-toggle="modal" data-target="#video-modal" data-video="{{event.video}}">
+                                <i class="fa fa-play-circle mr-1"></i>
+                                play
+                            </a>
                             {% endif %}
                             <p class="my-0"><b>{{event.title}}</b></p>
                             <p class="my-0"><i>{{event.speakers}}</i></p>
@@ -165,3 +177,40 @@ slide_id: 4
         </div>
     </div>
 </div>
+<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="video-modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div>
+                    <iframe width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function get_youtube_id(url) {
+        const pattern = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+        const match = url.match(pattern);
+        return (match && match[2].length === 11) ? match[2] : null;
+    }
+
+    const modal_id = "video-modal";
+    $(".launch-video-modal").click(function() {
+        console.log("HERE");
+        const modal_identifier = $(this).data( "target" );
+        const video_url = $(this).attr( "data-video");
+        const video_id = get_youtube_id(video_url);
+        console.log(video_url);
+        const video_src = `//www.youtube.com/embed/${video_id}`;
+        console.log(video_src);
+        $(modal_identifier + ' iframe').attr("src", video_src);
+        $(modal_identifier + ' button.close').click(function () {
+            $(modal_identifier + ' iframe').attr("src", video_src);
+        });
+    });
+    $(`#${modal_id}`).on('hidden.bs.modal', function () {
+        $(`#${modal_id} iframe`).attr("src", "");
+    })
+</script>
