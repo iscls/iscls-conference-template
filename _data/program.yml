@@ -60,6 +60,7 @@ schedule:
     type: "formality"
     events:
       - speakers: "Arnab Bhattacharya, Martin Gluckman"
+        video: "https://www.youtube.com/watch?v=mNYKdTZCATg"
   - startTime: "10:00"
     endTime: "11:00"
     title: "Invited Talk 1"
@@ -68,6 +69,7 @@ schedule:
       - title: "Semantic Analysis and Knowledge Representations in Sanskrit"
         speakers: "Sampadananda Mishra"
         virtual: true
+        video: "https://www.youtube.com/watch?v=BUxw-oxay60"
   - startTime: "11:00"
     endTime: "11:30"
     title: "Tea Break"
@@ -81,6 +83,7 @@ schedule:
         speakers: "Dhaval K Patel, Amba Kulkarni"
         type: "paper"
         id: "11"
+        video: "https://www.youtube.com/watch?v=39gG0Y0GfoA"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.1.pdf"
@@ -88,6 +91,7 @@ schedule:
         speakers: "Anagha Pradeep, Radhika Mamidi, Pavankumar Satuluri"
         type: "paper"
         id: "14"
+        video: "https://www.youtube.com/watch?v=ML1uUJPWQLw"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.2.pdf"
@@ -95,10 +99,12 @@ schedule:
         speakers: "Prasanna Venkatesh T S"
         type: "demo"
         id: "38"
+        video: ""
       - title: "A Non-Paninian Approach to Sanskrit Morphonology"
         speakers: "Ivan Tolchelnikov, Andrei Shirobokov"
         type: "demo"
         id: "44"
+        video: "https://www.youtube.com/watch?v=NUPj_9LprUo"
   - startTime: "13:00"
     endTime: "14:00"
     title: "Lunch"
@@ -112,6 +118,7 @@ schedule:
         speakers: "Patrick Zeitlhuber"
         type: "paper"
         id: "5"
+        video: "https://www.youtube.com/watch?v=frRDzGggi_E"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.3.pdf"
@@ -119,19 +126,23 @@ schedule:
         speakers: "Giacomo De Luca"
         type: "demo"
         id: "28"
+        video: "https://www.youtube.com/watch?v=86wcFqKNgxg"
         virtual: true
       - title: "Pāli Computational Tools"
         speakers: "Swati Basapur, Shivani V"
         type: "demo"
         id: "36"
+        video: "https://www.youtube.com/watch?v=7wsa2XxgQXM"
       - title: "Samskrit Computational Tools"
         speakers: "Chaitanya S Lakkundi, Shivani V"
         type: "demo"
         id: "41"
+        video: "https://www.youtube.com/watch?v=M86K5GrRPzQ"
       - title: "South Asian Manuscripts and Unique Documents"
         speakers: "Martin Gluckman, Karin Preisendanz, Philipp Maas"
         type: "demo"
         id: "42"
+        video: "https://www.youtube.com/watch?v=qE0E6fJJBTc"
         virtual: true
   - startTime: "15:30"
     endTime: "16:00"
@@ -146,6 +157,7 @@ schedule:
         speakers: "Gérard Huet"
         type: "paper"
         id: "15"
+        video: "https://www.youtube.com/watch?v=uqAxKQ7M-2k"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.4.pdf"
@@ -153,6 +165,7 @@ schedule:
         speakers: "Tanuja P Ajotikar, Ketaki Kaduskar, Peter M Scharf"
         type: "paper"
         id: "4"
+        video: "https://www.youtube.com/watch?v=vyP3M4ow4W4"
         virtual: true
         link:
           type: pdf
@@ -164,8 +177,10 @@ schedule:
     events:
       - title: INDICA Presentation
         speakers: Shivakumar GV
+        video: "https://www.youtube.com/watch?v=yri54Epht5U"
       - title: "Wikisource Loves Manuscripts"
         speakers: Satdeep Gill
+        video: "https://www.youtube.com/watch?v=cXCaW-ZBhI8"
   # - startTime: "17:30"
   #   endTime: "22:00"
   #   title: "Visit to FIP"
@@ -187,6 +202,7 @@ schedule:
         speakers: "Anil Kumar, Amba Kulkarni, Nakka Shailaja"
         type: "paper"
         id: "9"
+        video: "https://www.youtube.com/watch?v=DywGs3NelQ4"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.9.pdf"
@@ -194,14 +210,17 @@ schedule:
         speakers: "Anil Kumar, N Shailaja, Amba Kulkarni"
         type: "demo"
         id: "32"
+        video: "https://www.youtube.com/watch?v=mA5yH9NhsTA"
       - title: "A Platform to Study Sanskrit Literature"
         speakers: "Ronit Kumar"
         type: "demo"
         id: "25"
+        video: "https://www.youtube.com/watch?v=QSplA2IEyPM"
       - title: "Inter Sentential Discourse Relations"
         speakers: "Saee Vaze, Amba Kulkarni"
         type: "paper"
         id: "12"
+        video: "https://www.youtube.com/watch?v=fxzGcdop5AA"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.6.pdf"
@@ -218,6 +237,7 @@ schedule:
         speakers: "Arun K Prasad"
         type: "paper"
         id: "16"
+        video: "https://www.youtube.com/watch?v=xf6uxR6ekHk"
         virtual: true
         link:
           type: pdf
@@ -226,19 +246,23 @@ schedule:
         speakers: "Soma Paul, Sukhada, Kumari Riya, Adepu Varshith Kumar, Sanyam Jha, Isma Anwar"
         type: "demo"
         id: "37"
+        video: "https://www.youtube.com/watch?v=9At5_WuU35A"
       - title: "Machine Translation and LLM-Powered Grammatical Explanation for Sanskrit"
         speakers: "Sebastian Nehrdich, David Allport, Jivnesh Sandhan, Kurt Keutzer"
         type: "demo"
         id: "39"
+        video: "https://www.youtube.com/watch?v=N1Kth8zIkW0"
         virtual: true
       - title: "Vedapāṭhapaddhati: A Tool to Generate Prakṛtipāṭha and Vikṛtipāṭha Forms of Sanskrit Text"
         speakers: "Hrishikesh Terdalkar, Arnab Bhattacharya"
         type: "demo"
         id: "40"
+        video: "https://www.youtube.com/watch?v=Je_KXGi-MQ4"
       - title: "Sanskrit Segmenter"
         speakers: "Sriram Krishnan"
         type: "demo"
         id: "34"
+        video: "https://www.youtube.com/watch?v=qY-x7ZG40EI"
   - startTime: "13:00"
     endTime: "14:00"
     title: "Lunch"
@@ -252,26 +276,30 @@ schedule:
         speakers: "Amruta Vilas Barbadikar, Amba Kulkarni"
         type: "paper"
         id: "7"
+        video: "https://www.youtube.com/watch?v=bKnrRU_Pymo"
         link:
           type: pdf
           url: "./assets/files/proceedings/2024.iscls.8.pdf"
-
       - title: "Content Management Platform for Vedic Sanskrit Scriptures"
         speakers: "Ravi Panja, Ramana Arimilli"
         type: "demo"
         id: "27"
+        video: "https://www.youtube.com/watch?v=7fUNHaOI8w4"
       - title: "Automatic Detection and Evaluation of Varṇacitra"
         speakers: "Dilip H R"
         type: "demo"
         id: "35"
+        video: "https://www.youtube.com/watch?v=uZLBhMqSRrU"
       - title: "Fostering Learner Engagement in Sanskrit E-Learning"
         speakers: "Shankararama Sharma, Venkatasubramanian P"
         type: "demo"
         id: "29"
+        video: "https://www.youtube.com/watch?v=c_Lj7C7mRgs"
       - title: "Future of Cologne Digital Lexicons"
         speakers: "Mārcis Gasūns"
         type: "demo"
         id: "43"
+        video: "https://www.youtube.com/watch?v=AEaA7hhGjCI"
   - startTime: "15:30"
     endTime: "16:00"
     title: "Tea Break"
@@ -285,6 +313,7 @@ schedule:
         speakers: "Peter M Scharf, Harsha Pamidipalli"
         type: "paper"
         id: "19"
+        video: "https://www.youtube.com/watch?v=dULPKoiJcRo"
         virtual: true
         link:
           type: pdf
@@ -293,10 +322,12 @@ schedule:
         speakers: "Sanjaya Singhal, Rahul Jain, Vijay Chandari, Rajshree Godawat"
         type: "demo"
         id: "26"
+        video: "https://www.youtube.com/watch?v=55IbxYIVDpM"
       - title: "Sanskrit Manuscripts made Available"
         speakers: "Gandhar Kulkarni, Vijay Chandari, Rahul Jain, Anil Kumar, Sanjaya Singhal"
         type: "demo"
         id: "33"
+        video: "https://www.youtube.com/watch?v=8pHd8xImWZc"
   - startTime: "17:00"
     endTime: "18:00"
     title: "Invited Talk 2"
@@ -304,6 +335,7 @@ schedule:
     events:
       - title: "Tātparya: A Principle of Hermeneutics"
         speakers: "Kutumba Sastry"
+        video: ""
   - startTime: "18:00"
     endTime: "19:00"
     title: "Panel: AI and Sanskrit"
@@ -313,6 +345,7 @@ schedule:
       name: "Amba Kulkarni"
     events:
       - speakers:  "Kurt Keutzer, Partha Talukdar, Pawan Goyal"
+        video: "https://www.youtube.com/watch?v=N9DS0CPUjG8"
   # - startTime: "19:00"
   #   endTime: "19:30"
   #   title: "Steering Committee Meeting"
@@ -344,6 +377,7 @@ schedule:
     events:
       - title: "SCL Studies: Hanumadavalokanam, A Way Forward"
         speakers: "Srinivasa Varakhedi"
+        video: "https://www.youtube.com/watch?v=rqdv2mde634"
         virtual: true
   - startTime: "11:00"
     endTime: "11:30"
@@ -360,6 +394,9 @@ schedule:
     endTime: "12:00"
     title: "Closing Remarks"
     type: "formality"
+    events:
+      - speakers: "Arnab Bhattacharya"
+        video: "https://www.youtube.com/watch?v=UnMoPGyNexQ"
   - startTime: "13:00"
     endTime: "14:00"
     title: "Lunch"
