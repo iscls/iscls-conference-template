@@ -191,26 +191,24 @@ slide_id: 4
 </div>
 <script>
     function get_youtube_id(url) {
-        const pattern = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
-        const match = url.match(pattern);
+        var pattern = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+        var match = url.match(pattern);
         return (match && match[2].length === 11) ? match[2] : null;
     }
 
-    const modal_id = "video-modal";
+    var modal_identifier = "#video-modal";
     $(".launch-video-modal").click(function() {
-        console.log("HERE");
-        const modal_identifier = $(this).data( "target" );
-        const video_url = $(this).attr( "data-video");
-        const video_id = get_youtube_id(video_url);
-        console.log(video_url);
-        const video_src = `//www.youtube.com/embed/${video_id}`;
-        console.log(video_src);
+        var modal_identifier = $(this).data( "target" );
+        var video_url = $(this).attr( "data-video");
+        var video_id = get_youtube_id(video_url);
+        var video_src = '//www.youtube.com/embed/' + video_id;
         $(modal_identifier + ' iframe').attr("src", video_src);
         $(modal_identifier + ' button.close').click(function () {
             $(modal_identifier + ' iframe').attr("src", video_src);
         });
     });
-    $(`#${modal_id}`).on('hidden.bs.modal', function () {
-        $(`#${modal_id} iframe`).attr("src", "");
+
+    $(modal_identifier).on('hidden.bs.modal', function () {
+        $(modal_identifier + ' iframe').attr("src", "");
     })
 </script>
