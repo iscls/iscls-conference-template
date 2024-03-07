@@ -99,7 +99,7 @@ schedule:
         speakers: "Prasanna Venkatesh T S"
         type: "demo"
         id: "38"
-        video: ""
+        video: "https://www.youtube.com/watch?v=ziIj0XZ6oSY"
       - title: "A Non-Paninian Approach to Sanskrit Morphonology"
         speakers: "Ivan Tolchelnikov, Andrei Shirobokov"
         type: "demo"
@@ -335,7 +335,7 @@ schedule:
     events:
       - title: "Tātparya: A Principle of Hermeneutics"
         speakers: "Kutumba Sastry"
-        video: ""
+        video: "https://www.youtube.com/watch?v=0hltPqmwXsk"
   - startTime: "18:00"
     endTime: "19:00"
     title: "Panel: AI and Sanskrit"
