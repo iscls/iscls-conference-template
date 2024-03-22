@@ -167,6 +167,9 @@ sponsors:
   - name: INDICA
     logo_path: ./assets/images/sponsors/indica-logo.png
     url: https://indica.in/
+  - name: Maharashtra Foundataion
+    logo_path: ./assets/images/sponsors/maharashtra-foundation-logo.png
+    url: https://www.maharashtrafoundation.org/
 
 sponsor_notes:
   - <i>With thanks to <a href="https://rishihood.edu.in/chs/" target="_blank" rel="noopener noreferrer">Centre for Human Sciences Rishihood University Sonipat</a> for sponsorship of 70 bags.</i>
