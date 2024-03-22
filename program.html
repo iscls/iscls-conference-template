@@ -143,16 +143,18 @@ slide_id: 4
                             </a>
                             {% endif %}
                             {% if event.video %}
-                            <a href="{{event.video}}" target="_blank" rel="noopener noreferrer">
+                            <a href="{{event.video.url}}" target="_blank" rel="noopener noreferrer">
                                 <span class="badge badge-danger float-right ml-1">
                                     <i class="fa fa-video-camera mr-1"></i>
                                     video
                                 </span>
                             </a>
-                            <a class="badge badge-warning float-right ml-1 launch-video-modal" data-toggle="modal" data-target="#video-modal" data-video="{{event.video}}">
+                            {% if event.video.is_youtube %}
+                            <a class="badge badge-warning float-right ml-1 launch-video-modal" data-toggle="modal" data-target="#video-modal" data-video="{{event.video.url}}">
                                 <i class="fa fa-play-circle mr-1"></i>
                                 play
                             </a>
+                            {% endif %}
                             {% endif %}
                             <p class="my-0"><b>{{event.title}}</b></p>
                             <p class="my-0"><i>{{event.speakers}}</i></p>
