@@ -1,20 +1,20 @@
-- date: 2024-02-17
-  text: Symposium was held successfully
-- date: 2024-02-11
-  text: Proceedings are made available
-- date: 2024-02-09
-  text: <strong><a href="./program.html">Program schedule</a></strong> is announced
-- date: 2024-01-05
-  text: Demo submission deadline is extended
-- date: 2023-12-14
-  text: <strong><a href="./registration.html">Registration</a></strong> is open
-- date: 2023-12-14
-  text: <strong><a href="./accepted.html">Accepted papers</a></strong> announced
-- date: 2023-12-10
-  text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
-- date: 2023-09-16
-  text: Submission deadline is extended
-- date: 2023-01-23
+# - date: 2026-03-11
+#   text: Symposium was held successfully
+# - date: 2026-03-09
+#   text: Proceedings are made available
+# - date: 2026-03-05
+#   text: <strong><a href="./program.html">Program schedule</a></strong> is announced
+# - date: 2026-02-15
+#   text: Demo submission deadline is extended
+# - date: 2026-02-15
+#   text: <strong><a href="./registration.html">Registration</a></strong> is open
+# - date: 2026-02-15
+#   text: <strong><a href="./accepted.html">Accepted papers</a></strong> announced
+# - date: 2025-12-30
+#   text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
+# - date: 2025-12-30
+#   text: Submission deadline is extended
+- date: 2026-11-13
   text: Call for papers is out
-- date: 2023-01-12
+- date: 2026-11-13
   text: Website is online

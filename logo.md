@@ -3,7 +3,12 @@ title: Logo
 layout: page
 slide_id: 1
 classes: text-justify conference-text
+published: false
 ---
+
+{% if site.data.conference.show_about_logo != true %}
+  {% assign page.published = false %}
+{% endif %}
 
 {: .text-info}
 ###### Logo

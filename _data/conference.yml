@@ -5,61 +5,62 @@ description: > # this means to ignore newlines until "baseurl:"
   aspects of Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
 
-email: iscls@outlook.com
+email:
 
-iteration: 7th
-full_title: 7th International Sanskrit Computational Linguistics Symposium
-short_title: 7th ISCLS 2024
+iteration: 8th
+full_title: 8th International Sanskrit Computational Linguistics Symposium
+short_title: 8th ISCLS 2026
 
 year: 2024
-date: February 15-17, 2024
+date: March 9-11, 2024
 
-location: Auroville, Puducherry
+location: IIT Roorkee, Roorkee
 country: India
 
-logo_path: ./assets/images/7th_iscls_logo_name.png
+# logo_path: ./assets/images/7th_iscls_logo_name.png
 
 # if show_logo is false, show_title: false has no effect
-show_logo: true
+show_logo: false
+show_about_logo: false
 show_title: false
 
-proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf
+# proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0-auroville-beach.jpg
-    description: Auroville Beach
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/1-matrimandir.jpeg
-    description: Matrimandir
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
   - id: 2
-    image_path: ./assets/images/slideshow/2-promenade-beach.webp
-    description: Promenade Beach
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
   - id: 3
-    image_path: ./assets/images/slideshow/3-whitetown.jpg
-    description: White Town
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
   - id: 4
-    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
-    description: Manakula Vinayagar Temple
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
   - id: 5
-    image_path: ./assets/images/slideshow/5-auroville.png
-    description: Auroville
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
   - id: 6
-    image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
-    description: Temple, Mahabalipuram
+    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
+    description: Thomson Building, IIT Roorkee
     photographer_name: ""
     photographer_link: ""
 navbar:
@@ -78,7 +79,7 @@ navbar:
     - id: 1
       label: Call for Demos
       path: /cfd.html
-      visible: True
+      visible: False
     - id: 2
       label: Call for Papers
       path: /cfp.html
@@ -94,15 +95,15 @@ navbar:
     - id: 2
       label: Accepted Papers
       path: /accepted.html
-      visible: True
+      visible: False
     - id: 3
       label: Presented Demos
       path: /demos.html
-      visible: True
+      visible: False
   - id: 4
     label: Program
     path: /program.html
-    visible: True
+    visible: False
   - id: 5
     label: Venue
     path: /venue.html
@@ -113,66 +114,65 @@ navbar:
     visible: False
 deadline_timezone: AoE
 deadlines:
-  - date: 2023-10-03
+  - date: 2026-01-15
     text: Submission deadline
-    pass_due: True
+    pass_due: False
     strike_through: False
-  - date: 2023-11-28
+  - date: 2023-02-15
     text: Notification of acceptance
-    pass_due: True
+    pass_due: False
     strike_through: False
-  - date: 2023-09-18
-    # timezone: AoE
-    text: Submission deadline
-    pass_due: True
-    strike_through: True
-  - date: 2023-11-20
+  # - date: 2023-09-18
+  #   text: Submission deadline
+  #   pass_due: True
+  #   strike_through: True
+  - date: 2026-03-01
     text: Notification of acceptance
-    pass_due: True
-    strike_through: True
-  - date: 2024-01-05
-    text: Demo submission deadline
-    pass_due: True
-    strike_through: True
-  - date: 2024-01-08
-    text: Camera-ready due
-    pass_due: True
+    pass_due: False
     strike_through: False
-  - date: 2024-01-10
-    text: Demo submission deadline
-    pass_due: True
-    strike_through: False
-  - date: 2024-01-15
-    text: Notification of demo acceptance
-    pass_due: True
-    strike_through: True
-  - date: 2024-01-20
-    text: Notification of demo acceptance
-    pass_due: True
-    strike_through: False
+  # - date: 2024-01-05
+  #   text: Demo submission deadline
+  #   pass_due: True
+  #   strike_through: True
+  # - date: 2024-01-08
+  #   text: Camera-ready due
+  #   pass_due: True
+  #   strike_through: False
+  # - date: 2024-01-10
+  #   text: Demo submission deadline
+  #   pass_due: True
+  #   strike_through: False
+  # - date: 2024-01-15
+  #   text: Notification of demo acceptance
+  #   pass_due: True
+  #   strike_through: True
+  # - date: 2024-01-20
+  #   text: Notification of demo acceptance
+  #   pass_due: True
+  #   strike_through: False
 
-sponsors:
-  - name: International Association of Sanskrit Studies
-    logo_path: ./assets/images/sponsors/iass-logo.png
-    url: https://www.sanskritassociation.org/
-  - name: Dharohar
-    logo_path: ./assets/images/sponsors/dharohar-logo.png
-    url: https://dharohar.org/
-  - name: Stichting de Zaaier
-    logo_path: ./assets/images/sponsors/stichting-logo.jpg
-    url: https://www.stichtingdezaaier.nl/
-  - name: Sangrah
-    logo_path: ./assets/images/sponsors/sangrah-logo.jpg
-    url: https://sangrah.org/
-  - name: INDICA
-    logo_path: ./assets/images/sponsors/indica-logo.png
-    url: https://indica.in/
-  - name: Maharashtra Foundataion
-    logo_path: ./assets/images/sponsors/maharashtra-foundation-logo.png
-    url: https://www.maharashtrafoundation.org/
+sponsors: []
+  # - name: International Association of Sanskrit Studies
+  #   logo_path: ./assets/images/sponsors/iass-logo.png
+  #   url: https://www.sanskritassociation.org/
+  # - name: Dharohar
+  #   logo_path: ./assets/images/sponsors/dharohar-logo.png
+  #   url: https://dharohar.org/
+  # - name: Stichting de Zaaier
+  #   logo_path: ./assets/images/sponsors/stichting-logo.jpg
+  #   url: https://www.stichtingdezaaier.nl/
+  # - name: Sangrah
+  #   logo_path: ./assets/images/sponsors/sangrah-logo.jpg
+  #   url: https://sangrah.org/
+  # - name: INDICA
+  #   logo_path: ./assets/images/sponsors/indica-logo.png
+  #   url: https://indica.in/
+  # - name: Maharashtra Foundataion
+  #   logo_path: ./assets/images/sponsors/maharashtra-foundation-logo.png
+  #   url: https://www.maharashtrafoundation.org/
 
-sponsor_notes:
-  - <i>With thanks to <a href="https://rishihood.edu.in/chs/" target="_blank" rel="noopener noreferrer">Centre for Human Sciences Rishihood University Sonipat</a> for sponsorship of 70 bags.</i>
+# sponsor_notes:
+#   - <i>With thanks to <a href="https://rishihood.edu.in/chs/" target="_blank" rel="noopener noreferrer">Centre for Human Sciences Rishihood University Sonipat</a> for sponsorship of 70 bags.</i>
 
 #   - name: IEEE
 #     logo_path: ./assets/images/sponsors/ieee-logo.gif
@@ -180,6 +180,9 @@ social_media:
   facebook_link:
   twitter_link:
 previous_iterations:
+  - name: 7th ISCLS
+    year: 2024
+    url: https://iscls.github.io/iscls2024/
   - name: 6th ISCLS
     year: 2019
     url: https://iscls.github.io/iscls2019/

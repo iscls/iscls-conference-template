@@ -16,4 +16,6 @@ The proceedings of the symposium are now available.
 
 Read about the history of ISCLS [here](/history.html).
 
+{% if site.data.conference.show_about_logo %}
 Read about the logo of ISCLS [here](/logo.html).
+{% endif %}

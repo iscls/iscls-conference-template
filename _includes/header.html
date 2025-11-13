@@ -25,7 +25,7 @@
                     </div>
                     {% endif %}
                 {% else %}
-                {# if logo is not shown, title must be shown #}
+                {% comment %}if logo is not shown, title must be shown{% endcomment %}
                 <div class="row">
                     <div class="col pt-4">
                         <h5 class="text-center m-4">{{ site.data.conference.full_title }}</h5>

@@ -20,11 +20,13 @@ slide_id: 5
             {{site.data.venue.address}}
         </p>
 
+        {% if site.data.venue.accommodation %}
         <h6 class="text-info">Accommodations</h6>
 
         <p>
             {{site.data.venue.accommodation.instructions}}
         </p>
+        {% endif %}
 
         {% if site.data.venue.accommodation.hotels %}
         <ul>
@@ -34,6 +36,7 @@ slide_id: 5
         </ul>
         {% endif %}
 
+        {% if site.data.venue.directions %}
         <h6 class="text-info">Directions</h6>
 
         <p>
@@ -41,6 +44,6 @@ slide_id: 5
         </p>
 
         <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
-
+        {% endif %}
     </div>
 </div>
