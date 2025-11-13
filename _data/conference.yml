@@ -118,7 +118,7 @@ deadlines:
     text: Submission deadline
     pass_due: False
     strike_through: False
-  - date: 2023-02-15
+  - date: 2026-02-15
     text: Notification of acceptance
     pass_due: False
     strike_through: False
