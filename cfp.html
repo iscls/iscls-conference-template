@@ -10,10 +10,12 @@ slide_id: 2
             <p class="lead">Call For Papers</p>
             <p>{{site.data.cfp.description}}.</p>
 
+            {% if site.data.submission.url %}
             <p>
                 You are requested to submit your research paper using the {{site.data.submission.portal}}:
                 <a href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
             </p>
+            {% endif %}
             <p>
                 The submissions must conform to the <a href="{{site.data.cfp.submission}}">Submission Guidelines</a>,
                 and must not exceed <b>{{site.data.submission.pagelimits[0].limit}}</b> pages including text, figures and references.
