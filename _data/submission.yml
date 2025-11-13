@@ -14,9 +14,9 @@ pagelimits:
   - type: paper
     name: Paper
     limit: 20
-  - type: demo
-    name: Demonstration
-    limit: 2
+  # - type: demo
+  #   name: Demonstration
+  #   limit: 2
 
 fontsize: 10
 

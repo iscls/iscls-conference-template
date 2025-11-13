@@ -46,8 +46,8 @@ active_day_index: 1
 
 schedule:
 # Day 1 Schedule
-- date: "2024-02-15"
-  dateReadable: "February 15"
+- date: "2026-03-09"
+  dateReadable: "March 09"
   timeslots:
   - startTime: "8:00"
     endTime: "9:30"
@@ -216,8 +216,8 @@ schedule:
   #   title: "Visit to FIP"
   #   type: "activity"
 # Day 2 Schedule
-- date: "2024-02-16"
-  dateReadable: "February 16"
+- date: "2026-03-10"
+  dateReadable: "March 10"
   timeslots:
   - startTime: "8:30"
     endTime: "9:30"
@@ -434,8 +434,8 @@ schedule:
         # startTime: "21:00"
         # endTime: "22:00"
 # Day 3 Schedule
-- date: "2024-02-17"
-  dateReadable: "February 17"
+- date: "2026-03-11"
+  dateReadable: "March 11"
   timeslots:
   - startTime: "9:00"
     endTime: "10:00"
