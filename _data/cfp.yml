@@ -15,7 +15,7 @@ areas:
     - Structural semantics
     - Machine translation
     - Automatic analysis of Sanskrit corpus
-    - Navya-Nyāya and other technical language processing
+    - Processing of Sanskrit scientific, technical and philosophical texts
     - Information extraction
     - Named entity recognition
 - category: "Shāstric Sanskrit Texts and Computation"
@@ -27,7 +27,7 @@ areas:
     - Tools for acquisition and maintenance of Sanskrit digital corpus
     - Library crawlers or search tools in Sanskrit corpus
     - Incorporation of grammatical information in Sanskrit corpus
-    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
+    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṅkāra identification, śleṣa analysis
     - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
     - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
     - Digital cataloguing of manuscripts
@@ -39,3 +39,4 @@ areas:
     - Software tools for teaching Sanskrit
     - Sanskrit speech recognition and synthesis
     - Tools and applications for Sanskrit dissemination
+    - Creative generation (e.g., Sanskrit poetry)
