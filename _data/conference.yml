@@ -127,7 +127,7 @@ deadlines:
   #   pass_due: True
   #   strike_through: True
   - date: 2026-03-01
-    text: Notification of acceptance
+    text: Camera-ready due
     pass_due: False
     strike_through: False
   # - date: 2024-01-05
