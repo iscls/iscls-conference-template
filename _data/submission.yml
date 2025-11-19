@@ -1,6 +1,8 @@
 # portal: CMT3 Submission Portal
 # url: "https://cmt3.research.microsoft.com/ISCLS2024"
 
+cmt: True
+
 file_formats:
   - PDF
 languages:

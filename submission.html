@@ -112,4 +112,14 @@ slide_id: 3
         {% include card-important-dates.html %}
         <!--####################################-->
     </div>
+    {% if site.data.submission.cmt %}
+    <hr>
+    <div class="text-muted small font-weight-light border rounded p-2">
+        The Microsoft CMT service was used for managing the
+        peer-reviewing process for this conference. This service was
+        provided for free by Microsoft and they bore all expenses,
+        including costs for Azure cloud services as well as for software
+        development and support.
+    </div>
+    {% endif %}
 </div>
