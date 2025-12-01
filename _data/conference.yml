@@ -17,11 +17,11 @@ date: March 9-11, 2026
 location: IIT Roorkee, Roorkee
 country: India
 
-# logo_path: ./assets/images/7th_iscls_logo_name.png
+logo_path: ./assets/images/iscls_logo_name.png
 
 # if show_logo is false, show_title: false has no effect
-show_logo: false
-show_about_logo: false
+show_logo: true
+show_about_logo: true
 show_title: false
 
 # proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf

@@ -3,7 +3,7 @@ title: Logo
 layout: page
 slide_id: 1
 classes: text-justify conference-text
-published: false
+published: true
 ---
 
 {% if site.data.conference.show_about_logo != true %}
@@ -13,7 +13,7 @@ published: false
 {: .text-info}
 ###### Logo
 
-<img class="border" title="Logo" style="max-height: 12em;" alt="Logo" src="./assets/images/7th_iscls_logo.png">
+<img class="border" title="Logo" style="max-height: 12em;" alt="Logo" src="./assets/images/iscls_logo.png">
 
 {: .text-info}
 ###### About
@@ -27,6 +27,6 @@ published: false
 {: .text-info}
 ###### Download
 
-* [Logo](./assets/images/7th_iscls_logo.png)
-* [Logo with Conference Name](./assets/images/7th_iscls_logo_name.png)
-* [About Logo](./assets/files/about_7th_iscls_logo.pdf)
+* [Logo](./assets/images/iscls_logo.png)
+* [Logo with Conference Name](./assets/images/iscls_logo_name.png)
+* [About Logo](./assets/files/about_iscls_logo.pdf)

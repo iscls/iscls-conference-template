@@ -19,7 +19,7 @@
 #     org: BITS Pilani Hyderabad Campus, Hyderabad, India
 #     homepage: https://hrishikeshrt.github.io/
 - title: Steering Committee
-  column: 2
+  column: 1
   members:
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
@@ -46,64 +46,78 @@
   - name: Peter Scharf
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
-# - title: Technical Program Committe
-#   column: 2
-#   members:
-#   - name: Amba Kulkarni
-#     org: University of Hyderabad, Hyderabad, India
-#     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-#   - name: Amrith Krishna
-#     org: ""
-#     homepage: ""
+- title: Technical Program Committe
+  column: 2
+  members:
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Arjuna S R
+    org: Manipal Academy of Higher Education, Bengaluru, India
+    homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Brendan Gillon
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Chaitali Dangarikar
+    org: IIT Kanpur, Kanpur, India
+    homepage: ""
+  - name: Gérard Huet
+    org: INRIA, Paris, France
+    homepage: http://pauillac.inria.fr/~huet/
+  - name: Hrishikesh Terdalkar
+    org: BITS Pilani Hyderabad Campus, Hyderabad, India
+    homepage: https://hrishikeshrt.github.io/
+  - name: Jivnesh Sandhan
+    org: Kyoto University, Kyoto, Japan
+    homepage: https://jivnesh.github.io/
+  - name: John Lowe
+    org: Oxford University, Oxford, UK
+    homepage: https://www.ames.ox.ac.uk/people/john-j-lowe
+  - name: Malhar Kulkarni
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
+  - name: Oliver Hellwig
+    org: University of Zurich, Zurich, Switzerland
+    homepage: https://www.comparativelinguistics.uzh.ch/en/staff/hellwig.html
+  - name: Patrick McAllister
+    org: Austrian Academy of Sciences, Austria
+    homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
+  - name: Pavankumar Satuluri
+    org: Indian Institute of Technology Roorkee, Roorkee, India
+    homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
+  - name: Pawan Goyal
+    homepage: https://cse.iitkgp.ac.in/~pawang/
+    org: IIT Kharagpur, Kharagpur, India
+  - name: Peter Scharf
+    org: The Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Sebastian	Nehrdich
+    org: Center for Integrated Japanese Studies, Tohoku University, Sendai, Japan
+    homepage: https://sebastian-nehrdich.github.io
+  - name: Shivani V
+    org: Karnataka Sanskrit University, Karnataka, India
+    homepage: ""
+  - name: Sriram K
+    org: IIIT Hyderabad
+    homepage: ""
+  - name: Tanuja P Ajotikar
+    org: The Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
+  - name: Tylor Neill
+    org: Muktabodha
+    homepage: ""
+  - name: Yigal Bronner
+    org: The Hebrew University of the Jerusalem, Israel
+    homepage: https://yigalbronner.huji.ac.il
 #   # - name: Andrew Ollett
 #   #   org: Harvard University, Cambridge, MA
-#   #   homepage: ""
-#   - name: Arjuna S R
-#     org: Manipal Academy of Higher Education, Bengaluru, India
-#     homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
-#   - name: Arnab Bhattacharya
-#     org: IIT Kanpur, Kanpur, India
-#     homepage: https://cse.iitk.ac.in/users/arnabb/
-#   # - name: Brendan Gillon
-#   #   org: McGill University, Montreal, Canada
-#   #   homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-#   # - name: Chaitali Dangarikar
-#   #   org: IIT Kanpur, Kanpur, India
 #   #   homepage: ""
 #   # - name: Ganesh Ramakrishnan
 #   #   org: IIT Bombay, Mumbai, India
 #   #   homepage: https://www.cse.iitb.ac.in/~ganesh/
-#   - name: Gérard Huet
-#     org: INRIA, Paris, France
-#     homepage: http://pauillac.inria.fr/~huet/
-#   # - name: Malhar Kulkarni
-#   #   org: IIT Bombay, Mumbai, India
-#   #   homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
-#   - name: Oliver Hellwig
-#     org: University of Zurich, Zurich, Switzerland
-#     homepage: https://www.comparativelinguistics.uzh.ch/en/staff/hellwig.html
-#   # - name: Patrick McAllister
-#   #   org: Austrian Academy of Sciences, Austria
-#   #   homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
-#   - name: Pavankumar Satuluri
-#     org: Indian Institute of Technology Roorkee, Roorkee, India
-#     homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
-#   - name: Pawan Goyal
-#     homepage: https://cse.iitkgp.ac.in/~pawang/
-#     org: IIT Kharagpur, Kharagpur, India
-#   # - name: Peter Scharf
-#   #   org: The Sanskrit Library, USA
-#   #   homepage: https://www.sanskritlibrary.org/cv/profile.html
-#   # - name: Sebastian	Nehrdich
-#   #   org: University of Hamburg, Hamburg, Germany
-#   #   homepage: https://www.kc-tbts.uni-hamburg.de/people/nehrdich.html
-#   # - name: Shivani V
-#   #   org: Karnataka Sanskrit University, Karnataka, India
-#   #   homepage: ""
-#   # - name: Tanuja P Ajotikar
-#   #   org: The Sanskrit Library, USA
-#   #   homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
 #   # - name: K Varalakshmi
 #   #   org: Osmania University, Hyderabad
 #   #   homepage: ""
-
