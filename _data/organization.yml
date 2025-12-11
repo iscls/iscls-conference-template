@@ -61,9 +61,9 @@
   - name: Brendan Gillon
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  # - name: Chaitali Dangarikar
-  #   org: IIT Kanpur, Kanpur, India
-  #   homepage: ""
+  - name: Chaitali Dangarikar
+    org: IIT Kanpur, Kanpur, India
+    homepage: ""
   - name: Gérard Huet
     org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
@@ -97,9 +97,9 @@
   - name: Sebastian	Nehrdich
     org: Center for Integrated Japanese Studies, Tohoku University, Sendai, Japan
     homepage: https://sebastian-nehrdich.github.io
-  # - name: Shivani V
-  #   org: Karnataka Sanskrit University, Karnataka, India
-  #   homepage: ""
+  - name: Shivani V
+    org: Karnataka Sanskrit University, Karnataka, India
+    homepage: ""
   - name: Sriram K
     org: IIIT Hyderabad
     homepage: ""
