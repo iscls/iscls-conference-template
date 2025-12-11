@@ -12,12 +12,7 @@
     org: IIT Kharagpur, Kharagpur, India
     post: ""
     homepage: https://cse.iitkgp.ac.in/~pawang/
-# - title: Web Chair
-#   column: 1
-#   members:
-#   - name: Hrishikesh Terdalkar
-#     org: BITS Pilani Hyderabad Campus, Hyderabad, India
-#     homepage: https://hrishikeshrt.github.io/
+
 - title: Steering Committee
   column: 1
   members:
@@ -46,6 +41,17 @@
   - name: Peter Scharf
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
+
+- title: Web Chair
+  column: 1
+  members:
+  - name: Hrishikesh Terdalkar
+    org: BITS Pilani Hyderabad Campus, Hyderabad, India
+    homepage: https://hrishikeshrt.github.io/
+  - name: Manoj Balaji Jagadeeshan
+    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://manojbalaji1.github.io/
+
 - title: Technical Program Committe
   column: 2
   members:
