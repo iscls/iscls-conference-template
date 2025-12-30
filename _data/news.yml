@@ -10,8 +10,8 @@
 #   text: <strong><a href="./registration.html">Registration</a></strong> is open
 # - date: 2026-02-15
 #   text: <strong><a href="./accepted.html">Accepted papers</a></strong> announced
-# - date: 2025-12-30
-#   text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
+- date: 2025-12-30
+  text: <strong><a href="./cfd.html">Call for demos</a></strong> is out
 # - date: 2025-12-30
 #   text: Submission deadline is extended
 - date: 2025-11-13

@@ -79,7 +79,7 @@ navbar:
     - id: 1
       label: Call for Demos
       path: /cfd.html
-      visible: False
+      visible: True
     - id: 2
       label: Call for Papers
       path: /cfp.html
