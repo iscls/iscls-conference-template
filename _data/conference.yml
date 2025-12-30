@@ -118,8 +118,16 @@ deadlines:
     text: Submission deadline
     pass_due: False
     strike_through: False
+  - date: 2026-01-31
+    text: Demo submission deadline
+    pass_due: False
+    strike_through: False
   - date: 2026-02-15
     text: Notification of acceptance
+    pass_due: False
+    strike_through: False
+  - date: 2026-02-20
+    text: Notification of demo acceptance
     pass_due: False
     strike_through: False
   # - date: 2023-09-18
@@ -130,10 +138,6 @@ deadlines:
     text: Camera-ready due
     pass_due: False
     strike_through: False
-  # - date: 2024-01-05
-  #   text: Demo submission deadline
-  #   pass_due: True
-  #   strike_through: True
   # - date: 2024-01-08
   #   text: Camera-ready due
   #   pass_due: True
@@ -142,10 +146,6 @@ deadlines:
   #   text: Demo submission deadline
   #   pass_due: True
   #   strike_through: False
-  # - date: 2024-01-15
-  #   text: Notification of demo acceptance
-  #   pass_due: True
-  #   strike_through: True
   # - date: 2024-01-20
   #   text: Notification of demo acceptance
   #   pass_due: True
