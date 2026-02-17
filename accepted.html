@@ -23,16 +23,16 @@ published: true
                     </span>
                 </a> -->
                 <br>
-                <span><strong>Primary Contact Author:</strong> {{paper.author}}</span>
-                <!-- <ul>
+                
+                <ul>
                     {% for author in paper.authors %}
                     <li>
                         <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>
                         (<span class="text-info">{{author.email | replace: "@", " <span class='text-muted'>at</span> " | replace: ".", " <span class='text-muted'>dot</span> "}}</span>)
-                        <!-- {% unless forloop.last %}<br>{% endunless %} -->
+                        {% unless forloop.last %}<br>{% endunless %}
                     </li>
                     {% endfor %}
-                </ul> -->
+                </ul>
             </div>
         </div>
         {% endfor %}
