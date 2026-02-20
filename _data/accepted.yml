@@ -1,100 +1,314 @@
-- id: 4
-  title: "Using TEI for digital Sanskrit editions containing commentaries A study of Kālidāsa's Raghuvaṁśa with Mallinātha's Sañjīvanī"
+# - id: 4
+#   title: "Using TEI for digital Sanskrit editions containing commentaries A study of Kālidāsa's Raghuvaṁśa with Mallinātha's Sañjīvanī"
+#   authors:
+#   - name: Tanuja P Ajotikar
+#     email: tanuja@sanskritlibrary.org
+#     affiliation: The Sanskrit Library
+#   - name: Ketaki Kaduskar
+#     email: ketaki.kaduskar@gmail.com
+#     affiliation: The Sanskrit Library
+#   - name: Peter M Scharf
+#     email: scharf@sanskritlibrary.org
+#     affiliation: The Sanskrit Library
+#   url: "./assets/files/proceedings/2024.iscls.5.pdf"
+# - id: 5
+#   title: "Linguistically Mapping Aśoka: A Dialectometric Approach to the Major Rock and Major Pillar Edicts"
+#   authors:
+#   - name: Patrick Zeitlhuber
+#     email: patrick.zeitlhuber@gmail.com
+#     affiliation: Austrian Academy of Sciences
+#   url: "./assets/files/proceedings/2024.iscls.3.pdf"
+# - id: 7
+#   title: "Anuprāsa identifier and classifier: A computational tool to analyze Sanskrit figure of sound"
+#   authors:
+#   - name: Amruta Vilas Barbadikar
+#     email: amruta.barbadikar@gmail.com
+#     affiliation: Department of Sanskrit Studies, University of Hyderabad
+#   - name: Amba Kulkarni
+#     email: ambakulkarni@uohyd.ac.in
+#     affiliation: University of Hyderabad
+#   url: "./assets/files/proceedings/2024.iscls.8.pdf"
+# - id: 9
+#   title: "START: Sanskrit Teaching, Annotation, and Research Tool - Bridging Tradition and Technology in Scholarly Exploration"
+#   authors:
+#   - name: Anil Kumar
+#     email: anil.lalit22@gmail.com
+#     affiliation: Department of Sanskrit Studies, University of Hyderabad
+#   - name: Amba Kulkarni
+#     email: ambakulakrni@uohyd.ac.in
+#     affiliation: Department of Sanskrit Studies, University of Hyderabad
+#   - name: Nakka Shailaja
+#     email: shailajanakkawar@gmail.com
+#     affiliation: Department of Sanskrit Studies, University of Hyderabad
+#   url: "./assets/files/proceedings/2024.iscls.9.pdf"
+# - id: 11
+#   title: "Word Sense Alignment of Sanskrit Lexica"
+#   authors:
+#   - name: Dhaval K Patel
+#     email: drdhaval2785@gmail.com
+#     affiliation: University of Hyderabad
+#   - name: Amba Kulkarni
+#     email: ambakulkarni@uohyd.ac.in
+#     affiliation: University of Hyderabad
+#   url: "./assets/files/proceedings/2024.iscls.1.pdf"
+# - id: 12
+#   title: "Inter Sentential Discourse Relations"
+#   authors:
+#   - name: Saee Vaze
+#     email: 20hsph03@uohyd.ac.in
+#     affiliation: University of Hyderabad
+#   - name: Amba Kulkarni
+#     email: ambakulkarni@uohyd.ac.in
+#     affiliation: University of Hyderabad
+#   url: "./assets/files/proceedings/2024.iscls.6.pdf"
+# - id: 14
+#   title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
+#   authors:
+#   - name: Anagha Pradeep
+#     email: anagha.pradeep@research.iiit.ac.in
+#     affiliation: International Institute of Information Technology Hyderabad
+#   - name: Radhika Mamidi
+#     email: radhika.mamidi@iiit.ac.in
+#     affiliation: International Institute of Information Technology Hyderabad
+#   - name: Pavankumar Satuluri
+#     email: pavankumar.satuluri@hs.iitr.ac.in
+#     affiliation: Indian Institute of Technology Roorkee
+#   url: "./assets/files/proceedings/2024.iscls.2.pdf"
+# - id: 15
+#   title: "Hoisting the colors of Sanskrit"
+#   authors:
+#   - name: Gérard Huet
+#     email: Gerard.Huet@inria.fr
+#     affiliation: INRIA
+#   url: "./assets/files/proceedings/2024.iscls.4.pdf"
+# - id: 16
+#   title: "A fast prakriyā generator"
+#   authors:
+#   - name: Arun K Prasad
+#     email: akprasad.public@gmail.com
+#     affiliation: Ambuda
+#   url: "./assets/files/proceedings/2024.iscls.7.pdf"
+# - id: 19
+#   title: "The Śabdabrahman exercise platform"
+#   authors:
+#   - name: Peter M Scharf
+#     email: scharf@sanskritlibrary.org
+#     affiliation: The Sanskrit Library
+#   - name: Harsha Pamidipalli
+#     email: harsha@sanskritlibrary.org
+#     affiliation: The Sanskrit Library
+#   url: "./assets/files/proceedings/2024.iscls.10.pdf"
+
+-
+  id: 12
+  title: "Sanskrit Word Sense Disambiguation Based on Lexicographic Definitions"
   authors:
-  - name: Tanuja P Ajotikar
-    email: tanuja@sanskritlibrary.org
-    affiliation: The Sanskrit Library
-  - name: Ketaki Kaduskar
-    email: ketaki.kaduskar@gmail.com
-    affiliation: The Sanskrit Library
-  - name: Peter M Scharf
-    email: scharf@sanskritlibrary.org
-    affiliation: The Sanskrit Library
-  url: "./assets/files/proceedings/2024.iscls.5.pdf"
-- id: 5
-  title: "Linguistically Mapping Aśoka: A Dialectometric Approach to the Major Rock and Major Pillar Edicts"
-  authors:
-  - name: Patrick Zeitlhuber
-    email: patrick.zeitlhuber@gmail.com
-    affiliation: Austrian Academy of Sciences
-  url: "./assets/files/proceedings/2024.iscls.3.pdf"
-- id: 7
-  title: "Anuprāsa identifier and classifier: A computational tool to analyze Sanskrit figure of sound"
-  authors:
-  - name: Amruta Vilas Barbadikar
-    email: amruta.barbadikar@gmail.com
-    affiliation: Department of Sanskrit Studies, University of Hyderabad
-  - name: Amba Kulkarni
-    email: ambakulkarni@uohyd.ac.in
-    affiliation: University of Hyderabad
-  url: "./assets/files/proceedings/2024.iscls.8.pdf"
-- id: 9
-  title: "START: Sanskrit Teaching, Annotation, and Research Tool - Bridging Tradition and Technology in Scholarly Exploration"
-  authors:
-  - name: Anil Kumar
-    email: anil.lalit22@gmail.com
-    affiliation: Department of Sanskrit Studies, University of Hyderabad
-  - name: Amba Kulkarni
-    email: ambakulakrni@uohyd.ac.in
-    affiliation: Department of Sanskrit Studies, University of Hyderabad
-  - name: Nakka Shailaja
-    email: shailajanakkawar@gmail.com
-    affiliation: Department of Sanskrit Studies, University of Hyderabad
-  url: "./assets/files/proceedings/2024.iscls.9.pdf"
-- id: 11
-  title: "Word Sense Alignment of Sanskrit Lexica"
-  authors:
-  - name: Dhaval K Patel
-    email: drdhaval2785@gmail.com
-    affiliation: University of Hyderabad
-  - name: Amba Kulkarni
-    email: ambakulkarni@uohyd.ac.in
-    affiliation: University of Hyderabad
-  url: "./assets/files/proceedings/2024.iscls.1.pdf"
-- id: 12
-  title: "Inter Sentential Discourse Relations"
-  authors:
-  - name: Saee Vaze
-    email: 20hsph03@uohyd.ac.in
-    affiliation: University of Hyderabad
-  - name: Amba Kulkarni
-    email: ambakulkarni@uohyd.ac.in
-    affiliation: University of Hyderabad
-  url: "./assets/files/proceedings/2024.iscls.6.pdf"
-- id: 14
-  title: "Context and WSD: Analysing Google Translate's Sanskrit to English Output of Bhagavadgītā Verses for Word Meaning"
-  authors:
-  - name: Anagha Pradeep
-    email: anagha.pradeep@research.iiit.ac.in
-    affiliation: International Institute of Information Technology Hyderabad
-  - name: Radhika Mamidi
-    email: radhika.mamidi@iiit.ac.in
-    affiliation: International Institute of Information Technology Hyderabad
+  - name: Oliver Hellwig
+    email: oliver.hellwig@uzh.ch
+    affiliation: ISLE / University of Zurich
+  - name: Sven Sellmer
+    email: sven@amu.edu.pl
+    affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań
+  - name: Sebastian Nehrdich
+    email: nehrdich@tohoku.ac.jp
+    affiliation: Center for Integrated Japanese Studies, Tohoku University
+  - name: Paul Widmer
+    email: ISLE / University of Zurich
+    affiliation: paul.widmer@uzh.ch
+  - name: Rico Sennrich
+    email: Department of Computational Linguistics, University of Zurich
+    affiliation: rico.sennrich@uzh.ch
+-
+  id: 15
+  title: "A computational study of how Sanskrit-specific morphophonological phenomena behave under noisy spoken input"
+  authors: 
+  - name: Nived Krishna
+    email: nived21bcs28@iiitkottayam.ac.in,
+    affiliation: Indian Institute of Information Technology, Kottayam, Kerala, India
+  - name:  John Paul Martin
+    email: johnpaul@iiitkottayam.ac.in
+    affiliation: Indian Institute of Information Technology, Kottayam, Kerala, India
+  - name:  Manu Madhavan
+    email: manum@iiitkottayam.ac.in
+    affiliation: Indian Institute of Information Technology, Kottayam, Kerala, India
+-
+  id: 36
+  title: "Computational Modelling of the Apatyādhikāra in the Aṣṭādhyāyī"
+  authors: 
+  - name: Himanshu Ayachit
+    email: himanshu_a@hs.iitr.ac.in
+    affiliation: Humanities and Social Sciences, Indian Institute of Technology Roorkee, India
   - name: Pavankumar Satuluri
     email: pavankumar.satuluri@hs.iitr.ac.in
-    affiliation: Indian Institute of Technology Roorkee
-  url: "./assets/files/proceedings/2024.iscls.2.pdf"
-- id: 15
-  title: "Hoisting the colors of Sanskrit"
+    affiliation: Humanities and Social Sciences, Indian Institute of Technology Roorkee, India
+-
+  id: 22
+  title: "Sentential Parsing of Upamā"
   authors:
-  - name: Gérard Huet
-    email: Gerard.Huet@inria.fr
-    affiliation: INRIA
-  url: "./assets/files/proceedings/2024.iscls.4.pdf"
-- id: 16
-  title: "A fast prakriyā generator"
-  authors:
-  - name: Arun K Prasad
-    email: akprasad.public@gmail.com
-    affiliation: Ambuda
-  url: "./assets/files/proceedings/2024.iscls.7.pdf"
-- id: 19
-  title: "The Śabdabrahman exercise platform"
-  authors:
-  - name: Peter M Scharf
+  - name: Amruta Barbadikar
+    email: amruta.barbadikar@gmail.com,
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Amba Kulkarni
+    email: ambakulkarni@uohyd.ac.in
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+
+-
+  id: 24
+  title: "Recovering the Calcutta Edition of the Mahābhārata for Computational Analysis"
+  authors: 
+  - name: Sujoy Sarkar 
+    email: sujoysarkarcs@gmail.com 
+    affiliation: Indian Institute of Technology Kharagpur, India
+  - name: Manoj Balaji Jagadeeshan
+    email: manojbalaji1@gmail.com
+    affiliation: Indian Institute of Technology Kharagpur, India
+  - name: Pawan Goyal
+    email: pawang.iitk@gmail.com
+    affiliation: Indian Institute of Technology Kharagpur, India
+-
+  id: 25
+  title: "TantraTagger: A Benchmark Dataset for Tantrayukti-Based Discourse Structure Labelling in Sanskrit Śāstra Texts"
+  authors: 
+  - name: Tapas Khanra
+    email: tapaskhanra@iitb.ac.in
+    affiliation: Indian Institute of Technology Bombay, India
+  - name: Priya Mishra
+    email: priyam@cse.iitb.ac.in
+    affiliation: Indian Institute of Technology Bombay, India
+  - name: Malhar Kulkarni
+    email: malhar@hss.iitb.ac.in
+    affiliation: Indian Institute of Technology Bombay, India
+  - name: Ganesh Ramakrishnan 
+    email: ganesh@cse.iitb.ac.in
+    affiliation: Indian Institute of Technology Bombay, India
+-
+  id: 35
+  title: "Dependency Analysis of Ṛgveda-Saṃhitā: An alignment of the Universal Dependencies framework with the Śābdabodha-based Saṃsādhanī framework"
+  authors: 
+  - name: Johan Paul
+    email: 17johan@gmail.com
+    affiliation: Soulax Software Pvt. 
+  - name: Gayathri Sepuri
+    email: 
+    affiliation: Soulax Software Pvt.
+  - name: Sriram Krishnan
+    email: sriramk8@gmail.com, 
+    affiliation: Central Sanskrit University, Prayagraj | IIIT, Hyderabad
+  - name: Amba Kulkarni
+    email: apksh.uoh@nic.in
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+-
+  id: 38
+  title: "Dependency Analysis of Sanskrit Compounds"
+  authors: 
+  - name: Amba Kulkarni
+    email: apksh.uoh@nic.in
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Pavankumar Satuluri
+    email: pavankumar.satuluri@hs.iitr.ac.in
+    affiliation: Humanities and Social Sciences, Indian Institute of Technology Roorkee, India
+  - name: Sriram Krishnan
+    email: sriramk8@gmail.com, 
+    affiliation: Central Sanskrit University, Prayagraj | IIIT, Hyderabad
+
+-
+  id: 45
+  title: "Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation"
+  authors: 
+  - name: Prasanna Venkatesh T S
+    email: vipranarayan14@gmail.com
+    affiliation: IIIT, Hyderabad
+  - name: Ketaki Mangesh Shetye
+    email: ketaki.shetye@research.iiit.ac.in,
+    affiliation: IIIT, Hyderabad
+  - name: Vishnuraj Arjunasamy
+    email: vishnuraj.ka@students.iiit.ac.in
+    affiliation: IIIT, Hyderabad
+  - name: Ayush Kumar Sahu
+    email: ayush.sahu0621@gmail.com
+    affiliation: IIIT, Hyderabad
+  - name: Sriram Krishnan
+    email: sriramk8@gmail.com, 
+    affiliation: Central Sanskrit University, Prayagraj | IIIT, Hyderabad
+  - name: Parameswari Krishnamurthy
+    email: param.krishna@iiit.ac.in
+    affiliation: IIIT, Hyderabad
+-
+  id: 44
+  title: "Using Vedalakṣaṇa texts for the validation and normalization of Vedic Corpus"
+  authors: 
+  - name: Team Svarupa
+    email: amruta.barbadikar@soulax.io
+    affiliation: Soulax Software Pvt.
+-
+  id: 37
+  title: "Towards Building a Computational Sense Inventory from the Monier-Williams Dictionary Using Clustering Techniques"
+  authors: 
+  - name: Anagha Pradeep
+    email: anagha.pradeep@iiit.ac.in,
+    affiliation: IIIT, Hyderabad
+  - name: Sriram Krishnan
+    email: sriramk8@gmail.com, 
+    affiliation: Central Sanskrit University, Prayagraj | IIIT, Hyderabad
+  - name: Radhika Mamidi
+    email: radhika.mamidi@iiit.ac.in
+    affiliation: IIIT, Hyderabad
+-
+  id: 34
+  title: "Phonological Assimilation–Aware Neural Segmentation of Sanskrit Compounds"
+  authors: 
+  - name: Sushant Dave
+    email: sushant.dave@gmail.com
+    affiliation: IIT Hyderabad
+  - name: Ramanan Sivasubramanian
+    email: ht25resch14001@iith.ac.in
+    affiliation: IIT Hyderabad
+  - name: Amba Kulkarni
+    email: apksh.uoh@nic.in
+    affiliation: Department of Sanskrit Studies, University of Hyderabad
+  - name: Ramakrishna Upadrasta
+    email: ramakrishna@cse.iith.ac.in
+    affiliation: IIT Hyderabad
+-
+  id: 42
+  title: "A Mīmāṃsā-Based Framework for Disambiguating Compounds in Sanskrit"
+  authors: 
+  - name: Devulapalli Koushik Suraj
+    email: koushik.sd@hs.iitr.ac.in
+    affiliation: Humanities and Social Sciences, Indian Institute of Technology Roorkee, India
+  - name: Pavankumar Satuluri
+    email: pavankumar.satuluri@hs.iitr.ac.in
+    affiliation: Humanities and Social Sciences, Indian Institute of Technology Roorkee, India
+-
+  id: 1
+  title: "Digital revival of the text of the Bhāratamañjarī and Rāmāyaṇamañjarī"
+  authors: 
+  - name: TANUJA P. AJOTIKAR
+    email: tanuja@sanskritlibrary.org,
+    affiliation: The Sanskrit Library | Sanskrit Department India Programs, Maharishi Vedic University, Vlodrop, The Netherlands
+  - name: PETER M. SCHARF
     email: scharf@sanskritlibrary.org
-    affiliation: The Sanskrit Library
-  - name: Harsha Pamidipalli
-    email: harsha@sanskritlibrary.org
-    affiliation: The Sanskrit Library
-  url: "./assets/files/proceedings/2024.iscls.10.pdf"
+    affiliation: The Sanskrit Library | IIIT Hyderabad
+-
+  id: 31
+  title: "Lexical Accent Prediction in Ṛgvedic Sanskrit Using Morphological Information"
+  authors: 
+  - name: Anustup Bhattacharyya
+    email: bhattacharyya@iitb.ac.in
+    affiliation: HSS / IIT Bombay
+  - name: Akshay Gaikwad
+    email: 214050009@iitb.ac.in
+    affiliation: CSE / IIT Bombay
+  - name: Malhar Kulkarni
+    email: malhar@hss.iitb.ac.in
+    affiliation: HSS / IIT Bombay
+  - name: Rushikesh Joshi
+    email: rkj@cse.iitb.ac.in
+    affiliation: CSE / IIT Bombay
+-
+  id: 11
+  title: "Optimizing Sanskrit Antyakshari with Directed Graphs: A Competitive and Strategic Tool for Enhanced Play"
+  authors: 
+  - name: Shankararama Sharma
+    email: rama.vyoma@gmail.com
+    affiliation: Vyoma Linguistic Labs Foundation, Bengaluru

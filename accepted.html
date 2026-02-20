@@ -2,7 +2,7 @@
 title: Accepted Papers
 layout: page
 slide_id: 5
-published: false
+published: true
 ---
 
 
@@ -12,20 +12,24 @@ published: false
         {% for paper in site.data.accepted %}
         <div class="card">
             <div class="card-body pb-1">
+                <br>
+                <strong>Paper ID: {{paper.id}}</strong>
+                <br>
                 <strong>{{paper.title}}</strong>
-                <a href="{{paper.url}}" target="_blank" rel="noopener noreferrer">
+                <!-- <a href="{{paper.url}}" target="_blank" rel="noopener noreferrer" aria-disabled="true">
                     <span class="badge badge-danger float-right ml-1">
                         <i class="fa fa-download mr-1"></i>
                         pdf
                     </span>
-                </a>
+                </a> -->
                 <br>
+                
                 <ul>
                     {% for author in paper.authors %}
                     <li>
                         <span title="{{author.name}} ({{author.affiliation}})">{{author.name}}</span>
                         (<span class="text-info">{{author.email | replace: "@", " <span class='text-muted'>at</span> " | replace: ".", " <span class='text-muted'>dot</span> "}}</span>)
-                        <!-- {% unless forloop.last %}<br>{% endunless %} -->
+                        {% unless forloop.last %}<br>{% endunless %}
                     </li>
                     {% endfor %}
                 </ul>
