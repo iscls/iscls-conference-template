@@ -1,0 +1,119 @@
+-
+  id: 9
+  title: "Detecting Cross-Cultural Philosophical Convergence with Multilingual Embeddings: A Computational Philological Comparison Framework of Greek and Sanskrit Classical Texts"
+  authors: 
+  - name: Harshit Mishra
+    affiliation: Independent Researcher
+    email: 17harshitm@gmail.com
+-
+  id: 14
+  title: "siva.sh: An All-in-one Platform to Study Sanskrit Literature"
+  authors: 
+  - name: Ronit Kumar
+    affiliation: SivaShakti FutureTech Private Limited
+    email: ronit@siva.sh
+-
+  id: 17
+  title: "Computational Detection and Evaluation of Varṇacitra-s"
+  authors: 
+  - name: Dilip H R
+    affiliation: IIT Hyderabad
+    email: ht25resch01001@iith.ac.in
+  - name: Ramakrishna Upadrasta
+    affiliation: IIT Hyderabad
+    email: ramakrishna@cse.iith.ac.in
+-
+  id: 18
+  title: "Mapping Spoken Sanskrit to Relational Queries: A Kāraka-Based Compiler for Database Interaction"
+  authors: 
+  - name: Sriram Durbha
+    affiliation: Independent Researcher
+    email: sriram.durbha@gmail.com
+-
+  id: 19
+  title: "Preserving What Is Written, Not What Is Expected: The Proof-Reader Effect of LLMs in Sanskrit OCR"
+  authors:
+  - name: Rhythm Jain
+    affiliation: Dharohar
+    email: rhythm.jain@dharohar.org
+  - name: Ketan Bhatt
+    affiliation: Dharohar
+    email: ketan.bhatt@dharohar.org
+  - name: Anjali Choudhary
+    affiliation: Dharohar
+    email: anjali.choudhary@dharohar.org
+-
+  id: 20
+  title: "Graphical Representation of \textit{Tripādī} Rules using Directed Acyclic Graphs and a Topological Sorting Algorithm"
+  authors: 
+  - name: Anita Shroff
+    affiliation: Independent Researcher
+    email: shroff.anita@gmail.com
+-
+  id: 23
+  title: "Formalising Samāsa Semantics in the Bhagavadgītā for Computational Processing: A Universal Semantic Representation Approach"
+  authors:
+  - name: Sudarshan Gautam
+    affiliation: Indian Institute of Technology BHU Varanasi
+    email: sudarshangautam.rs.hss22@itbhu.ac.in
+  - name: Sukhada Sukhada
+    affiliation: Indian Institute of Technology BHU Varanasi
+    email: sukhada.hss@itbhu.ac.in
+-
+  id: 28
+  title: "Formalising Śabdavyāpāra Triad as a Computational Ontology in A Neuro Symbolic AI for Computational Interpretation of Layered Meanings in Literary Analysis"
+  authors:
+  - name: Sripathi Sripada
+    affiliation: IIT KGP
+    email: sripada.sripathi@gmail.com
+  - name: Jayashree Gajjam
+    affiliation: IIT KGP
+    email: jayashree@iks.iitkgp.ac.in
+-
+  id: 30
+  title: "Multilingual Generation from Universal Semantic Representation of Sanskrit Text"
+  authors:
+  - name: Soma Paul
+    affiliation: IIIT Hyderabad
+    email: soma@iiit.ac.in
+  - name: Pratibha Rani
+    affiliation: IIIT Hyderabad
+    email: ranipratibha@gmail.com
+  - name: Sukhada Sukhada
+    affiliation: IIT BHU, Varanasi
+    email: sukhada.hss@iitbhu.ac.in
+  - name: Swetha Poppoppu
+    affiliation: IIIT Hyderabad
+    email: swethapoppoppu@gmail.com
+-
+  id: 40
+  title: "Automated Paraphrase Generation for Sanskrit Compounds using Morphological Analysis and Rule-Based Templates"
+  authors: 
+  - name: "Amritha Pradeep"
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email:
+  - name: "Soorya A P"
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email:
+  - name: Pavankumar Satuluri
+    affiliation: Indian Institute of Technology, Roorkee
+    email: pavankumarsatuluri@gmail.com
+  - name: Arjuna SR
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email: arjuna.sr@manipal.edu
+-
+  id: 41
+  title: "START from an Annotator’s Viewpoint"
+  authors: 
+  - name: "Soorya A P"
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email:
+  - name: Samruddhi Badavane
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email:
+  - name: Deep Popaliya
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email:
+  - name: Arjuna SR
+    affiliation: Manipal Academy of Higher Education (MAHE)
+    email: arjuna.sr@manipal.edu

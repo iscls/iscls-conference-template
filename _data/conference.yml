@@ -92,14 +92,21 @@ navbar:
       label: Submission
       path: /submission.html
       visible: True
-    - id: 3
-      label: Presented Demos
-      path: /demos.html
-      visible: True
   - id: 7
     label: Accepted
-    path: /accepted.html
-    visible: True
+    children:
+    - id: 1
+      label: Papers
+      path: /accepted.html
+      visible: True
+    - id: 2
+      label: Posters
+      path: /posters.html
+      visible: True
+    - id: 3
+      label: Demos
+      path: /demos.html
+      visible: True
   - id: 4
     label: Program
     path: /program.html
