@@ -94,6 +94,7 @@ navbar:
       visible: True
   - id: 7
     label: Accepted
+    visible: True
     children:
     - id: 1
       label: Papers
