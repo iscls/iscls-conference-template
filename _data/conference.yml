@@ -95,7 +95,7 @@ navbar:
     - id: 3
       label: Presented Demos
       path: /demos.html
-      visible: False
+      visible: True
   - id: 7
     label: Accepted
     path: /accepted.html

@@ -1,165 +1,148 @@
-- title: "Automatic Detection and Evaluation of Varṇacitra"
-  authors:
-  - name: "Dilip H R"
-    affiliation: "IIT Hyderabad"
-    email: "echardi@gmail.com"
-- title: "Future of Cologne Digital Lexicons"
-  authors:
-  - name: "Mārcis Gasūns"
-    affiliation: "Sanskrit Zealots' Society, Russia"
-    email: "gasyoun@gmail.com"
-- title: "Contextual Spellchecking for Sanskrit"
-  authors:
-  - name: "Prasanna Venkatesh T S"
-    affiliation: "Ramakrishna Mission Vivekananda College, Chennai"
-    email: "vipranarayan14@gmail.com"
-- title: "A Distributed Scalable Content Management Platform for Vedic Sanskrit Scriptures Leveraging Computational Linguistics"
-  authors:
-  - name: "Ravi Panja"
-    affiliation: "Svarupa Inc., USA"
-    email: "panja.ravi@soulax.io"
-  - name: "Ramana Arimilli"
-    affiliation: "Svarupa Inc., USA"
-    email: "varim@yahoo.com"
-- title: "MITRA: Machine Translation and LLM-Powered Grammatical Explanation for Classical Sanskrit"
-  authors:
-  - name: "Sebastian Nehrdich"
-    affiliation: "University of California, Berkeley, USA"
-    email: ""
-  - name: "David Allport"
-    affiliation: "University of California, Berkeley, USA"
-    email: ""
-  - name: "Jivnesh Sandhan"
-    affiliation: "University of California, Berkeley, USA"
-    email: ""
-  - name: "Kurt Keutzer"
-    affiliation: "University of California, Berkeley, USA"
-    email: ""
-- title: "A Non-Paninian Approach to Sanskrit Morphonology based on the Works of Andrei Zalizniak"
-  authors:
-    - name: "Ivan Tolchelnikov"
-      affiliation: "Lomonosov Moscow State University"
-      email: "vanishtax@gmail.com"
-    - name: "Andrei Shirobokov"
-      affiliation: "Sanskrit Zealots' Society, Russia"
-      email: "anshirm@gmail.com"
-- title: "Pāli Computational Tools (PCT)"
-  authors:
-  - name: "Swati Basapur"
-    affiliation: "Independent Pāli/Samskrit Researcher, Bengaluru"
-    email: "dswatisrini@gmail.com"
+-
+  id: 47
+  title: "An Interactive Annotation Platform for Entity Identification in Sanskrit Medical Texts"
+  authors: 
+  - name: "Kalyani Pawar"
+    affiliation: "Department of Technology, Savitribai Phule Pune University, Pune"
+    email: 
+  - name: "Pranav  Shukla"
+    affiliation: "Department of Technology, Savitribai Phule Pune University, Pune"
+    email: 
+  - name: "Vandana Dhingra"
+    affiliation: "Department of Technology, Savitribai Phule Pune University, Pune"
+    email: 
+-  
+  id: 48
+  title: "An Articulatory Speech Synthesizer for the Sanskrit Language"
+  authors: 
+  - name: "Utkarsh Rajput"
+    affiliation: 1007
+    email: 1@1007.in
+-
+  id: 49
+  title: "Prakriya Prabodhini: A Tool to Visualise Word Derivation in Paninian Grammar"
+  authors: 
+  - name: "Chaitanya Lakkundi" 
+    affiliation: "Karnataka Samskrit University"
+    email:
   - name: "Shivani V"
-    affiliation: "Karnataka Samskrit University, Bengaluru"
-    email: "shivani.ksu@gmail.com"
-- title: "Sambhasha: An Online Portal for Samskrit Computational Tools"
-  authors:
-  - name: "Chaitanya S Lakkundi"
-    affiliation: "Karnataka Samskrit University, Bengaluru"
+    affiliation: "Karnataka Samskrit University"
+    email:
+-
+  id: 50
+  title: "CHANDOMITRA-DEMO: A Meter- and Semantics-Gated Sanskrit Anus̄ṭubh Verse Generator"
+  authors: 
+  - name: "Akhil P" 
+    affiliation: "C-DAC Bangalore"
+    email: akhilrajeev@cdac.in 
+  - name: "Manoj Balaji Jagadeeshan"
+    affiliation: "Indian Institute of Technology, Kharagpur"
+    email: manojbalaji1@gmail.com
+  - name: "Pretam Ray"
+    affiliation: "Indian Institute of Technology, Kharagpur"
+    email: pretamroy309@gmail.com
+  - name: "Harshul Raj Surana"
+    affiliation: "Indian Institute of Technology, Kharagpur"
+    email: harshulsurana5000@gmail.com
+  - name: "Annarao Kulkarni"
+    affiliation: "C-DAC Bangalore"
+    email: kulkarni@cdac.in
+  - name: "Pawan Goyal"
+    affiliation: "Indian Institute of Technology, Kharagpur"
+    email: pawang.iitk@gmail.com
+-
+  id: 51
+  title: "HANSEL: A Human-Accessible, NLP-Ready Sanskrit E-Text Library"
+  authors: 
+  - name: "Tyler Neill"
+    affiliation: "University of Pennsylvania"
+    email: tyler.g.neill@gmail.com
+-
+  id: 52
+  title: "Sambhāṣinī: A Digital Tool for Learning Sanskrit"
+  authors: 
+  - name : "Rugved Deshpande"
+    affiliation : "University of Hyderabad"
+    email : drugvedforwork@gmail.com
+  - name : "Sakthivel Subbaian"
+    affiliation : "University of Hyderabad"
+    email : sakthivel.bpigt@gmail.com
+  - name : "Amba Kulkarni"
+    affiliation : "University of Hyderabad"
+    email : ambakulkarni@uohyd.ac.in
+-
+  id: 55
+  title: "Līlāvatī E-Reader: An Interactive Platform for Linguistic and Conceptual Exploration of Indian Mathematics"
+  authors: 
+  - name: "Nidhi Bhutada"
+    affiliation: "IIT Kanpur" 
+    email: "bhutadanidhi59@gmail.com"
+  - name: "Sandhra  K R" 
+    affiliation: "IIT Roorkee"
+    email: krchanchoo786@gmail.com
+-
+  id: 56
+  title: "Grantha Tech: Crowdsourced Platform for OCR on Manuscripts"
+  authors: 
+  - name: "Chaitanya Lakkundi"
+    affiliation: "Karnataka Samskrit University"
     email: "chaitanya.lakkundi@gmail.com"
-  - name: "Shivani V"
-    affiliation: "Karnataka Samskrit University, Bengaluru"
-    email: "shivani.ksu@gmail.com"
-- title: "SAMUDDHĀRA: The South Asian Manuscripts and Unique Documents Digital Humanities Archival and Research Application"
-  authors:
-  - name: "Martin Gluckman"
-    affiliation: "Sanskrit Research Institute, Auroville"
-    email: ""
-  - name: "Karin Preisendanz"
-    affiliation: "University of Vienna, Austria"
-    email: ""
-  - name: "Philipp Maas"
-    affiliation: "Leipzig University, Germany"
-    email: ""
-- title: "Sangrah: Making the Descriptive Catalogue of Sanskrit Manuscripts"
-  authors:
-  - name: "Sanjaya Singhal"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Rahul Jain"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Vijay Chandari"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Rajshree Godawat"
-    affiliation: "Dharohar"
-    email: ""
-- title: "Sangrah: Sanskrit Manuscripts Made Accessible"
-  authors:
-  - name: "Gandhar Kulkarni"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Vijay Chandari"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Rahul Jain"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Anil Kumar"
-    affiliation: "Dharohar"
-    email: ""
-  - name: "Sanjaya Singhal"
-    affiliation: "Dharohar"
-    email: ""
-- title: "An Indian-Grammatical-Tradition based Discourse Relation Marking Tool for Hindi"
-  authors:
-  - name: "Soma Paul"
-    affiliation: "IIIT-Hyderabad"
-    email: ""
-  - name: "Sukhada Kumari"
-    affiliation: "IIT (BHU), Varanasi"
-    email: ""
-  - name: "Riya Adepu"
-    affiliation: "IIT (BHU), Varanasi"
-    email: ""
-  - name: "Varshith Kumar"
-    affiliation: "KITSW (Warangal)"
-    email: ""
-  - name: "Sanyam Jha"
-    affiliation: "IIT (BHU), Varanasi"
-    email: ""
-  - name: "Isma Anwar"
-    affiliation: "IIIT-Hyderabad"
-    email: ""
-- title: "Sanskrit Segmenter"
-  authors:
-  - name: "Sriram Krishnan"
-    affiliation: "University of Hyderabad"
-    email: "sriramk8@gmail.com"
-- title: "siva.sh: An All-in-one Platform to Study Sanskrit Literature"
-  authors:
-  - name: "Ronit Kumar"
-    affiliation: "SivaShakti FutureTech Private Limited, Varanasi"
-    email: "ronit@siva.sh"
-- title: "START: Sanskrit Teaching, Annotation, and Research Tool"
-  authors:
-  - name: "Anil Kumar"
-    affiliation: "University of Hyderabad"
-    email: "anil.lalit22@gmail.com"
-  - name: "N. Shailaja"
-    affiliation: "University of Hyderabad"
-    email: "shailajanakkawar@gmail.com"
-  - name: "Amba Kulkarni"
-    affiliation: "University of Hyderabad"
-    email: "ambakulkarni@uohyd.ac.in"
-- title: "Vedapāṭhapaddhati: A Tool to Generate Prakṛtipāṭha and Vikṛtipāṭha Forms of Sanskrit Text"
-  authors:
-  - name: "Hrishikesh Terdalkar"
-    affiliation: "Indian Institute of Technology Kanpur"
-    email: "hrishirt@cse.iitk.ac.in"
-  - name: "Arnab Bhattacharya"
-    affiliation: "Indian Institute of Technology Kanpur"
-    email: "arnabb@cse.iitk.ac.in"
-- title: "Fostering Learner Engagement in Sanskrit E-Learning: The Vyoma Labs Approach"
-  authors:
-  - name: "Shankararama Sharma"
-    affiliation: "Vyoma Linguistic Labs Foundation, Bengaluru"
-    email: "rama.vyoma@gmail.com"
-  - name: "Venkatasubramanian P"
-    affiliation: "Vyoma Linguistic Labs Foundation, Bengaluru"
-    email: "venkat.s@vyomalabs.in"
-- title: "Yoga Sutra Trees, a Graph Based Web Application for the Visualisation of Patañjali's Aphorisms"
-  authors:
-  - name: "Giacomo De Luca"
-    affiliation: "University of Tuscia, Italy"
-    email: "giacomo.deluca@hotmail.it"
+  - name: "Sai Susarla"
+    affiliation: "Siddhanta Knowledge Foundation"
+    email: sai.susarla@gmail.com
+-
+  id: 63
+  title: "Saṃskṛta-uccāraṇa-viśleṣaṇa-darśikā: A Visual Guide for Sanskrit Pronunciation Analysis"
+  authors: 
+  - name: "Venkatapathy Subramanian"
+    affiliation: "IITB"
+    email: venkatapathy@cse.iitb.ac.in
+  - name: Ramasubramanian K 
+    affiliation: "IITB"
+    email: kramas@iitb.ac.in
+-
+  id: 64
+  title: "Kalanjiyam: A Digital Library and Proofing Platform for Indian Knowledge Systems"
+  authors: 
+  - name: "Venkatapathy Subramanian"
+    affiliation: "IITB"
+    email: venkatapathy@cse.iitb.ac.in
+  - name: Ganesh Ramakrishnan 
+    affiliation: IITB 
+    email: ganeshkr@iitb.ac.in
+  - name: Ramasubramanian K 
+    affiliation: "IITB"
+    email: kramas@iitb.ac.in
+-
+  id: 65
+  title: "Pandulipi: A tool for text extraction from Devanagari-based Manuscripts"
+  authors: 
+  - name: "Rajat Verma"
+    affiliation: "Indian Institute of Technology Mandi"
+    email: dd23019@students.iitmandi.ac.in
+  - name: Vriti Sharma 
+    affiliation: Indian Institute of Technology Mandi"
+    email: t24156@students.iitmandi.ac.in
+  - name: "Venkatapathy Subramanian"
+    affiliation: "Indian Institute of Technology Bombay"
+    email: venkatapathy@cse.iitb.ac.in
+  - name: Rohit Saluja 
+    affiliation: "Indian Institute of Technology Mandi"
+    email: rohit@iitmandi.ac.in
+-
+  id: 66
+  title: "Vāṇī Setu: An Interactive Sanskrit Learning Suite with Translation and Linguistic Feedback"
+  authors: 
+  - name: Rutal Mahajan
+    affiliation: Utica University 
+    email: rsmahajan@utica.edu
+  - name: Preksha Pareek 
+    affiliation: Thakur College of Engineering and Technology, Mumbai.
+    email: preksha.pareek@thakureducation.org 
+  - name: Prince Maurya
+    affiliation: Thakur College of Engineering and Technology, Mumbai
+    email: 
+  - name: Ananya Kalia
+    affiliation: Thakur College of Engineering and Technology, Mumbai
+    email: 
+
