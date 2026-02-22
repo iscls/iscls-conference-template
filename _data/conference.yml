@@ -86,7 +86,7 @@ navbar:
       visible: True
   - id: 3
     label: Submission
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Submission
@@ -98,7 +98,7 @@ navbar:
     children:
     - id: 1
       label: Papers
-      path: /accepted.html
+      path: /papers.html
       visible: True
     - id: 2
       label: Posters
