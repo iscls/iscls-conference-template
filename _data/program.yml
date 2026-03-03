@@ -56,6 +56,22 @@ schedule:
       - title: "BharatGen: Sovereign & Shared: Frugally Scalable Multilingual–Multimodal AI for Bharat"
         speakers: "Prof. Ganesh Ramakrishnan, Bank of Baroda Chair Professor in Digital Entrepreneurship, Department of Computer Science and Engineering, IIT Bombay"
         abstract: "The movement for Sovereign AI is accelerating. Meeting its promise requires vertically integrated AI stacks—spanning data, models, and reasoning systems—that remain sovereign while adhering to shared scientific principles around which global research communities can coalesce. This talk presents BharatGen as a sovereign-yet-shared effort to make AI work for the many: creation of datasets, benchmarks, and models that natively support Indian languages, dialects, and code-mix across text, speech, and vision; data pipelines grounded in local realities; and frugal methods that reduce cost and lower barriers. We outline our journey to date across language infrastructure, efficient training and distillation, and early sector pilots. The R&D deep dive will draw from some of our recent work on cross-lingual distillation for low-resource languages, tokenization/phonetic design for code-mix robustness, or trustworthy document AI with visual grounding focusing on robustness under dialect/code-mix shift, and latency/cost trade-offs. We hope to inspire principled research to build people-serving AI."
+  - startTime: "TBD"
+    endTime: "TBD"
+    title: "Keynote"
+    type: "talk"
+    events:
+      - title: TBD
+        speakers: "Prof. Prasad Joshi, Vice-Chancellor (i/c), Deccan College, Pune"
+        abstract: TBD
+  - startTime: "TBD"
+    endTime: "TBD"
+    title: "Keynote"
+    type: "talk"
+    events:
+      - title: TBD
+        speakers: "Prof. Dipti Tripathi, Retired Professor and President, International Association of Sanskrit Studies"
+        abstract: TBD
 # Day 1 Schedule
 # - date: "2026-03-09"
 #   dateReadable: "March 09"
