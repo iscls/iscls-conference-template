@@ -51,16 +51,16 @@ published: true
         </p>
         {% endif %}
         {% if site.data.program.schedule_pdf and site.data.program.schedule_pdf != "" %}
-        <!-- <a href="{{site.data.program.schedule_pdf}}" target="_blank" rel="noopener noreferrer">
+        <a href="{{site.data.program.schedule_pdf}}" target="_blank" rel="noopener noreferrer">
             <button class="btn btn-sm btn-outline-danger float-right" title="PDF">
                 <i class="fa fa-download mr-1"></i>
                 {{site.data.conference.short_title}} Schedule
             </button>
-        </a> -->
+        </a>
         {% endif %}
         {% if site.data.program.schedule != nil %}
         <ul class="inner-nav nav nav-pills my-3" id="schedule-pills-tab" role="tablist">
-        <!-- {% for day in site.data.program.schedule %}
+        {% for day in site.data.program.schedule %}
             <li class="nav-item" role="presentation">
                 <a
                     id="nav-day-{{forloop.index}}-tab"
@@ -74,12 +74,12 @@ published: true
                     Day {{forloop.index}}
                 </a>
             </li>
-        {% endfor %} -->
+        {% endfor %}
         </ul>
         <div class="tab-content">
         {% for day in site.data.program.schedule %}
         <div id="nav-schedule-day-{{forloop.index}}" class="my-3 mx-1 tab-pane {% if forloop.index == site.data.program.active_day_index %}show active{% endif %}" role="tabpanel" aria-labelledby="nav-day-{{forloop.index}}-tab">
-            <!-- <h5 style="font-size: 125%;" class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h5> -->
+            <h5 style="font-size: 125%;" class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h5>
             <table class="table table-bordered table-striped table-hover">
                 {% for timeslot in day.timeslots %}
                 <thead>

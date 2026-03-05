@@ -3,7 +3,7 @@ title: Venue
 layout: page
 slide_id: 5
 ---
-
+<br>
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-muted">
 
@@ -19,6 +19,12 @@ slide_id: 5
         <p>
             {{site.data.venue.address}}
         </p>
+
+        {% if site.data.venue.map %}
+        <p>
+            {{site.data.venue.map}}
+        </p>
+        {% endif %}
 
         {% if site.data.venue.accommodation %}
         <h6 class="text-info">Accommodations</h6>
@@ -40,10 +46,14 @@ slide_id: 5
         <h6 class="text-info">Directions</h6>
 
         <p>
-            {{site.data.venue.directions}}
+            {{site.data.venue.directions.description}}
         </p>
 
-        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
+        <h7 class="text-info">By Roadways</h7>
+        <p>
+            {{site.data.venue.directions.roadways}}
+        </p>
+        <!-- <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction"> -->
         {% endif %}
     </div>
 </div>

@@ -31,11 +31,12 @@ CONTENT.append(
     "\\bgroup\n"
     "\\def\\arraystretch{1.5}\n"
 )
-CONTENT.append("\\begin{longtable}{|p{0.15\\textwidth}|p{0.8\\textwidth}p{0.05\\textwidth}|}\n")
+
 for idx, day in enumerate(PROGRAM["schedule"], start=1):
+    CONTENT.append("\\begin{longtable}{|p{0.15\\textwidth}|p{0.8\\textwidth}p{0.05\\textwidth}|}\n")
     CONTENT.append("\\noalign{\\penalty-5000}\\hline\n")
     if idx > 1:
-        CONTENT.append("& \\\\\n")
+        # CONTENT.append("{\\penalty-5000}\n")
         CONTENT.append("\\hline\n")
         CONTENT.append("\\hline\n")
 
@@ -52,9 +53,11 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
         elif timeslot_type == "activity":
             _rowcolor = "Brown3"
         elif timeslot_type == "formality":
-            _rowcolor = "RosyBrown3"
+            _rowcolor = "Orange3"
         elif timeslot_type == "sponsor":
             _rowcolor = "RoyalBlue3"
+        elif timeslot_type == "panel":
+            _rowcolor = "Red3"
         else:
             _rowcolor = "Gray0"
 
@@ -118,7 +121,8 @@ for idx, day in enumerate(PROGRAM["schedule"], start=1):
             else:
                 CONTENT.append("\\hline\n")
 
-CONTENT.append("\\end{longtable}\n")
+    CONTENT.append("\\end{longtable}\n")
+    CONTENT.append("\\\n")
 CONTENT.append("\\egroup")
 
 ###############################################################################
