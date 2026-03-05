@@ -1,9 +1,11 @@
 # - date: 2026-03-11
 #   text: Symposium was held successfully
-# - date: 2026-03-09
-#   text: Proceedings are made available
-# - date: 2026-03-05
-#   text: <strong><a href="./program.html">Program schedule</a></strong> is announced
+- date: 2026-03-05
+  text: Registrations closing today EOD
+- date: 2026-03-05
+  text: Camera-Ready Papers are Released
+- date: 2026-03-05
+  text: <strong><a href="./program.html">Program schedule</a></strong> is announced
 - date: 2026-02-26
   text: Guidelines for posters are available <strong><a href="./guidelines.html">here</a></strong>
 - date: 2026-02-22
