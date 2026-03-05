@@ -24,7 +24,7 @@ show_logo: true
 show_about_logo: true
 show_title: false
 
-# proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf
+proceedings_path: ./assets/files/proceedings/2024.iscls.full.pdf
 
 slideshow:
   - id: 0
