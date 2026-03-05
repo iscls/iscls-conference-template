@@ -14,7 +14,7 @@ event_style:
   paper:
     classes: badge-success
   demo:
-    classes: badge-danger
+    classes: badge-primary
 
 time_style:
   classes: text-white
