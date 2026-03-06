@@ -53,7 +53,7 @@ schedule:
     timeslots:
     - startTime: "9:00"
       endTime: "10:00"
-      title: "Inaugural"
+      title: "Inaugural Ceremony"
       type: "service"
     - startTime: "10:00"
       endTime: "11:00"
@@ -191,7 +191,7 @@ schedule:
           endTime: "17:30"
           type: "demo"
           # id: "TBD"
-        
+
 
   - date: "2026-03-10"
     dateReadable: "March 10"
@@ -263,7 +263,7 @@ schedule:
       title: "Keynote 2"
       type: "talk"
       events:
-        - title: "BharatGen: Sovereign & Shared: Frugally Scalable Multilingual–Multimodal AI for Bharat"
+        - title: "BharatGen: Sovereign and Shared: Frugally Scalable Multilingual-Multimodal AI for Bharat"
           speakers: "Prof. Ganesh Ramakrishnan, Bank of Baroda Chair Professor in Digital Entrepreneurship, Department of Computer Science and Engineering, IIT Bombay"
           # abstract: "The movement for Sovereign AI is accelerating. Meeting its promise requires vertically integrated AI stacks—spanning data, models, and reasoning systems—that remain sovereign while adhering to shared scientific principles around which global research communities can coalesce. This talk presents BharatGen as a sovereign-yet-shared effort to make AI work for the many: creation of datasets, benchmarks, and models that natively support Indian languages, dialects, and code-mix across text, speech, and vision; data pipelines grounded in local realities; and frugal methods that reduce cost and lower barriers. We outline our journey to date across language infrastructure, efficient training and distillation, and early sector pilots. The R&D deep dive will draw from some of our recent work on cross-lingual distillation for low-resource languages, tokenization/phonetic design for code-mix robustness, or trustworthy document AI with visual grounding focusing on robustness under dialect/code-mix shift, and latency/cost trade-offs. We hope to inspire principled research to build people-serving AI."
     - startTime: "15:00"
@@ -329,10 +329,10 @@ schedule:
     timeslots:
     - startTime: "9:00"
       endTime: "10:00"
-      title: "Keynote"
+      title: "Keynote 3"
       type: "talk"
       events:
-        - title: TBD
+        - title: "Deciphering Meaning: A Journey through Mimamsa, Nyaya, Vyakarana and Kavyashastra"
           speakers: "Prof. Dipti Tripathi, Retired Professor and President, International Association of Sanskrit Studies"
           # abstract: TBD
     - startTime: "10:00"
@@ -377,7 +377,7 @@ schedule:
       type: "service"
     - startTime: "14:00"
       endTime: "15:00"
-      title: "Felicitation of Prof. Amba Kulkarni, and Concluding Remarks"
+      title: "Valedictory Function"
       type: "formality"
       events:
         - speakers: "TBD"
@@ -388,9 +388,9 @@ schedule:
 
 # - date: "2026-03-09"
 #   dateReadable: "March 09"
-#   timeslots:  
-  
-  
+#   timeslots:
+
+
 
 # - date: "2026-03-09"
 #   dateReadable: "March 09"
