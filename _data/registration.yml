@@ -1,14 +1,14 @@
-about: "Registrations for 8th ISCLS are now open. You may register using the following link."
-url: "https://docs.google.com/forms/d/e/1FAIpQLSd8PcnR1-yG_X3x3eTGzn3IkPQPpme8eKMGuR-dvxojRw-KIg/viewform"
-description: ""
-
+# about: "Registrations for 8th ISCLS are now open. You may register using the following link."
+# url: "https://docs.google.com/forms/d/e/1FAIpQLSd8PcnR1-yG_X3x3eTGzn3IkPQPpme8eKMGuR-dvxojRw-KIg/viewform"
+description: 
+  <p>
+    Registrations are closed! <br>
+    Offline Registration will be available at the venue. <br>
+  <strong>Note:</strong> Accommodation is subject to availability
+  </p>
   # <h5 class="text-info">Registration</h5>
 
-  # <p>
-  #   Registration is closed! <br>
-  #   Offline Registration will be available at the venue. <br>
-  # <strong>Note:</strong>Accommodation is subject to availability
-  # </p>
+  
   # <p class="font-weight-bold">
   #   If paying with an Indian debit or credit card please note
   #   <a href="https://en.wikipedia.org/wiki/3-D_Secure">3-D Secure</a> (3DS)
