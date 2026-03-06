@@ -248,7 +248,7 @@ schedule:
       endTime: "11:30"
       title: "Tea"
       type: "service"
-    - startTime: "11:30"
+    - startTime: "11:05"
       endTime: "13:00"
       title: "Poster Session"
       type: "presentation"
