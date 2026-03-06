@@ -111,7 +111,7 @@ navbar:
   - id: 4
     label: Program
     path: /program.html
-    visible: True
+    visible: False
   - id: 5
     label: Venue
     path: /venue.html
