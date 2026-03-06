@@ -67,7 +67,7 @@ schedule:
       title: "High Tea"
       type: "service"
     - startTime: "11:30"
-      endTime: "13:00"
+      endTime: "13:10"
       title: "Paper Session 1 (4 Papers)"
       type: "presentation"
       events:
@@ -80,33 +80,33 @@ schedule:
           link:
             type: pdf
             url: "./assets/files/proceedings/12.pdf"
-        - title: "A computational study of how Sanskrit-specific morphophonological phenomena behave under noisy spoken input"
+        - title: "Towards Building a Computational Sense Inventory from the Monier-Williams Dictionary Using Clustering Techniques"
           # speakers: "TBD"
           startTime: "11:55"
           endTime: "12:20"
           type: "paper"
-          id: "15"
+          id: "37"
           link:
             type: pdf
-            url: "./assets/files/proceedings/15.pdf"
-        - title: "Computational Modelling of the Apatyādhikāra in the Aṣṭādhyāyī"
+            url: "./assets/files/proceedings/37.pdf"
+        - title: "TantraTagger: A Benchmark Dataset for Tantrayukti-Based Discourse Structure Labelling in Sanskrit Śāstra Texts"
           # speakers: "TBD"
           startTime: "12:20"
           endTime: "12:45"
           type: "paper"
-          id: "36"
+          id: "25"
           link:
             type: pdf
-            url: "./assets/files/proceedings/36.pdf"
-        - title: "Sentential Parsing of Upamā"
+            url: "./assets/files/proceedings/25.pdf"
+        - title: "Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation"
           # speakers: "TBD"
           startTime: "12:45"
           endTime: "13:10"
           type: "paper"
-          id: "22"
+          id: "45"
           link:
             type: pdf
-            url: "./assets/files/proceedings/22.pdf"
+            url: "./assets/files/proceedings/45.pdf"
     - startTime: "13:10"
       endTime: "14:10"
       title: "Lunch"
@@ -116,42 +116,42 @@ schedule:
       title: "Paper Session 2 (4 Papers)"
       type: "presentation"
       events:
-        - title: "Recovering the Calcutta Edition of the Mahābhārata for Computational Analysis"
+        - title: "Phonological Assimilation–Aware Neural Segmentation of Sanskrit Compounds"
           # speakers: "TBD"
           startTime: "14:10"
           endTime: "14:35"
           type: "paper"
-          id: "24"
+          id: "34"
           link:
             type: pdf
-            url: "./assets/files/proceedings/24.pdf"
-        - title: "TantraTagger: A Benchmark Dataset for Tantrayukti-Based Discourse Structure Labelling in Sanskrit Śāstra Texts"
+            url: "./assets/files/proceedings/34.pdf"
+        - title: "A Mīmāṃsā-Based Framework for Disambiguating Compounds in Sanskrit"
           # speakers: "TBD"
           startTime: "14:35"
           endTime: "15:00"
           type: "paper"
-          id: "25"
+          id: "42"
           link:
             type: pdf
-            url: "./assets/files/proceedings/25.pdf"
-        - title: "Lexical Accent Prediction in Ṛgvedic Sanskrit Using Morphological Information"
+            url: "./assets/files/proceedings/42.pdf"
+        - title: "Dependency Analysis of Sanskrit Compounds"
           # speakers: "TBD"
           startTime: "15:00"
           endTime: "15:25"
           type: "paper"
-          id: "31"
+          id: "38"
           link:
             type: pdf
-            url: "./assets/files/proceedings/31.pdf"
-        - title: "Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation"
+            url: "./assets/files/proceedings/38.pdf"
+        - title: "Dependency Analysis of Ṛgveda-Saṃhitā: An alignment of the Universal Dependencies framework with the Śābdabodha-based Saṃsādhanī framework"
           # speakers: "TBD"
           startTime: "15:25"
           endTime: "15:50"
           type: "paper"
-          id: "45"
+          id: "35"
           link:
             type: pdf
-            url: "./assets/files/proceedings/45.pdf"
+            url: "./assets/files/proceedings/35.pdf"
     - startTime: "15:50"
       endTime: "16:15"
       title: "Tea Break"
@@ -191,8 +191,6 @@ schedule:
           endTime: "17:30"
           type: "demo"
           # id: "TBD"
-
-
   - date: "2026-03-10"
     dateReadable: "March 10"
     timeslots:
@@ -210,15 +208,15 @@ schedule:
           link:
             type: pdf
             url: "./assets/files/proceedings/1.pdf"
-        - title: "Dependency Analysis of Sanskrit Compounds"
+        - title: "Recovering the Calcutta Edition of the Mahābhārata for Computational Analysis"
           # speakers: "TBD"
           startTime: "09:25"
           endTime: "09:50"
           type: "paper"
-          id: "38"
+          id: "24"
           link:
             type: pdf
-            url: "./assets/files/proceedings/38.pdf"
+            url: "./assets/files/proceedings/24.pdf"
         - title: "Using Vedalakṣaṇa texts for the validation and normalization of Vedic Corpus"
           # speakers: "TBD"
           startTime: "09:50"
@@ -228,24 +226,24 @@ schedule:
           link:
             type: pdf
             url: "./assets/files/proceedings/44.pdf"
-        - title: "Towards Building a Computational Sense Inventory from the Monier-Williams Dictionary Using Clustering Techniques"
+        - title: "A computational study of how Sanskrit-specific morphophonological phenomena behave under noisy spoken input"
           # speakers: "TBD"
           startTime: "10:15"
           endTime: "10:40"
           type: "paper"
-          id: "37"
+          id: "15"
           link:
             type: pdf
-            url: "./assets/files/proceedings/37.pdf"
-        - title: "Phonological Assimilation–Aware Neural Segmentation of Sanskrit Compounds"
+            url: "./assets/files/proceedings/15.pdf"
+        - title: "Optimizing Sanskrit Antyakshari with Directed Graphs: A Competitive and Strategic Tool for Enhanced Play"
           # speakers: "TBD"
-          startTime: "10:45"
+          startTime: "10:40"
           endTime: "11:05"
           type: "paper"
-          id: "34"
+          id: "11"
           link:
             type: pdf
-            url: "./assets/files/proceedings/34.pdf"
+            url: "./assets/files/proceedings/11.pdf"
     - startTime: "11:05"
       endTime: "11:30"
       title: "Tea"
@@ -340,24 +338,33 @@ schedule:
       title: "Paper Session 4 (3 Papers)"
       type: "presentation"
       events:
-        - title: "A Mīmāṃsā-Based Framework for Disambiguating Compounds in Sanskrit"
+        - title: "Lexical Accent Prediction in Ṛgvedic Sanskrit Using Morphological Information"
           # speakers: "TBD"
           startTime: "10:00"
           endTime: "10:25"
           type: "paper"
-          id: "42"
-        - title: "Dependency Analysis of Ṛgveda-Saṃhitā: An alignment of the Universal Dependencies framework with the Śābdabodha-based Saṃsādhanī framework"
+          id: "31"
+          link:
+            type: pdf
+            url: "./assets/files/proceedings/31.pdf"
+        - title: "Computational Modelling of the Apatyādhikāra in the Aṣṭādhyāyī"
           # speakers: "TBD"
           startTime: "10:25"
           endTime: "10:50"
           type: "paper"
-          id: "35"
-        - title: "Optimizing Sanskrit Antyakshari with Directed Graphs: A Competitive and Strategic Tool for Enhanced Play"
+          id: "36"
+          link:
+            type: pdf
+            url: "./assets/files/proceedings/36.pdf"
+        - title: "Sentential Parsing of Upamā"
           # speakers: "TBD"
           startTime: "10:50"
           endTime: "11:15"
           type: "paper"
-          id: "11"
+          id: "22"
+          link:
+            type: pdf
+            url: "./assets/files/proceedings/22.pdf"
     - startTime: "11:15"
       endTime: "11:30"
       title: "High Tea"
