@@ -164,7 +164,7 @@ schedule:
       type: "presentation"
       events:
         - title: "Sambhāṣinī: A Digital Tool for Learning Sanskrit"
-          speakers: "Rugved Deshpande, Sakthivel Subbaian, Amba Kulkarni, Harshul Raj Surana, Annarao Kulkarni, Pawan Goyal"
+          speakers: "Rugved Deshpande, Sakthivel Subbaian, Amba Kulkarni"
           startTime: "16:15"
           endTime: "16:30"
           type: "demo"
@@ -176,7 +176,7 @@ schedule:
           type: "demo"
           # id: "TBD"
         - title: "CHANDOMITRA-DEMO: A Meter- and Semantics-Gated Sanskrit Anus̄ṭubh Verse Generator"
-          speakers: "Akhil P, Manoj Balaji Jagadeeshan, Pretam Ray"
+          speakers: "Akhil P, Manoj Balaji Jagadeeshan, Pretam Ray, Harshul Raj Surana, Annarao Kulkarni, Pawan Goyal"
           startTime: "16:45"
           endTime: "17:00"
           type: "demo"
