@@ -15,6 +15,8 @@ event_style:
     classes: badge-success
   demo:
     classes: badge-primary
+  poster:
+    classes: badge-warning
 
 time_style:
   classes: text-white
@@ -72,7 +74,7 @@ schedule:
       type: "presentation"
       events:
         - title: "Sanskrit Word Sense Disambiguation Based on Lexicographic Definitions"
-          # speakers: "TBD"
+          speakers: "Oliver Hellwig, Sven Sellmer, Sebastian Nehrdich, Paul Widmer, Rico Sennrich"
           startTime: "11:30"
           endTime: "11:55"
           type: "paper"
@@ -81,7 +83,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/12.pdf"
         - title: "Towards Building a Computational Sense Inventory from the Monier-Williams Dictionary Using Clustering Techniques"
-          # speakers: "TBD"
+          speakers: "Anagha Pradeep, Sriram Krishnan, Radhika Mamidi"
           startTime: "11:55"
           endTime: "12:20"
           type: "paper"
@@ -90,7 +92,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/37.pdf"
         - title: "TantraTagger: A Benchmark Dataset for Tantrayukti-Based Discourse Structure Labelling in Sanskrit Śāstra Texts"
-          # speakers: "TBD"
+          speakers: "Tapas Khanra, Priya Mishra, Malhar Kulkarni, Ganesh Ramakrishnan"
           startTime: "12:20"
           endTime: "12:45"
           type: "paper"
@@ -99,7 +101,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/25.pdf"
         - title: "Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation"
-          # speakers: "TBD"
+          speakers: "Prasanna Venkatesh T S, Ketaki Mangesh Shetye, Vishnuraj Arjunasamy, Ayush Kumar Sahu, Sriram Krishnan, Parameswari Krishnamurthy"
           startTime: "12:45"
           endTime: "13:10"
           type: "paper"
@@ -117,7 +119,7 @@ schedule:
       type: "presentation"
       events:
         - title: "Phonological Assimilation–Aware Neural Segmentation of Sanskrit Compounds"
-          # speakers: "TBD"
+          speakers: "Sushant Dave, Ramanan Sivasubramanian, Amba Kulkarni, Ramakrishna Upadrasta"
           startTime: "14:10"
           endTime: "14:35"
           type: "paper"
@@ -126,7 +128,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/34.pdf"
         - title: "A Mīmāṃsā-Based Framework for Disambiguating Compounds in Sanskrit"
-          # speakers: "TBD"
+          speakers: "Devulapalli Koushik Suraj, Pavankumar Satuluri"
           startTime: "14:35"
           endTime: "15:00"
           type: "paper"
@@ -135,7 +137,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/42.pdf"
         - title: "Dependency Analysis of Sanskrit Compounds"
-          # speakers: "TBD"
+          speakers: "Amba Kulkarni, Pavankumar Satuluri, Sriram Krishnan"
           startTime: "15:00"
           endTime: "15:25"
           type: "paper"
@@ -144,7 +146,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/38.pdf"
         - title: "Dependency Analysis of Ṛgveda-Saṃhitā: An alignment of the Universal Dependencies framework with the Śābdabodha-based Saṃsādhanī framework"
-          # speakers: "TBD"
+          speakers: "Johan Paul, Gayathri Sepuri, Sriram Krishnan, Amba Kulkarni"
           startTime: "15:25"
           endTime: "15:50"
           type: "paper"
@@ -162,31 +164,31 @@ schedule:
       type: "presentation"
       events:
         - title: "Sambhāṣinī: A Digital Tool for Learning Sanskrit"
-          # speakers: "TBD"
+          speakers: "Rugved Deshpande, Sakthivel Subbaian, Amba Kulkarni, Harshul Raj Surana, Annarao Kulkarni, Pawan Goyal"
           startTime: "16:15"
           endTime: "16:30"
           type: "demo"
           # id: "TBD"
         - title: "An Articulatory Speech Synthesizer for the Sanskrit Language"
-          # speakers: "TBD"
+          speakers: "Utkarsh Rajput"
           startTime: "16:30"
           endTime: "16:45"
           type: "demo"
           # id: "TBD"
         - title: "CHANDOMITRA-DEMO: A Meter- and Semantics-Gated Sanskrit Anus̄ṭubh Verse Generator"
-          # speakers: "TBD"
+          speakers: "Akhil P, Manoj Balaji Jagadeeshan, Pretam Ray"
           startTime: "16:45"
           endTime: "17:00"
           type: "demo"
           # id: "TBD"
         - title: "Formalising Śabdavyāpāra Triad as a Computational Ontology in A Neuro Symbolic AI for Computational Interpretation of Layered Meanings in Literary Analysis"
-          # speakers: "TBD"
+          speakers: "Sripathi Sripada, Jayashree Gajjam"
           startTime: "17:00"
           endTime: "17:15"
           type: "demo"
           # id: "TBD"
         - title: "Saṃskṛta-uccāraṇa-viśleṣaṇa-darśikā: A Visual Guide for Sanskrit Pronunciation Analysis"
-          # speakers: "TBD"
+          speakers: "Venkatapathy Subramanian, Ramasubramanian K"
           startTime: "17:15"
           endTime: "17:30"
           type: "demo"
@@ -200,7 +202,7 @@ schedule:
       type: "presentation"
       events:
         - title: "Digital revival of the text of the Bhāratamañjarī and Rāmāyaṇamañjarī"
-          # speakers: "TBD"
+          speakers: "Tanuja P. Ajotikar, Peter M. Scharf"
           startTime: "09:00"
           endTime: "09:25"
           type: "paper"
@@ -209,7 +211,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/1.pdf"
         - title: "Recovering the Calcutta Edition of the Mahābhārata for Computational Analysis"
-          # speakers: "TBD"
+          speakers: "Sujoy Sarkar, Manoj Balaji Jagadeeshan, Pawan Goyal"
           startTime: "09:25"
           endTime: "09:50"
           type: "paper"
@@ -218,7 +220,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/24.pdf"
         - title: "Using Vedalakṣaṇa texts for the validation and normalization of Vedic Corpus"
-          # speakers: "TBD"
+          speakers: "Team Svarupa"
           startTime: "09:50"
           endTime: "10:15"
           type: "paper"
@@ -227,7 +229,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/44.pdf"
         - title: "A computational study of how Sanskrit-specific morphophonological phenomena behave under noisy spoken input"
-          # speakers: "TBD"
+          speakers: "Nived Krishna, John Paul Martin, Manu Madhavan"
           startTime: "10:15"
           endTime: "10:40"
           type: "paper"
@@ -236,7 +238,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/15.pdf"
         - title: "Optimizing Sanskrit Antyakshari with Directed Graphs: A Competitive and Strategic Tool for Enhanced Play"
-          # speakers: "TBD"
+          speakers: "Shankararama Sharma"
           startTime: "10:40"
           endTime: "11:05"
           type: "paper"
@@ -252,6 +254,43 @@ schedule:
       endTime: "13:00"
       title: "Poster Session"
       type: "presentation"
+      events:
+        - 
+            title: "Detecting Cross-Cultural Philosophical Convergence with Multilingual Embeddings: A Computational Philological Comparison Framework of Greek and Sanskrit Classical Texts"
+            speakers: "Harshit Mishra"
+            type: "poster"
+        - 
+            title: "siva.sh: An All-in-one Platform to Study Sanskrit Literature"
+            speakers: "Ronit Kumar"
+            type: "poster"
+        - 
+            title: "Computational Detection and Evaluation of Varṇacitra-s"
+            speakers: "Dilip H R, Ramakrishna Upadrasta"
+            type: "poster"
+        - 
+            title: "Preserving What Is Written, Not What Is Expected: The Proof-Reader Effect of LLMs in Sanskrit OCR"
+            speakers: "Rhythm Jain, Ketan Bhatt, Anjali Choudhary"
+            type: "poster"
+        - 
+            title: "Graphical Representation of Tripādī Rules using Directed Acyclic Graphs and a Topological Sorting Algorithm"
+            speakers: "Anita Shroff"
+            type: "poster"
+        - 
+            title: "Formalising Samāsa Semantics in the Bhagavadgītā for Computational Processing: A Universal Semantic Representation Approach"
+            speakers: "Sudarshan Gautam, Sukhada Sukhada"
+            type: "poster"
+        - 
+            title: "Multilingual Generation from Universal Semantic Representation of Sanskrit Text"
+            speakers: "Soma Paul, Pratibha Rani, Sukhada Sukhada, Swetha Poppoppu"
+            type: "poster"
+        - 
+            title: "Automated Paraphrase Generation for Sanskrit Compounds using Morphological Analysis and Rule-Based Templates"
+            speakers: "Amritha Pradeep, Soorya A P, Pavankumar Satuluri, Arjuna SR"
+            type: "poster"
+        - 
+            title: "START from an Annotator’s Viewpoint"
+            speakers: "Soorya A P, Samruddhi Badavane, Deep Popaliya, Arjuna SR"
+            type: "poster"
     - startTime: "13:00"
       endTime: "14:00"
       title: "Lunch"
@@ -274,49 +313,49 @@ schedule:
       type: "presentation"
       events:
         - title: "Līlāvatī E-Reader: An Interactive Platform for Linguistic and Conceptual Exploration of Indian Mathematics"
-          # speakers: "TBD"
+          speakers: "Nidhi Bhutada, Sandhra K R"
           startTime: "15:30"
           endTime: "15:45"
           type: "demo"
           # id: "TBD"
         - title: "Kalanjiyam: A Digital Library and Proofing Platform for Indian Knowledge Systems"
-          # speakers: "TBD"
+          speakers: "Venkatapathy Subramania, Ganesh Ramakrishnan, Ramasubramanian K"
           startTime: "15:45"
           endTime: "16:00"
           type: "demo"
           # id: "TBD"
         - title: "Pandulipi: A tool for text extraction from Devanagari-based Manuscripts"
-          # speakers: "TBD"
+          speakers: "Rajat Verma, Vriti Sharma, Venkatapathy Subramanian, Rohit Saluja"
           startTime: "16:00"
           endTime: "16:15"
           type: "demo"
           # id: "TBD"
         - title: "An Interactive Annotation Platform for Entity Identification in Sanskrit Medical Texts"
-          # speakers: "TBD"
+          speakers: "Kalyani Pawar, Pranav Shukla, Vandana Dhingra"
           startTime: "16:15"
           endTime: "16:30"
           type: "demo"
           # id: "TBD"
         - title: "Prakriya Prabodhini: A Tool to Visualise Word Derivation in Paninian Grammar"
-          # speakers: "TBD"
+          speakers: "Chaitanya Lakkundi, Shivani V"
           startTime: "16:30"
           endTime: "16:45"
           type: "demo"
           # id: "TBD"
         - title: "Grantha Tech: Crowdsourced Platform for OCR on Manuscripts"
-          # speakers: "TBD"
+          speakers: "Chaitanya Lakkundi, Sai Susarla"
           startTime: "16:45"
           endTime: "17:00"
           type: "demo"
           # id: "TBD"
         - title: "HANSEL: A Human-Accessible, NLP-Ready Sanskrit E-Text Library"
-          # speakers: "TBD"
+          speakers: "Tyler Neill"
           startTime: "17:00"
           endTime: "17:15"
           type: "demo"
           # id: "TBD"
         - title: "Vāṇī Setu: An Interactive Sanskrit Learning Suite with Translation and Linguistic Feedback"
-          # speakers: "TBD"
+          speakers: "Rutal Mahajan, Preksha Pareek, Prince Maurya, Ananya Kalia"
           startTime: "17:15"
           endTime: "17:30"
           type: "demo"
@@ -331,7 +370,7 @@ schedule:
       type: "talk"
       events:
         - title: "Deciphering Meaning: A Journey through Mimamsa, Nyaya, Vyakarana and Kavyashastra"
-          speakers: "Prof. Dipti Tripathi, Retired Professor and President, International Association of Sanskrit Studies"
+          speakers: "Prof. Dipti Tripathi, President, International Association of Sanskrit Studies"
           # abstract: TBD
     - startTime: "10:00"
       endTime: "11:15"
@@ -339,7 +378,7 @@ schedule:
       type: "presentation"
       events:
         - title: "Lexical Accent Prediction in Ṛgvedic Sanskrit Using Morphological Information"
-          # speakers: "TBD"
+          speakers: "Anustup Bhattacharyya, Akshay Gaikwad, Malhar Kulkarni, Rushikesh Joshi"
           startTime: "10:00"
           endTime: "10:25"
           type: "paper"
@@ -348,7 +387,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/31.pdf"
         - title: "Computational Modelling of the Apatyādhikāra in the Aṣṭādhyāyī"
-          # speakers: "TBD"
+          speakers: "Himanshu Ayachit, Pavankumar Satuluri"
           startTime: "10:25"
           endTime: "10:50"
           type: "paper"
@@ -357,7 +396,7 @@ schedule:
             type: pdf
             url: "./assets/files/proceedings/36.pdf"
         - title: "Sentential Parsing of Upamā"
-          # speakers: "TBD"
+          speakers: "Amruta Barbadikar, Amba Kulkarni"
           startTime: "10:50"
           endTime: "11:15"
           type: "paper"
@@ -367,17 +406,17 @@ schedule:
             url: "./assets/files/proceedings/22.pdf"
     - startTime: "11:15"
       endTime: "11:30"
-      title: "High Tea"
+      title: "Tea"
       type: "service"
     - startTime: "11:30"
       endTime: "13:00"
       title: "Panel Discussion"
       type: "panel"
-      chair:
-        description: "Moderator"
-        name: "TBD"
-      events:
-        - speakers:  "TBD"
+      # chair:
+      #   description: "Moderator"
+      #   name: "TBD"
+      # events:
+      #   - speakers:  "TBD"
     - startTime: "13:00"
       endTime: "14:00"
       title: "Lunch"
@@ -386,8 +425,8 @@ schedule:
       endTime: "15:00"
       title: "Valedictory Function"
       type: "formality"
-      events:
-        - speakers: "TBD"
+      # events:
+      #   - speakers: "TBD"
     - startTime: "15:00"
       endTime: "17:00"
       title: "Business Meeting"
