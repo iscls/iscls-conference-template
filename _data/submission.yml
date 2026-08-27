@@ -1,5 +1,5 @@
 portal: CMT3 Submission Portal
-url: "https://cmt3.research.microsoft.com/ISCLS2026"
+url: "https://cmt3.research.microsoft.com/ISCLS2027"
 
 cmt: True
 
@@ -58,4 +58,4 @@ template:
   url: ./assets/files/iscls-template.zip
   overleaf: https://www.overleaf.com/latex/templates/submission-template-and-instructions-for-the-iscls/dmhhdjnxqftd
 
-publisher: Association for Computational Linguistics Anthology
+# publisher: Association for Computational Linguistics Anthology

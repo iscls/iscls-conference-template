@@ -1,23 +1,46 @@
 - title: Program Committee Chairs
   column: 1
   members:
-  - name: Pavankumar Satuluri
-    org: IIT Roorkee, Roorkee, India
+  - name: Brendan Gillon
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
     post: ""
-    homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
-# - title: Organising Chair
-#   column: 1
-#   members:
-  - name: Pawan Goyal
-    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  # - name: Pavankumar Satuluri
+  #   org: IIT Roorkee, Roorkee, India
+  #   post: ""
+  #   homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
+
+- title: Organising Chair
+  column: 1
+  members:
+  - name: Prasad Joshi
+    org: Deccan College, Pune, India
     post: ""
-    homepage: https://cse.iitkgp.ac.in/~pawang/
+    homepage: https://www.linkedin.com/in/prasad-joshi-0a1bba59/
+
+
+- title: Demonstrations and Publicity Chair
+  column: 1
+  members:
+  - name: Arjuna S R
+    org: Manipal Academy of Higher Education, Bengaluru, India
+    homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
+
+- title: Web and Publications Chair
+  column: 1
+  members:
+  - name: Hrishikesh Terdalkar
+    org: IIIT Hyderabad, Hyderabad, India
+    homepage: https://hrishikeshrt.github.io/
 
 - title: Steering Committee
   column: 1
   members:
   - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
+    org: IIT Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Arnab Bhattacharya
     org: IIT Kanpur, Kanpur, India
@@ -42,21 +65,11 @@
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
 
-- title: Web Chair
-  column: 1
-  members:
-  - name: Hrishikesh Terdalkar
-    org: BITS Pilani Hyderabad Campus, Hyderabad, India
-    homepage: https://hrishikeshrt.github.io/
-  - name: Manoj Balaji Jagadeeshan
-    org: IIT Kharagpur, Kharagpur, India
-    homepage: https://manojbalaji1.github.io/
-
 - title: Technical Program Committe
   column: 2
   members:
   - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
+    org: IIT Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Arjuna S R
     org: Manipal Academy of Higher Education, Bengaluru, India
@@ -74,23 +87,26 @@
     org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
   - name: Hrishikesh Terdalkar
-    org: BITS Pilani Hyderabad Campus, Hyderabad, India
+    org: IIIT Hyderabad, Hyderabad, India
     homepage: https://hrishikeshrt.github.io/
-  - name: Jivnesh Sandhan
-    org: Kyoto University, Kyoto, Japan
-    homepage: https://jivnesh.github.io/
-  - name: John Lowe
-    org: Oxford University, Oxford, UK
-    homepage: https://www.ames.ox.ac.uk/people/john-j-lowe
+  # - name: Jivnesh Sandhan
+  #   org: Kyoto University, Kyoto, Japan
+  #   homepage: https://jivnesh.github.io/
+  # - name: John Lowe
+  #   org: Oxford University, Oxford, UK
+  #   homepage: https://www.ames.ox.ac.uk/people/john-j-lowe
+  - name: Mahesh Akavarapu V S D S
+    org: University of Tübingen, Tübingen, Germany
+    homepage: https://mahesh-ak.github.io/
   - name: Malhar Kulkarni
     org: IIT Bombay, Mumbai, India
     homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
   - name: Oliver Hellwig
     org: University of Zurich, Zurich, Switzerland
     homepage: https://www.comparativelinguistics.uzh.ch/en/staff/hellwig.html
-  # - name: Patrick McAllister
-  #   org: Austrian Academy of Sciences, Austria
-  #   homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
+  - name: Patrick McAllister
+    org: Austrian Academy of Sciences, Austria
+    homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
   - name: Pavankumar Satuluri
     org: Indian Institute of Technology Roorkee, Roorkee, India
     homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
@@ -103,18 +119,18 @@
   - name: Sebastian	Nehrdich
     org: Center for Integrated Japanese Studies, Tohoku University, Sendai, Japan
     homepage: https://sebastian-nehrdich.github.io
-  - name: Shivani V
-    org: Karnataka Sanskrit University, Karnataka, India
-    homepage: ""
-  - name: Sriram K
-    org: IIIT Hyderabad
-    homepage: ""
+  # - name: Shivani V
+  #   org: Karnataka Sanskrit University, Karnataka, India
+  #   homepage: ""
+  # - name: Sriram K
+  #   org: IIIT Hyderabad
+  #   homepage: ""
   - name: Tanuja P Ajotikar
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
-  - name: Tyler Neill
-    org: University of Pennsylvania
-    homepage: "https://tylerneill.info/"
+  # - name: Tyler Neill
+  #   org: University of Pennsylvania
+  #   homepage: "https://tylerneill.info/"
   # - name: Yigal Bronner
   #   org: The Hebrew University of the Jerusalem, Israel
   #   homepage: https://yigalbronner.huji.ac.il

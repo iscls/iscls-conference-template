@@ -27,9 +27,11 @@ In 2021 (postponed to 2023) at the 18th World Sanskrit Conference, at Canberra (
 
 The [Seventh International Sanskrit Computational Linguistics Symposium](https://iscls.github.io/iscls2024/) took place from 15-17 Feb 2024 at Auroville, Puducherry.
 
-In 2025, the 19th World Sanskrit Conference was held in Kathmandu, Nepal from June 26 to 30.
+In 2025, the 19th World Sanskrit Conference was held in Kathmandu, Nepal from 26-30 June.
 
-The Eighth International Sanskrit Computational Linguistics Symposium will take place from 9-11 Mar 2026 at IIT Roorkee, Roorkee.
+The [Eighth International Sanskrit Computational Linguistics Symposium](https://iscls.github.io/iscls2026/) took place from 9-11 Mar 2026 at IIT Roorkee, Roorkee.
+
+The [Ninth International Sanskrit Computational Linguistics Symposium](https://iscls.github.io/) will take place from 20-22 Jan 2027 at Deccan College, Pune.
 
 {: .text-info}
 ###### Publications of ISCLS
@@ -38,11 +40,15 @@ The Eighth International Sanskrit Computational Linguistics Symposium will take 
 * Proceedings of the third symposium appear in [LNCS 5406](https://link.springer.com/book/10.1007/978-3-540-93885-9).
 * Proceedings of the fourth symposium appear in [LNCS 6465](https://link.springer.com/book/10.1007/978-3-642-17528-2).
 * Proceedings of the fifth symposium are published as [Recent Researches in Sanskrit Computational Linguistics](https://dkprintworld.com/product/recent-researches-in-sanskrit-computational-linguistics/) by D K PrintWorld.
-* Proceedings of the Sixth Symposium are part of the [ACL Anthology](https://aclanthology.org/W19-7500/).
+* Proceedings of the Sixth Symposium are part of the [ACL Anthology](https://aclanthology.org/W19-75/).
+* Proceedings of the Seventh Symposium are part of the [ACL Anthology](https://aclanthology.org/volumes/2024.iscls-1/).
+* Proceedings of the Eight Symposium are part of the [ACL Anthology](https://aclanthology.org/volumes/2026.iscls-1/).
 
 {: .text-info}
 ###### Publications of WSC Sessions
 
 * Proceedings of the 'Sanskrit and Computational Linguistics' session at the 16th WSC at Bangkok Thailand were published by D K Publishers and Distributors.
 * Proceedings of the 'Computational Sanskrit and Digital Humanities' session at the 17th WSC at Vancouver were published offline by D K Publishers and Distributors, and are available online [here](https://open.library.ubc.ca/soa/cIRcle/collections/70440/items/1.0391834).
-* Proceedings of the 'Computational Sanskrit and Digital Humanities' session at the 18th WSC held online by Astralian National University, Canberra are published by ACL Anthology and would be available online soon.
+* Proceedings of the 'Computational Sanskrit and Digital Humanities' session at the 18th WSC held online by Astralian National University, Canberra are published by ACL Anthology and are available online [here](https://aclanthology.org/volumes/2023.wsc-csdh/).
+* Proceedings of the 'Computational Sanskrit and Digital Humanities' session at the 19th WSC held at Kathmandu, Nepal are published by ACL Anthology and are available online [here](https://aclanthology.org/volumes/2025.wsc-csdh/).
+

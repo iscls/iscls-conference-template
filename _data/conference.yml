@@ -5,16 +5,16 @@ description: > # this means to ignore newlines until "baseurl:"
   aspects of Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
 
-email: iscls2026@gmail.com
+email: iscls@outlook.com
 
-iteration: 8th
-full_title: 8th International Sanskrit Computational Linguistics Symposium
-short_title: 8th ISCLS 2026
+iteration: 9th
+full_title: 9th International Sanskrit Computational Linguistics Symposium
+short_title: 9th ISCLS 2027
 
-year: 2026
-date: March 9-11, 2026
+year: 2027
+date: January 20-22, 2027
 
-location: IIT Roorkee, Roorkee
+location: Deccan College, Pune
 country: India
 
 logo_path: ./assets/images/iscls_logo_name.png
@@ -28,39 +28,39 @@ show_title: false
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
   - id: 2
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
   - id: 3
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
   - id: 4
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
   - id: 5
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
   - id: 6
-    image_path: ./assets/images/slideshow/0-thomson-building.jpeg
-    description: Thomson Building, IIT Roorkee
+    image_path: ./assets/images/slideshow/0-deccan-college.png
+    description: Deccan College, Pune
     photographer_name: ""
     photographer_link: ""
 navbar:
@@ -79,14 +79,14 @@ navbar:
     - id: 1
       label: Call for Demos
       path: /cfd.html
-      visible: True
+      visible: False
     - id: 2
       label: Call for Papers
       path: /cfp.html
       visible: True
   - id: 3
     label: Submission
-    visible: False
+    visible: True
     children:
     - id: 1
       label: Submission
@@ -94,24 +94,24 @@ navbar:
       visible: True
   - id: 7
     label: Accepted
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Papers
       path: /papers.html
-      visible: True
+      visible: False
     - id: 2
       label: Posters
       path: /posters.html
-      visible: True
+      visible: False
     - id: 3
       label: Demos
       path: /demos.html
-      visible: True
+      visible: False
   - id: 4
     label: Program
     path: /program.html
-    visible: True
+    visible: False
   - id: 5
     label: Venue
     path: /venue.html
@@ -119,30 +119,30 @@ navbar:
   - id: 6
     label: Registration
     path: /registration.html
-    visible: True
+    visible: False
 deadline_timezone: AoE
 deadlines:
-  - date: 2026-01-15
+  - date: 2026-10-20
     text: Submission deadline
-    pass_due: True
+    pass_due: False
     strike_through: False
-  - date: 2026-01-31
-    text: Demo submission deadline
-    pass_due: True
-    strike_through: False
-  - date: 2026-02-15
+  # - date: 2026-01-31
+  #   text: Demo submission deadline
+  #   pass_due: True
+  #   strike_through: False
+  - date: 2026-11-30
     text: Notification of acceptance
-    pass_due: True
+    pass_due: False
     strike_through: False
-  - date: 2026-02-20
-    text: Notification of demo acceptance
-    pass_due: True
-    strike_through: False
+  # - date: 2026-02-20
+  #   text: Notification of demo acceptance
+  #   pass_due: True
+  #   strike_through: False
   # - date: 2023-09-18
   #   text: Submission deadline
   #   pass_due: True
   #   strike_through: True
-  - date: 2026-03-01
+  - date: 2026-12-15
     text: Camera-ready due
     pass_due: False
     strike_through: False
@@ -188,6 +188,9 @@ social_media:
   facebook_link:
   twitter_link:
 previous_iterations:
+  - name: 8th ISCLS
+    year: 2026
+    url: https://iscls.github.io/iscls2026/
   - name: 7th ISCLS
     year: 2024
     url: https://iscls.github.io/iscls2024/

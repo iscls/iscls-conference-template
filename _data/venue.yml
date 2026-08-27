@@ -1,15 +1,21 @@
 address: |
-  Indian Institute of Technology Roorkee,
-  Roorkee, Uttarakhand,
+  Deccan College,
+  Pune, Maharashtra,
   India
 
 map: |
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.938840349041!2d77.8905116!3d29.8660376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%20Roorkee!5e0!3m2!1sen!2sin!4v1772696712658!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3782.5450715596744!2d73.8732786!3d18.5494492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0e93af86035%3A0x6df5f13cbd4a28de!2sDeccan%20College%20Post%20Graduate%20and%20Research%20Institute!5e0!3m2!1sen!2sin!4v1787843184260!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+# <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.938840349041!2d77.8905116!3d29.8660376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%20Roorkee!5e0!3m2!1sen!2sin!4v1772696712658!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-directions: 
-  description: "Roorkee is well connected to Delhi by rail and road. It is situated on National Highways 58 and 73 and is on Amritsar-Howrah main rail route. Some trains which are convenient for travelling between Delhi and Roorkee are New Delhi-Dehradun-New Delhi Shatabdi Express, Dehradun-New Delhi-Dehradun Janshatabdi Express, Anand Vihar Terminal(New Delhi) - Dehradun Vande Bharat Express and Dehradun - Anand Vihar Terminal(New Delhi) Vande Bharat Express. The nearest airport is located at Jollygrant, Dehradun. However, New Delhi is the preferred airport. National Highway 58 from New Delhi to the higher reaches of the Himalayas passes via Roorkee. Roorkee is, therefore, well connected to all the major cities in the region by road. There are frequent bus services to this place from the Maharana Pratap Inter State Bus Terminal (Kashmere Gate) Delhi."
-  roadways: "Traveling from Delhi, Roorkee is located towards north approximately 170 kilometers. Take the highway NH58, and it passes through Roorkee. The city of Haridwar is located further on the same highway about 29 kilometers from Roorkee. The main bus depot of Roorkee is located on NH58. Several buses run from various cities in North India"
+directions:
+  description: "Pune is well connected to major Indian cities by air, rail, and road. The nearest airport is Pune International Airport (PNQ). Pune Junction is the city's principal railway station and has regular connections to Mumbai, Delhi, and other major cities. Deccan College Post-Graduate and Research Institute is located in Yerawada and is easily accessible by taxi, auto-rickshaw, and local public transport."
+  roadways: "Pune is approximately 150 km from Mumbai by road. The most convenient route from Mumbai is via the Mumbai-Pune Expressway. Regular intercity buses also connect Pune with Mumbai and other major cities in Maharashtra and neighbouring states. From Pune's major bus terminals, Deccan College can be reached conveniently by local transport."
+
+# directions:
+#   description: "Roorkee is well connected to Delhi by rail and road. It is situated on National Highways 58 and 73 and is on Amritsar-Howrah main rail route. Some trains which are convenient for travelling between Delhi and Roorkee are New Delhi-Dehradun-New Delhi Shatabdi Express, Dehradun-New Delhi-Dehradun Janshatabdi Express, Anand Vihar Terminal(New Delhi) - Dehradun Vande Bharat Express and Dehradun - Anand Vihar Terminal(New Delhi) Vande Bharat Express. The nearest airport is located at Jollygrant, Dehradun. However, New Delhi is the preferred airport. National Highway 58 from New Delhi to the higher reaches of the Himalayas passes via Roorkee. Roorkee is, therefore, well connected to all the major cities in the region by road. There are frequent bus services to this place from the Maharana Pratap Inter State Bus Terminal (Kashmere Gate) Delhi."
+#   roadways: "Traveling from Delhi, Roorkee is located towards north approximately 170 kilometers. Take the highway NH58, and it passes through Roorkee. The city of Haridwar is located further on the same highway about 29 kilometers from Roorkee. The main bus depot of Roorkee is located on NH58. Several buses run from various cities in North India"
 
 # address: |
 #   <a href="https://www.unitypavilion.in/">Unity Pavilion</a>,
