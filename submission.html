@@ -81,8 +81,11 @@ published: true
         <p>
             Note that at least one of the authors of each paper accepted for
             presentation in {{site.data.conference.short_title}} must be
-            registered. All papers presented at the workshop will be included in
-            the {{site.data.submission.publisher}}.
+            registered.
+            {% if site.data.submission.publisher %}
+                All papers presented at the workshop will be included in
+                the {{site.data.submission.publisher}}.
+            {% endif %}
         </p>
 
         <h6 class="text-info">Camera-Ready Instructions</h6>
