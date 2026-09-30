@@ -65,9 +65,10 @@
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
 
-- title: Technical Program Committe
+- title: Technical Program Committee
   column: 2
   members:
+#   - name: TBA
   - name: Amba Kulkarni
     org: IIT Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
@@ -80,24 +81,24 @@
   - name: Brendan Gillon
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  - name: Chaitali Dangarikar
-    org: IIT Kanpur, Kanpur, India
-    homepage: ""
+#   - name: Chaitali Dangarikar
+#     org: IIT Kanpur, Kanpur, India
+#     homepage: ""
   - name: Gérard Huet
     org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
   - name: Hrishikesh Terdalkar
     org: IIIT Hyderabad, Hyderabad, India
     homepage: https://hrishikeshrt.github.io/
-  # - name: Jivnesh Sandhan
-  #   org: Kyoto University, Kyoto, Japan
-  #   homepage: https://jivnesh.github.io/
-  # - name: John Lowe
-  #   org: Oxford University, Oxford, UK
-  #   homepage: https://www.ames.ox.ac.uk/people/john-j-lowe
-  - name: Mahesh Akavarapu V S D S
-    org: University of Tübingen, Tübingen, Germany
-    homepage: https://mahesh-ak.github.io/
+  - name: Jivnesh Sandhan
+    org: Kyoto University, Kyoto, Japan
+    homepage: https://jivnesh.github.io/
+#   # - name: John Lowe
+#   #   org: Oxford University, Oxford, UK
+#   #   homepage: https://www.ames.ox.ac.uk/people/john-j-lowe
+#   - name: Mahesh Akavarapu V S D S
+#     org: University of Tübingen, Tübingen, Germany
+#     homepage: https://mahesh-ak.github.io/
   - name: Malhar Kulkarni
     org: IIT Bombay, Mumbai, India
     homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
@@ -119,27 +120,30 @@
   - name: Sebastian	Nehrdich
     org: Center for Integrated Japanese Studies, Tohoku University, Sendai, Japan
     homepage: https://sebastian-nehrdich.github.io
-  # - name: Shivani V
-  #   org: Karnataka Sanskrit University, Karnataka, India
-  #   homepage: ""
-  # - name: Sriram K
-  #   org: IIIT Hyderabad
-  #   homepage: ""
+  - name: Sven Sellmer
+    org: Adam Mickiewicz University in Poznań, Poland
+    homepage: https://researchportal.amu.edu.pl/info/author/UAM135210/
+#   # - name: Shivani V
+#   #   org: Karnataka Sanskrit University, Karnataka, India
+#   #   homepage: ""
+  - name: Sriram Krishnan
+    org: Central Sanskrit University, Nashik Campus, Nashik, India
+    homepage: https://www.linkedin.com/in/sriramkrishnan8/
   - name: Tanuja P Ajotikar
     org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
-  # - name: Tyler Neill
-  #   org: University of Pennsylvania
-  #   homepage: "https://tylerneill.info/"
-  # - name: Yigal Bronner
-  #   org: The Hebrew University of the Jerusalem, Israel
-  #   homepage: https://yigalbronner.huji.ac.il
-#   # - name: Andrew Ollett
-#   #   org: Harvard University, Cambridge, MA
-#   #   homepage: ""
-#   # - name: Ganesh Ramakrishnan
-#   #   org: IIT Bombay, Mumbai, India
-#   #   homepage: https://www.cse.iitb.ac.in/~ganesh/
-#   # - name: K Varalakshmi
-#   #   org: Osmania University, Hyderabad
-#   #   homepage: ""
+  - name: Tyler Neill
+    org: University of Pennsylvania
+    homepage: "https://tylerneill.info/"
+#   # - name: Yigal Bronner
+#   #   org: The Hebrew University of the Jerusalem, Israel
+#   #   homepage: https://yigalbronner.huji.ac.il
+# #   # - name: Andrew Ollett
+# #   #   org: Harvard University, Cambridge, MA
+# #   #   homepage: ""
+# #   # - name: Ganesh Ramakrishnan
+# #   #   org: IIT Bombay, Mumbai, India
+# #   #   homepage: https://www.cse.iitb.ac.in/~ganesh/
+# #   # - name: K Varalakshmi
+# #   #   org: Osmania University, Hyderabad
+# #   #   homepage: ""
