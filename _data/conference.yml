@@ -79,7 +79,7 @@ navbar:
     - id: 1
       label: Call for Demos
       path: /cfd.html
-      visible: False
+      visible: True
     - id: 2
       label: Call for Papers
       path: /cfp.html
@@ -125,25 +125,33 @@ deadlines:
   - date: 2026-10-20
     text: Submission deadline
     pass_due: False
+    strike_through: True
+  - date: 2026-10-30
+    text: Submission deadline (extended)
+    pass_due: False
     strike_through: False
-  # - date: 2026-01-31
-  #   text: Demo submission deadline
-  #   pass_due: True
-  #   strike_through: False
+  - date: 2026-10-30
+    text: Demo submission deadline
+    pass_due: False
+    strike_through: False
   - date: 2026-11-30
     text: Notification of acceptance
+    pass_due: False
+    strike_through: True
+  - date: 2026-12-10
+    text: Notification of acceptance (extended)
     pass_due: False
     strike_through: False
   # - date: 2026-02-20
   #   text: Notification of demo acceptance
   #   pass_due: True
   #   strike_through: False
-  # - date: 2023-09-18
-  #   text: Submission deadline
-  #   pass_due: True
-  #   strike_through: True
   - date: 2026-12-15
     text: Camera-ready due
+    pass_due: False
+    strike_through: True
+  - date: 2026-12-20
+    text: Camera-ready due (extended)
     pass_due: False
     strike_through: False
   # - date: 2024-01-08
